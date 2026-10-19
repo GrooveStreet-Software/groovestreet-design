@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glass - refractive headline study</title>
+    <link rel="stylesheet" href="glass.css" />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+
+    <h1 id="headline" class="sr-only">
+      <span>Digital</span>
+      <span>Design</span>
+      <span>Experience</span>
+    </h1>
+
+    <nav class="nav">
+      <span class="nav__logo">CRAFT&reg;</span>
+      <ul class="nav__links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="meta">
+      <span>Milano &mdash; 2026</span>
+      <span>Scroll to explore</span>
+    </div>
+
+    <div class="needs-server" hidden>
+      <h2>This study needs to be served over HTTP</h2>
+      <p>
+        The scene is an ES module, and browsers refuse to load a module from a
+        <code>file://</code> path. That is a security restriction, not a fault in
+        this page, and no markup change can work around it.
+      </p>
+      <pre>cd glass
+node serve.mjs</pre>
+      <p class="needs-server__note">
+        <code>serve.mjs</code> ships in this folder and uses only Node built-ins,
+        so there is nothing to install. Then open
+        <code>http://localhost:3000</code>.
+      </p>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script>
+      if (location.protocol === "file:") {
+        document.querySelector(".needs-server").hidden = false;
+      }
+    </script>
+
+    <script type="module" src="glass.js"></script>
+  </body>
+</html>

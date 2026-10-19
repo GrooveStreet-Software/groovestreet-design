@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "title": "GROOVESTREET — Digitalisons Votre Entreprise",
+    "siteName": "GROOVESTREET",
+    "description": "Conception et développement premium à des tarifs adaptés aux entreprises en croissance. Devis fixes en UGX, dates de lancement par écrit. Basé à Kampala, au service de l'Afrique de l'Est et du monde.",
+    "ogImageAlt": "Aperçu du site GROOVESTREET"
+  },
+  "common": {
+    "brand": "GROOVESTREET",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "localeSwitcher": {
+    "switchTo": "Changer de langue vers {language}",
+    "names": {
+      "en": "English",
+      "ar": "العربية",
+      "fr": "Français"
+    }
+  },
+  "navigation": {
+    "features": "Services",
+    "work": "Réalisations",
+    "process": "Processus",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "badge": "Conception Web · Kampala",
+    "headline": {
+      "line1": "GROOVE",
+      "line2": "STREET",
+      "line3": "DESIGN"
+    },
+    "description": "Sites web premium et outils numériques pour entreprises en croissance. Devis fixes en UGX. Dates de lancement par écrit. Un humain, une IA, zéro intermédiaire.",
+    "primaryCta": "Démarrer Votre Projet",
+    "secondaryCta": "Voir les Tarifs",
+    "scroll": "Défiler",
+    "discover": "Découvrir"
+  },
+  "features": {
+    "label": "Ce Que Nous Faisons",
+    "title": "Concevoir. Construire.",
+    "subtitle": "Lancer.",
+    "items": {
+      "minimalist": {
+        "title": "Conception & Construction Web",
+        "description": "Sites sur mesure qui génèrent appels et messages. À partir de 500 000 UGX."
+      },
+      "brutalist": {
+        "title": "Pages d'Atterrissage",
+        "description": "Une page, une offre, une action claire. Dès 200 000 UGX en 3–5 jours."
+      },
+      "responsive": {
+        "title": "Design Graphique",
+        "description": "Flyers, affiches, visuels réseaux sociaux. 20 000 UGX par design, 48h."
+      },
+      "performance": {
+        "title": "SEO & Plans de Maintenance",
+        "description": "Trouvé sur Google. Maintenance mensuelle dès 50 000 UGX/mois. Résiliable."
+      }
+    }
+  },
+  "work": {
+    "label": "Réalisations Sélectionnées",
+    "title": "Projets",
+    "subtitle": "Récents",
+    "viewAll": "Voir Toutes les Réalisations",
+    "viewProject": "Voir le Projet",
+    "projects": {
+      "brutalist": {
+        "title": "RESTAURANT",
+        "subtitle": "Site + Réservations"
+      },
+      "monochrome": {
+        "title": "CLINIQUE",
+        "subtitle": "Marque + Site"
+      },
+      "minimal": {
+        "title": "BOUTIQUE",
+        "subtitle": "Boutique en Ligne"
+      },
+      "contrast": {
+        "title": "ÉCOLE",
+        "subtitle": "Site + Bot WhatsApp"
+      }
+    }
+  },
+  "process": {
+    "label": "Comment Nous Travaillons",
+    "title": "Processus",
+    "subtitle": "Simple",
+    "steps": {
+      "discovery": {
+        "title": "Découverte",
+        "description": "Vous nous parlez de votre entreprise. Nous écoutons et planifions."
+      },
+      "strategy": {
+        "title": "Devis",
+        "description": "Prix fixe en UGX. Calendrier écrit. Pas de surprises."
+      },
+      "design": {
+        "title": "Conception",
+        "description": "Nous concevons, vous validez. Trois tours de révision inclus."
+      },
+      "development": {
+        "title": "Construction",
+        "description": "Nous construisons et testons sur vrais appareils — Android et iPhone."
+      },
+      "launch": {
+        "title": "Lancement",
+        "description": "Vous êtes en ligne. Propriété totale. Support gratuit pendant deux semaines."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Témoignages",
+    "title": "Ce Que Disent",
+    "subtitle": "Nos Clients",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "position": "{current} / {total}",
+    "items": {
+      "sarah": {
+        "quote": "Ils ont construit le site de mon restaurant en deux semaines. Je reçois des appels de réservation chaque jour. Meilleur investissement pour mon entreprise.",
+        "author": "Sarah Nakato",
+        "role": "Propriétaire, Restaurant Kampala"
+      },
+      "michael": {
+        "quote": "Professionnels et rapides, et le bot WhatsApp me fait gagner des heures chaque jour. Mes clients l'adorent.",
+        "author": "Michael Okello",
+        "role": "Fondateur, Okello Designs"
+      },
+      "emily": {
+        "quote": "Prix fixe, calendrier clair, et ils ont livré exactement ce qu'ils avaient promis. Aucun stress.",
+        "author": "Emily Achieng",
+        "role": "Directrice, Académie Achieng"
+      }
+    }
+  },
+  "pricing": {
+    "label": "Tarifs",
+    "title": "Fixes",
+    "subtitle": "UGX",
+    "annual": "Annuel",
+    "save": "(Économisez 20%)",
+    "monthly": "Mensuel",
+    "popular": "Populaire",
+    "perYear": "/an",
+    "perMonth": "/mois",
+    "plans": {
+      "basic": {
+        "name": "Page d'Atterrissage",
+        "description": "200 000 UGX · 3–5 jours",
+        "features": [
+          "Une page à haute conversion",
+          "Design mobile-first",
+          "Boutons WhatsApp et appel",
+          "Configuration Google Maps",
+          "Propriété totale"
+        ],
+        "cta": "Commencer"
+      },
+      "standard": {
+        "name": "Décollage",
+        "description": "500 000 UGX · 2–3 semaines",
+        "features": [
+          "Jusqu'à 5 pages",
+          "Design personnalisé",
+          "Formulaire + intégration WhatsApp",
+          "Configuration recherche",
+          "Support 2 semaines"
+        ],
+        "cta": "Commencer"
+      },
+      "premium": {
+        "name": "Signature",
+        "description": "1 300 000 UGX · 3–6 semaines",
+        "features": [
+          "Jusqu'à 12 pages + blog",
+          "Rafraîchissement de marque",
+          "Boutique en ligne (MoMo + Airtel)",
+          "Configuration analytics",
+          "Support 30 jours"
+        ],
+        "cta": "Contactez-Nous"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Construisons",
+    "subtitle": "Ensemble",
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Nom",
+          "placeholder": "Votre nom"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "votre.email@exemple.com"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Parlez-nous de votre projet..."
+        }
+      },
+      "submit": "Envoyer le Message",
+      "sending": "Envoi...",
+      "success": "Merci. Nous répondrons sous 24 heures.",
+      "error": "Une erreur s'est produite. Veuillez réessayer.",
+      "validation": {
+        "nameRequired": "Veuillez entrer votre nom.",
+        "emailRequired": "Veuillez entrer votre email.",
+        "emailInvalid": "Veuillez entrer un email valide.",
+        "messageRequired": "Veuillez écrire un message."
+      }
+    },
+    "info": {
+      "title": "Contactez-Nous",
+      "email": "Email",
+      "phone": "Téléphone / WhatsApp",
+      "address": "Adresse",
+      "street": "Kampala, Ouganda",
+      "city": "Afrique de l'Est",
+      "country": "Monde",
+      "social": "Réseaux Sociaux"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} GROOVESTREET. Digitalisons Votre Entreprise.",
+    "legal": {
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  }
+}

@@ -13,13 +13,13 @@ craft and artwork; we never borrow its brand colour.
 
 ### What came from `duck.design`
 
-| Area | Adopted |
-| --- | --- |
-| Type | `Sentient` display serif (regular/italic) + `Inter` UI, self-hosted in `src/app/fonts` |
-| Scale | 64/48px display steps, `-1.92px` tracking, 13px uppercase eyebrows |
-| Shape | `20px` cards, `100px` pill buttons, `2px` button borders |
-| Structure | Pill nav, eyebrow with trailing rule, dashed rules between list rows and stat columns, warm corner-glow on cards, ring-on-hover buttons |
-| Graphics | Hero / CTA / contact / pricing backdrops, case imagery, audience illustrations, two-tone icon set, quote mark — all in `public/images/duck` and `public/icons` |
+| Area      | Adopted                                                                                                                                                        |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type      | `Sentient` display serif (regular/italic) + `Inter` UI, self-hosted in `src/app/fonts`                                                                         |
+| Scale     | 64/48px display steps, `-1.92px` tracking, 13px uppercase eyebrows                                                                                             |
+| Shape     | `20px` cards, `100px` pill buttons, `2px` button borders                                                                                                       |
+| Structure | Pill nav, eyebrow with trailing rule, dashed rules between list rows and stat columns, warm corner-glow on cards, ring-on-hover buttons                        |
+| Graphics  | Hero / CTA / contact / pricing backdrops, case imagery, audience illustrations, two-tone icon set, quote mark — all in `public/images/duck` and `public/icons` |
 
 ### What is GROOVESTREET
 
@@ -44,14 +44,14 @@ craft and artwork; we never borrow its brand colour.
 
 ## 2. Brand foundation
 
-| Item | Rule |
-| --- | --- |
-| Wordmark | `GROOVESTREET` in the display serif at weight 500, with `design` as a lowercase italic accent suffix. |
-| Written name | `GROOVESTREET DESIGN` (all caps) in headlines; `Groovestreet Design` in legal/prose. Never `GrooveStreet`, `groovestreet`, or `GSD` on first mention. |
-| Minimum clear space | Clear space = height of the `G` on all sides. |
-| Forbidden | Arbitrary recolor, drop shadows, outlines, rotation, gradient fills, re-typesetting in Inter. |
-| Tagline | `Digitizing Your Business` — header tooltip, footer and OG metadata only. |
-| Promise | **Premium design and build at rates that fit a growing business.** Fixed quotes written in UGX and launch dates in writing. |
+| Item                | Rule                                                                                                                                                  |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Wordmark            | `GROOVESTREET` in the display serif at weight 500, with `design` as a lowercase italic accent suffix.                                                 |
+| Written name        | `GROOVESTREET DESIGN` (all caps) in headlines; `Groovestreet Design` in legal/prose. Never `GrooveStreet`, `groovestreet`, or `GSD` on first mention. |
+| Minimum clear space | Clear space = height of the `G` on all sides.                                                                                                         |
+| Forbidden           | Arbitrary recolor, drop shadows, outlines, rotation, gradient fills, re-typesetting in Inter.                                                         |
+| Tagline             | `Digitizing Your Business` — header tooltip, footer and OG metadata only.                                                                             |
+| Promise             | **Premium design and build at rates that fit a growing business.** Fixed quotes written in UGX and launch dates in writing.                           |
 
 **Voice.** Plain, second-person, outcome-led. Sentences ≤ 20 words in hero and CTA blocks.
 Use "you" more than "we". Banned words: solutions, synergy, leverage, elevate, unleash,
@@ -63,25 +63,25 @@ game-changer, world-class, cutting-edge.
 
 ### 3.1 Tokens
 
-| Token | Hex | Role |
-| --- | --- | --- |
-| `--color-ink` | `#0E1113` | Body text on light, dark-section background, primary button fill |
-| `--color-ink-2` | `#171B1D` | Elevated surface on dark sections |
-| `--color-muted` | `#4A5257` | Secondary text, captions, meta |
-| `--color-muted-invert` | `#C9CDD0` | Body text on dark sections |
-| `--color-paper` | `#F6F4EF` | Default page background (warm off-white) |
-| `--color-surface` | `#FFFFFF` | Cards, inputs, form panels |
-| `--color-line` | `#E3DED3` | Hairlines, card borders, dividers |
-| `--color-line-invert` | `#2A2F32` | Hairlines on dark sections |
-| `--color-brand` | `#1B4D3E` | Brand fill: links, active states, badges, dark CTA variant |
-| `--color-brand-dark` | `#143A2E` | Hover/active for brand fill |
-| `--color-brand-tint` | `#E7F0EB` | Brand tinted background (badges, selected chips) |
-| `--color-accent` | `#FF5A1F` | Accent fill, underlines, markers — **graphic use only** |
-| `--color-accent-text` | `#B33A00` | The only accent allowed as text on light backgrounds |
-| `--color-accent-tint` | `#FFEDE4` | Accent tinted background |
-| `--color-success` / `-tint` | `#157F4B` / `#E4F3EB` | Form success |
-| `--color-danger` / `-tint` | `#B3261E` / `#FBE9E7` | Form errors, invalid fields |
-| `--color-warning` / `-tint` | `#8A5B00` / `#FFF4DE` | Reserved for future notices |
+| Token                       | Hex                   | Role                                                             |
+| --------------------------- | --------------------- | ---------------------------------------------------------------- |
+| `--color-ink`               | `#0E1113`             | Body text on light, dark-section background, primary button fill |
+| `--color-ink-2`             | `#171B1D`             | Elevated surface on dark sections                                |
+| `--color-muted`             | `#4A5257`             | Secondary text, captions, meta                                   |
+| `--color-muted-invert`      | `#C9CDD0`             | Body text on dark sections                                       |
+| `--color-paper`             | `#F6F4EF`             | Default page background (warm off-white)                         |
+| `--color-surface`           | `#FFFFFF`             | Cards, inputs, form panels                                       |
+| `--color-line`              | `#E3DED3`             | Hairlines, card borders, dividers                                |
+| `--color-line-invert`       | `#2A2F32`             | Hairlines on dark sections                                       |
+| `--color-brand`             | `#1B4D3E`             | Brand fill: links, active states, badges, dark CTA variant       |
+| `--color-brand-dark`        | `#143A2E`             | Hover/active for brand fill                                      |
+| `--color-brand-tint`        | `#E7F0EB`             | Brand tinted background (badges, selected chips)                 |
+| `--color-accent`            | `#FF5A1F`             | Accent fill, underlines, markers — **graphic use only**          |
+| `--color-accent-text`       | `#B33A00`             | The only accent allowed as text on light backgrounds             |
+| `--color-accent-tint`       | `#FFEDE4`             | Accent tinted background                                         |
+| `--color-success` / `-tint` | `#157F4B` / `#E4F3EB` | Form success                                                     |
+| `--color-danger` / `-tint`  | `#B3261E` / `#FBE9E7` | Form errors, invalid fields                                      |
+| `--color-warning` / `-tint` | `#8A5B00` / `#FFF4DE` | Reserved for future notices                                      |
 
 ### 3.2 Hard rules
 
@@ -94,14 +94,14 @@ game-changer, world-class, cutting-edge.
 
 ### 3.3 Minimum contrast (enforced)
 
-| Pair | Ratio | Verdict |
-| --- | --- | --- |
-| `ink` on `paper` | ~17:1 | ✔ AAA |
-| `muted` on `paper` / `surface` | ~7.2:1 / 7.7:1 | ✔ AA body |
-| `paper` on `brand` | ~8.6:1 | ✔ AAA |
-| `accent-text` on `paper` | ~4.8:1 | ✔ AA |
-| `ink` on `accent` | ~6.6:1 | ✔ AA |
-| `paper` on `accent` | ~2.9:1 | ✘ **Prohibited** |
+| Pair                           | Ratio          | Verdict          |
+| ------------------------------ | -------------- | ---------------- |
+| `ink` on `paper`               | ~17:1          | ✔ AAA            |
+| `muted` on `paper` / `surface` | ~7.2:1 / 7.7:1 | ✔ AA body        |
+| `paper` on `brand`             | ~8.6:1         | ✔ AAA            |
+| `accent-text` on `paper`       | ~4.8:1         | ✔ AA             |
+| `ink` on `accent`              | ~6.6:1         | ✔ AA             |
+| `paper` on `accent`            | ~2.9:1         | ✘ **Prohibited** |
 
 ---
 
@@ -114,17 +114,17 @@ family without a written amendment. Mono micro-labels use the system mono stack.
 
 ### 4.1 Scale (fluid `clamp()` — no breakpoint jumps)
 
-| Token | Size | Line-height | Weight | Tracking | Use |
-| --- | --- | --- | --- | --- | --- |
-| `text-display` | `clamp(2.75rem, 1.6rem + 5.4vw, 4rem)` | 1.125 | 500 | `-0.03em` | Max one per page (home hero) |
-| `text-h1` | `clamp(2.25rem, 1.4rem + 3.8vw, 3rem)` | 1.167 | 500 | `-0.04em` | Page hero |
-| `text-h2` | `clamp(1.75rem, 1.15rem + 2.4vw, 2.8rem)` | 1.167 | 500 | `-0.04em` | Section title |
-| `text-h3` | `1.625rem` | 1.2 | 500 | `-0.04em` | Card / case-study title |
-| `text-h4` | `1.3125rem` | 1.3 | 500 | `-0.02em` | Sub-section |
-| `text-lg` | `1.125rem` | 1.5 | 400 | 0 | Lede paragraph |
-| `text-base` | `1rem` | 1.5 | 400 | 0 | Default body |
-| `text-sm` | `0.875rem` | 1.5 | 400 | 0 | Meta, card copy |
-| `text-label` | `0.8125rem` | 1.2 | 700 | `+0.04em`, UPPERCASE | Eyebrows, table heads, badges |
+| Token          | Size                                      | Line-height | Weight | Tracking             | Use                           |
+| -------------- | ----------------------------------------- | ----------- | ------ | -------------------- | ----------------------------- |
+| `text-display` | `clamp(2.75rem, 1.6rem + 5.4vw, 4rem)`    | 1.125       | 500    | `-0.03em`            | Max one per page (home hero)  |
+| `text-h1`      | `clamp(2.25rem, 1.4rem + 3.8vw, 3rem)`    | 1.167       | 500    | `-0.04em`            | Page hero                     |
+| `text-h2`      | `clamp(1.75rem, 1.15rem + 2.4vw, 2.8rem)` | 1.167       | 500    | `-0.04em`            | Section title                 |
+| `text-h3`      | `1.625rem`                                | 1.2         | 500    | `-0.04em`            | Card / case-study title       |
+| `text-h4`      | `1.3125rem`                               | 1.3         | 500    | `-0.02em`            | Sub-section                   |
+| `text-lg`      | `1.125rem`                                | 1.5         | 400    | 0                    | Lede paragraph                |
+| `text-base`    | `1rem`                                    | 1.5         | 400    | 0                    | Default body                  |
+| `text-sm`      | `0.875rem`                                | 1.5         | 400    | 0                    | Meta, card copy               |
+| `text-label`   | `0.8125rem`                               | 1.2         | 700    | `+0.04em`, UPPERCASE | Eyebrows, table heads, badges |
 
 ### 4.2 Rules
 
@@ -153,13 +153,13 @@ family without a written amendment. Mono micro-labels use the system mono stack.
 
 ## 6. Radius, borders, elevation, texture
 
-| Token | Value | Use |
-| --- | --- | --- |
-| `rounded-sm` | `6px` | Inline tags, small chips |
-| `rounded-md` | `10px` | Inputs, secondary buttons, list items |
-| `rounded-lg` | `16px` | Cards, media, modals |
-| `rounded-pill` | `999px` | Primary CTAs, filter chips, badges |
-| `--edge` | `1px solid var(--color-line)` | Every card, input and divider |
+| Token          | Value                         | Use                                   |
+| -------------- | ----------------------------- | ------------------------------------- |
+| `rounded-sm`   | `6px`                         | Inline tags, small chips              |
+| `rounded-md`   | `10px`                        | Inputs, secondary buttons, list items |
+| `rounded-lg`   | `16px`                        | Cards, media, modals                  |
+| `rounded-pill` | `999px`                       | Primary CTAs, filter chips, badges    |
+| `--edge`       | `1px solid var(--color-line)` | Every card, input and divider         |
 
 - Elevation is used **once** in the product: the sticky header after scroll
   (`0 1px 0 line, 0 8px 24px rgba(14,17,19,0.06)`). Everything else stays flat.
@@ -177,14 +177,14 @@ Height `48px` (touch target ≥44px), padding `14px 24px`, `0.875rem`/700 UPPERC
 tracking `+0.09em`, gap `11px`, `rounded-pill`, `2px` border. Hover is a soft **ring**
 (`--shadow-ring-*`), never a colour shift on a filled style; `:active` presses `1px`.
 
-| Variant | Background | Text | Border | Hover |
-| --- | --- | --- | --- | --- |
-| `primary` | `ink` | `paper` | none | `shadow-ring-ink` |
-| `dark` | `ink` | `paper` | none | `shadow-ring-ink` |
-| `accent` | `accent` | `ink` | none | `accent-text` |
-| `outline` | transparent | `ink` | `ink` | `shadow-ring-soft` |
-| `ghost` | transparent | `brand` | none | underline |
-| `invert` | `paper` | `ink` | none | `shadow-ring-light` |
+| Variant   | Background  | Text    | Border | Hover               |
+| --------- | ----------- | ------- | ------ | ------------------- |
+| `primary` | `ink`       | `paper` | none   | `shadow-ring-ink`   |
+| `dark`    | `ink`       | `paper` | none   | `shadow-ring-ink`   |
+| `accent`  | `accent`    | `ink`   | none   | `accent-text`       |
+| `outline` | transparent | `ink`   | `ink`  | `shadow-ring-soft`  |
+| `ghost`   | transparent | `brand` | none   | underline           |
+| `invert`  | `paper`     | `ink`   | none   | `shadow-ring-light` |
 
 - Transitions `150ms`, background/color/transform only. Disabled: `opacity 40%` +
   `cursor-not-allowed`, never hidden.
@@ -192,10 +192,12 @@ tracking `+0.09em`, gap `11px`, `rounded-pill`, `2px` border. Hover is a soft **
 - **Never** more than one `primary`/`accent` button inside a single section.
 
 ### 7.2 Cards
+
 `surface` background, `--edge`, `rounded-lg`, padding `24/32px`, internal gap `16px`.
 Hover: `border-color: ink` + arrow shifts `4px`. No lift, no shadow, no scale.
 
 ### 7.3 Forms
+
 Label above field (`text-label`, `6px` gap); input `48px`, `rounded-md`, `--edge`,
 `surface`; placeholder `muted` at 60%. Focus: `2px` ring `brand`, offset `2px` — never removed.
 Errors: `danger` text + `danger-tint` background + `aria-describedby`.
@@ -203,6 +205,7 @@ Required fields use `*` **and** `required`, never placeholder-as-label.
 One column on mobile, two-column pairs ≥768px, submit full-width below 480px.
 
 ### 7.4 Header / footer
+
 Header `h-[72px]`, `paper/85` + `backdrop-blur` after scroll, hairline bottom, logo left,
 nav center (`text-sm`), primary CTA right. Mobile: logo + 44px hamburger, full-height drawer,
 `text-h4` links, CTA pinned to drawer bottom, `Esc` to close + focus management + scroll lock.
@@ -213,13 +216,13 @@ all three contact channels repeated, legal row with current year.
 
 ## 8. Motion
 
-| Token | Value | Use |
-| --- | --- | --- |
-| `--dur-fast` | `150ms` | Hover, focus, color |
-| `--dur-base` | `250ms` | Drawer, accordion, chips |
-| `--dur-slow` | `450ms` | Scroll reveals |
-| `--ease-out` | `cubic-bezier(0.16, 1, 0.3, 1)` | All entrances |
-| Reveal | `translateY(16px) → 0` + `opacity 0 → 1` | Sections/cards entering the viewport |
+| Token        | Value                                    | Use                                  |
+| ------------ | ---------------------------------------- | ------------------------------------ |
+| `--dur-fast` | `150ms`                                  | Hover, focus, color                  |
+| `--dur-base` | `250ms`                                  | Drawer, accordion, chips             |
+| `--dur-slow` | `450ms`                                  | Scroll reveals                       |
+| `--ease-out` | `cubic-bezier(0.16, 1, 0.3, 1)`          | All entrances                        |
+| Reveal       | `translateY(16px) → 0` + `opacity 0 → 1` | Sections/cards entering the viewport |
 
 - Reveals run **once** (`viewport once`), trigger at 20% visibility, stagger `60ms`,
   capped at 6 items. Nothing animates twice on re-entry.
@@ -232,7 +235,7 @@ all three contact channels repeated, legal row with current year.
 ## 9. Imagery & portfolio
 
 - Every project image: 4:3 at 1600×1200, AVIF/WebP via `next/image`, `sizes` set, LQIP placeholder,
-  `alt` describing what the design *shows* (never "screenshot").
+  `alt` describing what the design _shows_ (never "screenshot").
 - Portfolio grid: 2-up ≥768px, 1-up mobile, `3/6` split for the featured case study.
 - Case-study page order: title → one-line outcome → hero image → context → problem →
   approach (3 steps) → outcome metrics → next case study. Metrics must be real and verifiable.
@@ -269,14 +272,14 @@ the form. **Every** page: `text-label` eyebrow above each `text-h2`.
 
 ## 13. Performance budget (build fails if broken)
 
-| Metric | Target |
-| --- | --- |
-| LCP (mobile, 4G) | ≤ 2.0s |
-| CLS | ≤ 0.05 |
-| INP | ≤ 200ms |
-| JS on first visit | ≤ 140KB gzipped |
-| Images | AVIF/WebP, `sizes` set, no unscaled delivery |
-| Fonts | 2 families, `display: swap`, subset latin |
+| Metric              | Target                                         |
+| ------------------- | ---------------------------------------------- |
+| LCP (mobile, 4G)    | ≤ 2.0s                                         |
+| CLS                 | ≤ 0.05                                         |
+| INP                 | ≤ 200ms                                        |
+| JS on first visit   | ≤ 140KB gzipped                                |
+| Images              | AVIF/WebP, `sizes` set, no unscaled delivery   |
+| Fonts               | 2 families, `display: swap`, subset latin      |
 | Lighthouse (mobile) | ≥ 95 Performance / 100 A11y / 100 SEO / 100 BP |
 
 Rules: server components by default, `"use client"` only where interaction requires it,
@@ -285,16 +288,16 @@ without a written performance note, no carousel that blocks reading.
 
 ## 14. Token → file map
 
-| Concern | File |
-| --- | --- |
-| Colors, type, radius, motion tokens | `src/app/globals.css` (`@theme`) |
-| Fonts | `src/app/layout.tsx` (`next/font/local`), files in `src/app/fonts` |
-| Template graphics | `public/images/duck/*`, `public/icons/*` |
-| Buttons, cards, section chrome | `src/components/ui/*` |
-| Header, footer, mobile action bar | `src/components/layout/*` |
-| Brand, contact, nav, copy constants | `src/lib/site.ts` |
-| Services, work, proof, pricing data | `src/content/*.ts` |
-| SEO metadata, sitemap, JSON-LD | `src/lib/seo.ts`, `src/app/sitemap.ts`, `robots.ts` |
+| Concern                             | File                                                               |
+| ----------------------------------- | ------------------------------------------------------------------ |
+| Colors, type, radius, motion tokens | `src/app/globals.css` (`@theme`)                                   |
+| Fonts                               | `src/app/layout.tsx` (`next/font/local`), files in `src/app/fonts` |
+| Template graphics                   | `public/images/duck/*`, `public/icons/*`                           |
+| Buttons, cards, section chrome      | `src/components/ui/*`                                              |
+| Header, footer, mobile action bar   | `src/components/layout/*`                                          |
+| Brand, contact, nav, copy constants | `src/lib/site.ts`                                                  |
+| Services, work, proof, pricing data | `src/content/*.ts`                                                 |
+| SEO metadata, sitemap, JSON-LD      | `src/lib/seo.ts`, `src/app/sitemap.ts`, `robots.ts`                |
 
 ## 15. Never list (instant rejection in review)
 
@@ -305,5 +308,3 @@ without a written performance note, no carousel that blocks reading.
 - `!important`, inline hex codes, arbitrary `text-[11px]`, Tailwind color utilities straight from the default palette (`bg-blue-500`).
 - Copy in the banned-words list (§2), or a sentence over 30 words in a hero/CTA.
 - Any page without a visible way to call, email or WhatsApp within one scroll.
-
-

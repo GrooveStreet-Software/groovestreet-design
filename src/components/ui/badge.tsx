@@ -1,31 +1,31 @@
-import type { ReactNode } from "react";
+"use client";
+
+import { type HTMLAttributes } from "react";
 import { cn } from "@/lib/utils";
 
-const badgeTones = {
-  brand: "bg-brand text-paper",
-  accent: "bg-accent-tint text-accent-text",
-  warning: "bg-warning-tint text-warning",
-  neutral: "border border-line text-muted",
-} as const;
+interface BadgeProps extends HTMLAttributes<HTMLDivElement> {
+  variant?: "default" | "outline";
+}
 
 export function Badge({
-  children,
-  tone = "brand",
   className,
-}: {
-  children: ReactNode;
-  tone?: keyof typeof badgeTones;
-  className?: string;
-}) {
+  variant = "default",
+  children,
+  ...props
+}: BadgeProps) {
+  const variants = {
+    default:
+      "bg-black/60 backdrop-blur-sm px-3 py-1 text-xs uppercase tracking-widest text-white/90 border border-white/20",
+    outline:
+      "border border-neutral-800 px-3 py-1 text-xs uppercase tracking-widest text-neutral-400",
+  };
+
   return (
-    <span
-      className={cn(
-        "eyebrow inline-flex items-center gap-1.5 rounded-pill px-3.5 py-1.5",
-        badgeTones[tone],
-        className,
-      )}
+    <div
+      className={cn("inline-block", variants[variant], className)}
+      {...props}
     >
       {children}
-    </span>
+    </div>
   );
 }

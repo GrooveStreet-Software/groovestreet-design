@@ -1,0 +1,46 @@
+exit=0
+=== build tail ===
+Γ£ô Compiled successfully in 6.6s
+  Running TypeScript ...
+  Finished TypeScript in 7.3s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/31) ...
+  Generating static pages using 11 workers (7/31) 
+  Generating static pages using 11 workers (15/31) 
+  Generating static pages using 11 workers (23/31) 
+Γ£ô Generating static pages using 11 workers (31/31) in 2.2s
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /about
+Γö£ Γùï /care-plan
+Γö£ Γùï /contact
+Γö£ Γùï /faq
+Γö£ Γùï /industries
+Γö£   /industries/[slug]
+Γöé Γö£ ΓùÅ /industries/coaches-consultants
+Γöé Γö£ ΓùÅ /industries/professional-services
+Γöé Γö£ ΓùÅ /industries/health-wellness
+Γöé Γöö ΓùÅ [+5 more paths]
+Γö£ Γùï /partners
+Γö£ Γùï /pricing
+Γö£ Γùï /process
+Γö£ Γùï /resources
+Γö£ Γùï /robots.txt
+Γö£ Γùï /services
+Γö£   /services/[slug]
+Γöé Γö£ ΓùÅ /services/website-design
+Γöé Γö£ ΓùÅ /services/landing-pages
+Γöé Γö£ ΓùÅ /services/graphic-design
+Γöé Γöö ΓùÅ [+2 more paths]
+Γö£ Γùï /sitemap.xml
+Γö£ Γùï /work
+Γöö   /work/[slug]
+  Γö£ ΓùÅ /work/kampala-dental-studio
+  Γöö ΓùÅ /work/hotel-groovestreet
+
+
+Γùï  (Static)  prerendered as static content
+ΓùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)

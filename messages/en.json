@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "title": "GROOVESTREET — Digitizing Your Business",
+    "siteName": "GROOVESTREET",
+    "description": "Premium design and build at rates that fit a growing business. Fixed UGX quotes, launch dates in writing. Based in Kampala, serving East Africa and worldwide.",
+    "ogImageAlt": "GROOVESTREET Website Preview"
+  },
+  "common": {
+    "brand": "GROOVESTREET",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "localeSwitcher": {
+    "switchTo": "Switch language to {language}",
+    "names": {
+      "en": "English",
+      "ar": "العربية",
+      "fr": "Français"
+    }
+  },
+  "navigation": {
+    "features": "Services",
+    "work": "Work",
+    "process": "Process",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "Website Design · Kampala",
+    "headline": {
+      "line1": "GROOVE",
+      "line2": "STREET",
+      "line3": "DESIGN"
+    },
+    "description": "Premium websites and digital tools for growing businesses. Fixed UGX quotes. Launch dates in writing. One human, one AI, zero handoffs.",
+    "primaryCta": "Start Your Project",
+    "secondaryCta": "See Pricing",
+    "scroll": "Scroll",
+    "discover": "Discover"
+  },
+  "features": {
+    "label": "What We Do",
+    "title": "Design. Build.",
+    "subtitle": "Launch.",
+    "items": {
+      "minimalist": {
+        "title": "Website Design & Build",
+        "description": "Custom websites that bring you calls and messages. From UGX 500,000."
+      },
+      "brutalist": {
+        "title": "Landing Pages",
+        "description": "One page, one offer, one clear next step. From UGX 200,000 in 3–5 days."
+      },
+      "responsive": {
+        "title": "Graphic Design",
+        "description": "Flyers, posters, social media graphics. UGX 20,000 per design, 48h turnaround."
+      },
+      "performance": {
+        "title": "SEO & Care Plans",
+        "description": "Get found on Google. Monthly care from UGX 50,000/mo. Cancel anytime."
+      }
+    }
+  },
+  "work": {
+    "label": "Selected Work",
+    "title": "Recent",
+    "subtitle": "Projects",
+    "viewAll": "View All Work",
+    "viewProject": "View Project",
+    "projects": {
+      "brutalist": { "title": "RESTAURANT", "subtitle": "Website + Booking" },
+      "monochrome": { "title": "CLINIC", "subtitle": "Brand + Website" },
+      "minimal": { "title": "SHOP", "subtitle": "Online Store" },
+      "contrast": { "title": "SCHOOL", "subtitle": "Website + WhatsApp Bot" }
+    }
+  },
+  "process": {
+    "label": "How We Work",
+    "title": "Simple",
+    "subtitle": "Process",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "description": "You tell us about your business. We listen and plan."
+      },
+      "strategy": {
+        "title": "Quote",
+        "description": "Fixed UGX price. Written timeline. No surprises."
+      },
+      "design": {
+        "title": "Design",
+        "description": "We design, you review. Three revision rounds included."
+      },
+      "development": {
+        "title": "Build",
+        "description": "We build and test on real devices — Android and iPhone."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "You go live. Full ownership. Two weeks free support."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What Clients",
+    "subtitle": "Say",
+    "previous": "Previous",
+    "next": "Next",
+    "position": "{current} / {total}",
+    "items": {
+      "sarah": {
+        "quote": "They built my restaurant website in two weeks. I get booking calls every day now. Best money I've spent on my business.",
+        "author": "Sarah Nakato",
+        "role": "Owner, Kampala Restaurant"
+      },
+      "michael": {
+        "quote": "Professional, fast, and the WhatsApp bot saves me hours every day. My customers love it.",
+        "author": "Michael Okello",
+        "role": "Founder, Okello Designs"
+      },
+      "emily": {
+        "quote": "Fixed price, clear timeline, and they delivered exactly what they said. No stress at all.",
+        "author": "Emily Achieng",
+        "role": "Director, Achieng Academy"
+      }
+    }
+  },
+  "pricing": {
+    "label": "Pricing",
+    "title": "Fixed",
+    "subtitle": "UGX",
+    "annual": "Annual",
+    "save": "(Save 20%)",
+    "monthly": "Monthly",
+    "popular": "Popular",
+    "perYear": "/year",
+    "perMonth": "/month",
+    "plans": {
+      "basic": {
+        "name": "Landing Page",
+        "description": "UGX 200,000 · 3–5 days",
+        "features": [
+          "One high-converting page",
+          "Mobile-first design",
+          "WhatsApp & call buttons",
+          "Google Maps setup",
+          "Full ownership"
+        ],
+        "cta": "Get Started"
+      },
+      "standard": {
+        "name": "Launchpad",
+        "description": "UGX 500,000 · 2–3 weeks",
+        "features": [
+          "Up to 5 pages",
+          "Custom design",
+          "Form + WhatsApp integration",
+          "Search setup",
+          "2 weeks support"
+        ],
+        "cta": "Get Started"
+      },
+      "premium": {
+        "name": "Signature",
+        "description": "UGX 1,300,000 · 3–6 weeks",
+        "features": [
+          "Up to 12 pages + blog",
+          "Brand refresh",
+          "Online store (MoMo + Airtel)",
+          "Analytics setup",
+          "30 days support"
+        ],
+        "cta": "Contact Us"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Build",
+    "subtitle": "Together",
+    "form": {
+      "fields": {
+        "name": { "label": "Name", "placeholder": "Your name" },
+        "email": { "label": "Email", "placeholder": "your.email@example.com" },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us about your project..."
+        }
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you. We'll reply within 24 hours.",
+      "error": "Something went wrong. Please try again.",
+      "validation": {
+        "nameRequired": "Please enter your name.",
+        "emailRequired": "Please enter your email.",
+        "emailInvalid": "Please enter a valid email.",
+        "messageRequired": "Please write a message."
+      }
+    },
+    "info": {
+      "title": "Get In Touch",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "address": "Address",
+      "street": "Kampala, Uganda",
+      "city": "East Africa",
+      "country": "Worldwide",
+      "social": "Social"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} GROOVESTREET. Digitizing Your Business.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}
