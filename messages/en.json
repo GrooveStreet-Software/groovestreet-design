@@ -24,7 +24,7 @@
   },
   "navigation": {
     "features": "Services",
-    "work": "Work",
+    "work": "Samples",
     "process": "Process",
     "pricing": "Pricing",
     "contact": "Contact",
@@ -68,16 +68,28 @@
     }
   },
   "work": {
-    "label": "Selected Work",
-    "title": "Recent",
-    "subtitle": "Projects",
-    "viewAll": "View All Work",
-    "viewProject": "View Project",
+    "label": "Template Previews",
+    "title": "One-Page",
+    "subtitle": "Previews",
+    "viewAll": "View All Samples",
+    "viewProject": "View Preview",
     "projects": {
-      "brutalist": { "title": "RESTAURANT", "subtitle": "Website + Booking" },
-      "monochrome": { "title": "CLINIC", "subtitle": "Brand + Website" },
-      "minimal": { "title": "SHOP", "subtitle": "Online Store" },
-      "contrast": { "title": "SCHOOL", "subtitle": "Website + WhatsApp Bot" }
+      "brutalist": {
+        "title": "RESTAURANT",
+        "subtitle": "Website + Booking"
+      },
+      "monochrome": {
+        "title": "CLINIC",
+        "subtitle": "Brand + Website"
+      },
+      "minimal": {
+        "title": "SHOP",
+        "subtitle": "Online Store"
+      },
+      "contrast": {
+        "title": "SCHOOL",
+        "subtitle": "Website + WhatsApp Bot"
+      }
     }
   },
   "process": {
@@ -187,8 +199,14 @@
     "subtitle": "Together",
     "form": {
       "fields": {
-        "name": { "label": "Name", "placeholder": "Your name" },
-        "email": { "label": "Email", "placeholder": "your.email@example.com" },
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your.email@example.com"
+        },
         "message": {
           "label": "Message",
           "placeholder": "Tell us about your project..."

@@ -24,7 +24,7 @@
   },
   "navigation": {
     "features": "خدماتنا",
-    "work": "الأعمال",
+    "work": "النماذج",
     "process": "العملية",
     "pricing": "الأسعار",
     "contact": "اتصل بنا",
@@ -68,11 +68,11 @@
     }
   },
   "work": {
-    "label": "أعمال مختارة",
-    "title": "أحدث",
-    "subtitle": "المشاريع",
-    "viewAll": "عرض جميع الأعمال",
-    "viewProject": "عرض المشروع",
+    "label": "معاينات القوالب",
+    "title": "صفحة واحدة",
+    "subtitle": "معاينات",
+    "viewAll": "عرض جميع النماذج",
+    "viewProject": "عرض المعاينة",
     "projects": {
       "brutalist": {
         "title": "مطعم",

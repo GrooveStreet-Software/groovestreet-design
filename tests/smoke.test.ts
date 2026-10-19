@@ -30,6 +30,13 @@ describe("GROOVESTREET Site", () => {
       expect(html).toContain("Website Design");
     });
 
+    it("renders samples section (renamed from work)", async () => {
+      const res = await fetch(`${BASE_URL}/en`);
+      const html = await res.text();
+      expect(html).toContain("samples");
+      expect(html).toContain("Template Previews");
+    });
+
     it("renders pricing with UGX currency", async () => {
       const res = await fetch(`${BASE_URL}/en`);
       const html = await res.text();
@@ -54,6 +61,95 @@ describe("GROOVESTREET Site", () => {
       const res = await fetch(`${BASE_URL}/en`);
       const html = await res.text();
       expect(html.toLowerCase()).toContain("email");
+    });
+  });
+
+  describe("Samples Page", () => {
+    it("samples page loads", async () => {
+      const res = await fetch(`${BASE_URL}/en/samples`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("Template Previews");
+    });
+
+    it("samples page lists all templates", async () => {
+      const res = await fetch(`${BASE_URL}/en/samples`);
+      const html = await res.text();
+      expect(html).toContain("Hotel GrooveStreet");
+      expect(html).toContain("Juicy");
+      expect(html).toContain("SAASPRO");
+      expect(html).toContain("Tech Landing");
+    });
+
+    it("hotel-groovestreet preview loads", async () => {
+      const res = await fetch(`${BASE_URL}/samples/hotel-groovestreet.html`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("Hotel GrooveStreet");
+    });
+
+    it("juicy-main preview loads", async () => {
+      const res = await fetch(`${BASE_URL}/samples/juicy-main.html`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("JUICY");
+    });
+
+    it("saaspro preview loads", async () => {
+      const res = await fetch(`${BASE_URL}/samples/saaspro.html`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("SAASPRO");
+    });
+
+    it("tech-landing preview loads", async () => {
+      const res = await fetch(`${BASE_URL}/samples/tech-landing.html`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("Tech");
+    });
+  });
+
+  describe("About Page", () => {
+    it("about page loads", async () => {
+      const res = await fetch(`${BASE_URL}/en/about`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("About");
+    });
+
+    it("about page contains studio info", async () => {
+      const res = await fetch(`${BASE_URL}/en/about`);
+      const html = await res.text();
+      expect(html).toContain("One Human");
+      expect(html).toContain("One AI");
+    });
+  });
+
+  describe("Contact Page", () => {
+    it("contact page loads", async () => {
+      const res = await fetch(`${BASE_URL}/en/contact`);
+      expect(res.status).toBe(200);
+      const html = await res.text();
+      expect(html).toContain("Contact");
+    });
+
+    it("contact page has email link", async () => {
+      const res = await fetch(`${BASE_URL}/en/contact`);
+      const html = await res.text();
+      expect(html).toContain("groovestreetsoftware@gmail.com");
+    });
+
+    it("contact page has WhatsApp link", async () => {
+      const res = await fetch(`${BASE_URL}/en/contact`);
+      const html = await res.text();
+      expect(html).toContain("wa.me/256774778164");
+    });
+
+    it("contact page has phone link", async () => {
+      const res = await fetch(`${BASE_URL}/en/contact`);
+      const html = await res.text();
+      expect(html).toContain("tel:+256774778164");
     });
   });
 
@@ -134,7 +230,7 @@ describe("GROOVESTREET Site", () => {
       const res = await fetch(`${BASE_URL}/en`);
       const html = await res.text();
       expect(html).toContain("Services");
-      expect(html).toContain("Work");
+      expect(html).toContain("Samples");
       expect(html).toContain("Process");
       expect(html).toContain("Pricing");
     });

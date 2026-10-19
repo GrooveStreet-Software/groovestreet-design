@@ -24,7 +24,7 @@
   },
   "navigation": {
     "features": "Services",
-    "work": "Réalisations",
+    "work": "Modèles",
     "process": "Processus",
     "pricing": "Tarifs",
     "contact": "Contact",
@@ -68,11 +68,11 @@
     }
   },
   "work": {
-    "label": "Réalisations Sélectionnées",
-    "title": "Projets",
-    "subtitle": "Récents",
-    "viewAll": "Voir Toutes les Réalisations",
-    "viewProject": "Voir le Projet",
+    "label": "Aperçus de Modèles",
+    "title": "Page Unique",
+    "subtitle": "Aperçus",
+    "viewAll": "Voir Tous les Modèles",
+    "viewProject": "Voir l'Aperçu",
     "projects": {
       "brutalist": {
         "title": "RESTAURANT",

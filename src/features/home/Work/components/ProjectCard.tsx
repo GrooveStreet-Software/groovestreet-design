@@ -1,58 +1,35 @@
 "use client";
 
-import Image from "next/image";
-import { useTranslations } from "next-intl";
-import { Badge } from "@/components/ui";
+import { motion } from "motion/react";
+import type { ProjectItem } from "../types";
 
 interface ProjectCardProps {
+  project: ProjectItem;
+  index: number;
   title: string;
   subtitle: string;
-  image: string;
-  year: string;
 }
 
-export function ProjectCard({
-  title,
-  subtitle,
-  image,
-  year,
-}: ProjectCardProps) {
-  const t = useTranslations("work");
-
+export function ProjectCard({ project, index, title, subtitle }: ProjectCardProps) {
   return (
-    <div className="group cursor-pointer">
-      <div className="relative aspect-[4/3] overflow-hidden border-2 border-white/20 mb-4 group-hover:border-white/50 transition-all duration-300">
-        <Image
-          src={image}
-          alt={title}
-          fill
-          className="object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105"
-        />
-        <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
-
-        {/* Year badge */}
-        <div className="absolute top-4 end-4">
-          <Badge>{year}</Badge>
-        </div>
-
-        {/* Overlay content */}
-        <div className="absolute bottom-0 inset-x-0 p-4 bg-black/60 backdrop-blur-sm translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-          <div className="text-xs uppercase tracking-widest text-white/80 mb-1">
-            {t("viewProject")}
-          </div>
+    <motion.a
+      href={`/samples/${project.key}`}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
+      className="group block border border-neutral-800 hover:border-brand/40 transition-colors duration-300 overflow-hidden"
+    >
+      <div className="aspect-[4/3] bg-neutral-900 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-brand/20 to-transparent"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="text-4xl font-bold text-brand-foreground/30">{String(index + 1).padStart(2, "0")}</span>
         </div>
       </div>
-
-      {/* Project title */}
-      <h3 className="text-2xl font-bold tracking-tighter text-white group-hover:translate-x-2 rtl:group-hover:-translate-x-2 transition-transform duration-300">
-        {title}
-      </h3>
-      <p className="text-white/70 group-hover:text-white/90 transition-colors">
-        {subtitle}
-      </p>
-
-      {/* Animated underline */}
-      <div className="h-px w-0 bg-white group-hover:w-20 transition-all duration-300 mt-2"></div>
-    </div>
+      <div className="p-5">
+        <h3 className="text-lg font-bold mb-1 group-hover:text-brand-foreground/80 transition-colors">{title}</h3>
+        <p className="text-neutral-400 text-sm">{subtitle}</p>
+      </div>
+    </motion.a>
   );
 }
