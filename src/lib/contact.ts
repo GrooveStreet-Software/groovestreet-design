@@ -17,4 +17,4 @@ export const contactDetails = {
 export const whatsappUrl = `https://wa.me/${contactDetails.whatsapp}`;
 export const mailtoUrl = `mailto:${contactDetails.email}`;
 export const telUrl = `tel:${contactDetails.phoneTel}`;
-export const githubUrl = "https://github.com/GrooveStreet-Software";
+export const githubUrl = "https://groovestreetdesign.netlify.app/en";

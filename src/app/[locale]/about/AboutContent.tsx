@@ -195,7 +195,7 @@ export function AboutContent() {
                   className="break-all transition-colors hover:text-white"
                   dir="ltr"
                 >
-                  github.com/GrooveStreet-Software
+                  {githubUrl}
                 </a>
               </p>
             </div>
