@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { SectionHeader } from "@/components/ui";
+import { Reveal } from "@/components";
 import { processSteps } from "./constants";
 import { ProcessStep } from "./components";
 
@@ -11,9 +12,9 @@ export function Process() {
   return (
     <section
       id="process"
-      className="py-24 relative overflow-hidden bg-[#0a0a0a]"
+      className="scroll-mt-24 py-24 relative overflow-hidden bg-[#0a0a0a]"
     >
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <div className="container mx-auto relative z-10">
         <SectionHeader
           label={t("label")}
           title={t("title")}
@@ -22,11 +23,9 @@ export function Process() {
 
         <div className="relative max-w-3xl">
           {processSteps.map((step, index) => (
-            <ProcessStep
-              key={step.key}
-              step={step}
-              index={index}
-            />
+            <Reveal key={step.key} delay={index * 80}>
+              <ProcessStep step={step} />
+            </Reveal>
           ))}
         </div>
       </div>

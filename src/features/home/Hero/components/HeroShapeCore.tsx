@@ -18,7 +18,7 @@ export function HeroShapeCore() {
       }}
     >
       <motion.div
-        className="w-3/4 h-3/4 bg-neutral-900 flex items-center justify-center"
+        className="w-3/4 h-3/4 bg-neutral-950 border border-brand/30 flex items-center justify-center transition-transform duration-500 ease-out group-hover:scale-105"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
@@ -27,7 +27,7 @@ export function HeroShapeCore() {
         }}
       >
         <motion.div
-          className="w-1/2 h-1/2 bg-white"
+          className="w-1/2 h-1/2 bg-brand shadow-[0_0_48px_rgba(27,77,62,0.55)]"
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{

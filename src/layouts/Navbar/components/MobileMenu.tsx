@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui";
 import { LocaleSwitcher } from "@/components";
+import { useContactModal } from "@/providers";
 import { sectionLinks } from "../../constants";
 import { mobileMenuAnimation } from "../constants";
 
@@ -15,6 +16,7 @@ interface MobileMenuProps {
 
 export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const t = useTranslations("navigation");
+  const { open } = useContactModal();
 
   if (!isOpen) return null;
 
@@ -25,7 +27,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
       exit={mobileMenuAnimation.exit}
       className="md:hidden bg-black"
     >
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto py-8">
         <nav className="flex flex-col space-y-6">
           {sectionLinks.map((link) => (
             <Link
@@ -41,7 +43,11 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <Button
             variant="outline"
             className="px-5 w-full mt-4 transition-colors"
-            render={<Link href="/contact" />}
+            onClick={() => {
+              onClose();
+              open();
+            }}
+            aria-haspopup="dialog"
           >
             {t("contact")}
           </Button>

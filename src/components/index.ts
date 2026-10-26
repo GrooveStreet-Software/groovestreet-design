@@ -1,6 +1,10 @@
 export { NoiseBackground } from "./NoiseBackground";
-export { FloatingCursor } from "./FloatingCursor";
-export { TextGenerateEffect } from "./TextGenerateEffect";
 export { Logo } from "./Logo";
 export { LocaleSwitcher } from "./LocaleSwitcher";
 export { Reveal } from "./Reveal";
+export { Marquee } from "./Marquee";
+export { ContactMarquee } from "./ContactMarquee";
+export { ContactModal } from "./ContactModal";
+export { GraphicsMarquee } from "./GraphicsMarquee";
+export { PageMarquees } from "./PageMarquees";
+export { PageLoader } from "./PageLoader";

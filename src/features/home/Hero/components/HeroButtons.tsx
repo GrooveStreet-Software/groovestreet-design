@@ -18,11 +18,7 @@ export function HeroButtons() {
       <Button
         variant="outline"
         className="px-8 py-3 transition-colors"
-        onClick={() =>
-          document
-            .getElementById("contact")
-            ?.scrollIntoView({ behavior: "smooth", block: "start" })
-        }
+        render={<a href="#features" />}
       >
         {t("primaryCta")}
         <ArrowRight className="ms-2 h-4 w-4 rtl:-scale-x-100" />
@@ -30,11 +26,7 @@ export function HeroButtons() {
       <Button
         variant="secondary"
         className="px-8 py-3 transition-colors"
-        onClick={() =>
-          document
-            .getElementById("pricing")
-            ?.scrollIntoView({ behavior: "smooth", block: "start" })
-        }
+        render={<a href="#pricing" />}
       >
         {t("secondaryCta")}
       </Button>

@@ -44,13 +44,28 @@ describe("GROOVESTREET Site", () => {
       const { html } = await fetchOk("/en");
       expect(html).toContain("Live Sample");
       expect(html).toContain("https://hotel-groovestreet-live.netlify.app/");
-      expect(html).toContain("Open Live Preview");
+      expect(html).toContain("More Samples");
     });
 
-    it("renders the View All Samples CTA", async () => {
+    it("renders the More Samples button", async () => {
       const { html } = await fetchOk("/en");
-      expect(html).toContain("View All Samples");
+      expect(html).toContain("More Samples");
       expect(html).toContain('href="/en/samples"');
+    });
+
+    it("hero CTAs point to What We Do and pricing", async () => {
+      const { html } = await fetchOk("/en");
+      expect(html).toContain('href="#features"');
+      expect(html).toContain('href="#pricing"');
+    });
+
+    it("hero switches between the services offered", async () => {
+      const { html } = await fetchOk("/en");
+      expect(html).toContain("PREMIUM");
+      expect(html).toContain("WEBSITES");
+      expect(html).toContain("GRAPHICS");
+      expect(html).toContain("DIGITAL TOOLS");
+      expect(html).toContain("Serving Africa and beyond");
     });
 
     it("renders features section", async () => {
@@ -59,15 +74,30 @@ describe("GROOVESTREET Site", () => {
       expect(html).toContain("Website Design");
     });
 
-    it("features cards carry images but no prices", async () => {
+    it("features cards carry images and a readable one-liner", async () => {
       const { html } = await fetchOk("/en");
       const section = html.slice(
         html.indexOf('id="features"'),
         html.indexOf('id="samples"')
       );
-      expect(section).toContain("/hotel-assets/");
+      expect(section).toContain("/service-assets/");
+      expect(section).toContain("turns visitors into calls and bookings");
       expect(section).not.toContain("UGX 500,000");
       expect(section).not.toContain("UGX 200,000");
+    });
+
+    it("each service card links to its pricing plan", async () => {
+      const { html } = await fetchOk("/en");
+      const features = html.slice(
+        html.indexOf('id="features"'),
+        html.indexOf('id="samples"')
+      );
+      expect(features).toContain('href="#pricing-standard"');
+      expect(features).toContain('href="#pricing-graphic"');
+      expect(features).toContain('href="#pricing-seo"');
+      expect(html).toContain('id="pricing-standard"');
+      expect(html).toContain('id="pricing-graphic"');
+      expect(html).toContain('id="pricing-seo"');
     });
 
     it("renders pricing without a foreign currency symbol", async () => {
@@ -81,6 +111,7 @@ describe("GROOVESTREET Site", () => {
       expect(pricing).toContain("Landing Page");
       expect(pricing).toContain("Custom Website");
       expect(pricing).toContain("Signature");
+      expect(pricing).toContain("SEO Optimization");
     });
 
     it("has a currency converter on the pricing section", async () => {
@@ -123,6 +154,18 @@ describe("GROOVESTREET Site", () => {
       expect(pricing).toContain("48 hours");
     });
 
+    it("includes an SEO Optimization card starting from UGX 100,000", async () => {
+      const { html } = await fetchOk("/en");
+      const pricing = html.slice(
+        html.indexOf('id="pricing"'),
+        html.indexOf('id="contact"')
+      );
+      expect(pricing).toContain("SEO Optimization");
+      expect(pricing).toContain("100,000");
+      expect(pricing).toContain("Per month");
+      expect(pricing).toContain("from");
+    });
+
     it("pricing section has a currency toggle instead of a UGX subtitle", async () => {
       const { html } = await fetchOk("/en");
       const pricing = html.slice(
@@ -148,35 +191,71 @@ describe("GROOVESTREET Site", () => {
       expect(html.toLowerCase()).toContain("whatsapp");
     });
 
-    it("has a static bottom nav with email, call and WhatsApp", async () => {
+    it("offers a WhatsApp button with an intro template", async () => {
       const { html } = await fetchOk("/en");
-      expect(html).toContain('aria-label="Quick contact"');
-      expect(html).toContain("wa.me/256774778164");
-      expect(html).toContain("mailto:groovestreetsoftware@gmail.com");
-      expect(html).toContain("tel:+256774778164");
+      expect(html).toContain("wa.me/256774778164?text=");
+      expect(html).toContain("Hello%20GROOVESTREET");
+      expect(html).toContain("Chat on WhatsApp");
     });
 
-    it("has a footer", async () => {
+    it("has a footer with contact details and social links", async () => {
       const { html } = await fetchOk("/en");
       expect(html).toContain("Privacy Policy");
       expect(html).toContain("Terms of Service");
+      expect(html).toContain("groovestreetsoftware@gmail.com");
+      expect(html).toContain("+256 774 778 164");
+      expect(html).toContain("wa.me/256774778164");
+      expect(html).toContain("https://github.com/GrooveStreet-Software");
+      expect(html).toContain("Built by Ugandans");
+      expect(html).toContain('aria-label="Uganda flag"');
+    });
+
+    it("hero copy focuses on the work, not money or launch dates", async () => {
+      const { html } = await fetchOk("/en");
+      const hero = html.slice(html.indexOf("PREMIUM"), html.indexOf('id="features"'));
+      expect(hero).not.toContain("UGX");
+      expect(hero.toLowerCase()).not.toContain("launch date");
+    });
+
+    it("homepage keeps Contact and the contact marquee", async () => {
+      const { html } = await fetchOk("/en");
+      expect(html).toContain('id="contact"');
+      expect(html).not.toContain('id="about"');
+      expect(html).toContain("Talk to a human");
+      expect(html).toContain("Thank you for considering GROOVESTREET");
+      expect(html).not.toContain("Where do messages go?");
+      expect(html).not.toContain("Contact form messages are sent to");
+    });
+
+    it("opens contact through a dialog, not a contact page", async () => {
+      const { html } = await fetchOk("/en");
+      expect(html).toContain('aria-haspopup="dialog"');
+      expect(html).not.toContain('href="/en/contact"');
     });
   });
 
   describe("Testimonials", () => {
-    it("renders six reviews", async () => {
+    it("renders the desktop grid and the mobile auto carousel", async () => {
       const { html } = await fetchOk("/en");
       expect(html).toContain("Sarah Nakato");
       expect(html).toContain("Michael Okello");
-      expect(html).toContain("Emily Achieng");
+      expect(html).toContain("Emily Ashaba");
       expect(html).toContain("David Ssemwanga");
       expect(html).toContain("Grace Mukasa");
       expect(html).toContain("Peter Kigozi");
+      expect(html).toContain("1 / 6");
+      expect(html).toContain('aria-label="Previous"');
+      expect(html).toContain('aria-label="Next"');
+      expect(html).toContain("gs-testimonial-progress");
     });
 
-    it("shows a 6/6 position indicator", async () => {
+    it("renders the page-edge marquees", async () => {
       const { html } = await fetchOk("/en");
-      expect(html).toContain("1 / 6");
+      expect(html).toContain("marquee-y-track");
+      expect(html).toContain("GROOVESTREET");
+      expect(html).toContain("DESIGN");
+      expect(html).toContain("BUILD");
+      expect(html).toContain("SHIP");
     });
 
     it("renders the star rating design", async () => {
@@ -198,6 +277,8 @@ describe("GROOVESTREET Site", () => {
         const { html } = await fetchOk(`/${locale}`);
         expect(html).not.toContain("MISSING_MESSAGE");
         expect(html).toContain('aria-label="WhatsApp"');
+        expect(html).toContain('aria-label="GitHub"');
+        expect(html).toContain("https://github.com/GrooveStreet-Software");
       }
     });
   });
@@ -213,9 +294,19 @@ describe("GROOVESTREET Site", () => {
     it("samples page lists all templates", async () => {
       const { html } = await fetchOk("/en/samples");
       expect(html).toContain("Hotel GrooveStreet");
-      expect(html).toContain("Juicy");
+      expect(html).toContain("Feane");
+      expect(html).toContain("Sarab");
       expect(html).toContain("SAASPRO");
       expect(html).toContain("Tech Landing");
+      expect(html).not.toContain("Juicy");
+    });
+
+    it("samples page shows the graphics marquee in both directions", async () => {
+      const { html } = await fetchOk("/en/samples");
+      expect(html).toContain("Graphic Design");
+      expect(html).toContain("/graphics/graphic-01.jpg");
+      expect(html).toContain("marquee-track");
+      expect(html).toContain("marquee-track--reverse");
     });
 
     it("every linked preview file resolves", async () => {
@@ -233,18 +324,23 @@ describe("GROOVESTREET Site", () => {
   });
 
   describe("About Page", () => {
-    it("about page loads with footer", async () => {
+    it("loads as its own page with the team and contact means", async () => {
       const { res, html } = await fetchOk("/en/about");
       expect(res.status).toBe(200);
-      expect(html).toContain("About");
+      expect(html).toContain('id="about"');
+      expect(html).toContain("Atigo Paul Odoch");
+      expect(html).toContain('id="contact"');
+      expect(html).toContain("Talk to a human");
+      expect(html).toContain("groovestreetsoftware@gmail.com");
+      expect(html).not.toContain("wa.me/256774778164?text=");
       expect(html).toContain("Privacy Policy");
     });
 
-    it("about page features three team members", async () => {
+    it("features three team members", async () => {
       const { html } = await fetchOk("/en/about");
       expect(html).toContain("Atigo Paul Odoch");
       expect(html).toContain("Okello Josh");
-      expect(html).toContain("Achieng Emily");
+      expect(html).toContain("Ashaba Emily");
       expect(html).toContain("Team Lead");
     });
 
@@ -255,6 +351,7 @@ describe("GROOVESTREET Site", () => {
       expect(html).toContain("/team/emily.svg");
       expect(html).toContain("Why we do it");
       expect(html).toContain("https://atigo.netlify.app");
+      expect(html).toContain("https://github.com/GrooveStreet-Software");
     });
 
     it("links a dialable phone number", async () => {
@@ -265,24 +362,25 @@ describe("GROOVESTREET Site", () => {
   });
 
   describe("Contact Page", () => {
-    it("contact page loads with footer", async () => {
+    it("redirects to the homepage Contact section", async () => {
       const { res, html } = await fetchOk("/en/contact");
       expect(res.status).toBe(200);
+      expect(html).toContain('id="contact"');
       expect(html).toContain("Contact");
       expect(html).toContain("Privacy Policy");
     });
 
-    it("contact page has email link", async () => {
+    it("homepage contact section has email link", async () => {
       const { html } = await fetchOk("/en/contact");
       expect(html).toContain("groovestreetsoftware@gmail.com");
     });
 
-    it("contact page has WhatsApp link", async () => {
+    it("homepage contact section has WhatsApp link", async () => {
       const { html } = await fetchOk("/en/contact");
       expect(html).toContain("wa.me/256774778164");
     });
 
-    it("contact page has a dialable phone link", async () => {
+    it("homepage contact section has a dialable phone link", async () => {
       const { html } = await fetchOk("/en/contact");
       expect(html).toContain("tel:+256774778164");
       expect(html).not.toContain("****");
@@ -313,11 +411,41 @@ describe("GROOVESTREET Site", () => {
   });
 
   describe("Navigation", () => {
-    it("navbar Contact control navigates instead of being a dead button", async () => {
+    it("every page has the top navigation", async () => {
+      for (const path of [
+        "/en",
+        "/en/about",
+        "/en/samples",
+        "/en/privacy",
+        "/en/terms",
+      ]) {
+        const { res, html } = await fetchOk(path);
+        expect(`${res.status} ${path}`).toBe(`200 ${path}`);
+        expect(html).toContain("<header");
+        expect(html).toContain("Services");
+        expect(html).toContain("Pricing");
+      }
+    });
+
+    it("links About to its own page", async () => {
       const { html } = await fetchOk("/en");
-      // The Contact CTA sits next to the nav list inside the header.
       const header = html.slice(html.indexOf("<header"), html.indexOf("</header>"));
-      expect(header).toContain('href="/en/contact"');
+      expect(header).toContain('href="/en/about"');
+      expect(header).not.toContain('href="/en/#about"');
+    });
+
+    it("links Samples to the samples page", async () => {
+      const { html } = await fetchOk("/en");
+      const header = html.slice(html.indexOf("<header"), html.indexOf("</header>"));
+      expect(header).toContain('href="/en/samples"');
+      expect(header).not.toContain('href="/en/#samples"');
+    });
+
+    it("navbar Contact opens the contact dialog", async () => {
+      const { html } = await fetchOk("/en");
+      const header = html.slice(html.indexOf("<header"), html.indexOf("</header>"));
+      expect(header).toContain('aria-haspopup="dialog"');
+      expect(header).not.toContain('href="/en/contact"');
       expect(header).not.toContain('href="/contact"');
     });
 
@@ -419,6 +547,13 @@ describe("GROOVESTREET Site", () => {
       expect(html).toContain("Samples");
       expect(html).toContain("Process");
       expect(html).toContain("Pricing");
+    });
+
+    it("has a full-page loading screen", async () => {
+      const { html } = await fetchOk("/en");
+      expect(html).toContain("page-loader");
+      expect(html).toContain('aria-label="Loading page"');
+      expect(html).toContain("gs-loader-bar");
     });
 
     it("has language switcher", async () => {

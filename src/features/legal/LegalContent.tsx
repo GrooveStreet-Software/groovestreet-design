@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { SectionHeader } from "@/components/ui";
 import { Footer } from "@/layouts";
-import { FloatingCursor } from "@/components";
 import { contactDetails, mailtoUrl } from "@/lib";
 
 interface LegalContentProps {
@@ -17,7 +16,7 @@ export async function LegalContent({ namespace, updatedLabel }: LegalContentProp
 
   return (
     <main className="bg-black text-white min-h-screen flex flex-col">
-      <div className="container mx-auto px-4 md:px-8 py-24 flex-1">
+      <div className="container mx-auto py-24 flex-1">
         <SectionHeader label={t("label")} title={t("heading")} />
 
         <div className="max-w-3xl mx-auto space-y-10">
@@ -44,7 +43,6 @@ export async function LegalContent({ namespace, updatedLabel }: LegalContentProp
         </div>
       </div>
       <Footer />
-      <FloatingCursor />
     </main>
   );
 }

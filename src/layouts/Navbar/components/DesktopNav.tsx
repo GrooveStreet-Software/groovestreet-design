@@ -4,10 +4,12 @@ import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui";
 import { LocaleSwitcher } from "@/components";
+import { useContactModal } from "@/providers";
 import { sectionLinks } from "../../constants";
 
 export function DesktopNav() {
   const t = useTranslations("navigation");
+  const { open } = useContactModal();
 
   return (
     <>
@@ -27,7 +29,8 @@ export function DesktopNav() {
         <Button
           variant="outline"
           className="px-5 py-2 transition-colors"
-          render={<Link href="/contact" />}
+          onClick={open}
+          aria-haspopup="dialog"
         >
           {t("contact")}
         </Button>

@@ -12,9 +12,9 @@ export function Features() {
   return (
     <section
       id="features"
-      className="py-24 relative overflow-hidden bg-gradient-to-b from-black to-neutral-900"
+      className="scroll-mt-24 py-24 relative overflow-hidden bg-gradient-to-b from-black to-neutral-900"
     >
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <div className="container mx-auto relative z-10">
         <Reveal>
           <SectionHeader
             label={t("label")}
@@ -23,11 +23,7 @@ export function Features() {
           />
         </Reveal>
 
-        <p className="text-brand-foreground/70 text-xs uppercase tracking-widest mb-8">
-          {t("note")}
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {featureItems.map((feature, index) => (
             <Reveal key={feature.key} delay={index * 100} as="article">
               <FeatureCard item={feature} index={index} />

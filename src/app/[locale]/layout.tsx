@@ -5,9 +5,9 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ThemeProvider, QueryProvider } from "@/providers";
-import { FloatingCursor } from "@/components";
-import { BottomNav } from "@/layouts";
+import { ThemeProvider, QueryProvider, ContactModalProvider } from "@/providers";
+import { PageMarquees, PageLoader } from "@/components";
+import { Navbar } from "@/layouts";
 import { routing, getDirection, openGraphLocales } from "@/i18n";
 import { SITE_URL } from "@/lib";
 
@@ -93,17 +93,22 @@ export default async function LocaleLayout({
       className={`dark ${inter.variable}`}
       suppressHydrationWarning
     >
-      <body className={`${inter.className} bg-black mx-auto max-w-[1440px] pb-16`}>
+      <body className={`${inter.className} bg-black mx-auto max-w-[1280px]`}>
+        <PageLoader />
         <NextIntlClientProvider>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
             enableSystem={false}
           >
-            <QueryProvider>{children}</QueryProvider>
-            <BottomNav />
+            <QueryProvider>
+              <ContactModalProvider>
+                <Navbar />
+                {children}
+              </ContactModalProvider>
+            </QueryProvider>
           </ThemeProvider>
-          <FloatingCursor />
+          <PageMarquees />
         </NextIntlClientProvider>
       </body>
     </html>

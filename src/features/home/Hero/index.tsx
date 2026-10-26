@@ -1,12 +1,14 @@
 "use client";
 
-import { motion } from "motion/react";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "motion/react";
 import { useTranslations } from "next-intl";
 import { Badge } from "@/components/ui";
 import { useHeroMouseEffect } from "./hooks";
 import {
   HeroHeadline,
   HeroButtons,
+  HeroServiceSwitch,
   HeroShape,
   HeroScrollIndicator,
   HeroStats,
@@ -15,14 +17,28 @@ import {
 export function Hero() {
   const t = useTranslations("hero");
   const { shapeRef } = useHeroMouseEffect();
+  const sectionRef = useRef<HTMLElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: sectionRef,
+    offset: ["start start", "end start"],
+  });
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
+  const contentY = useTransform(scrollYProgress, [0, 1], [0, -48]);
+  const contentOpacity = useTransform(scrollYProgress, [0, 0.8], [1, 0.35]);
 
   return (
-    <section className="relative flex items-center px-10 py-[100px] sm:py-[110px] overflow-hidden">
-      <div className="absolute inset-0 z-0">
+    <section
+      ref={sectionRef}
+      className="relative flex min-h-[100dvh] items-center overflow-hidden py-[100px] sm:py-[110px]"
+    >
+      <motion.div className="absolute inset-0 z-0" style={{ y: backgroundY }}>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#1a2a24_0%,_#000_100%)]"></div>
-      </div>
+      </motion.div>
 
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <motion.div
+        style={{ y: contentY, opacity: contentOpacity }}
+        className="container mx-auto relative z-10"
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <motion.div
@@ -37,6 +53,7 @@ export function Hero() {
             </motion.div>
 
             <HeroHeadline />
+            <HeroServiceSwitch />
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -55,7 +72,7 @@ export function Hero() {
 
         <HeroStats />
         <HeroScrollIndicator />
-      </div>
+      </motion.div>
     </section>
   );
 }

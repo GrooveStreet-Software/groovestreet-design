@@ -1,5 +1,6 @@
 "use client";
 
+import { ArrowUpRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type { FeatureItem } from "../types";
 
@@ -10,44 +11,47 @@ interface FeatureCardProps {
 
 export function FeatureCard({ item, index }: FeatureCardProps) {
   const t = useTranslations(`features.items.${item.key}`);
+  const tSection = useTranslations("features");
   const Icon = item.icon;
   const image = t("image") as string;
 
   return (
-    <div className="group relative overflow-hidden border border-neutral-800 hover:border-brand/40 transition-colors duration-300 min-h-[380px] flex flex-col">
-      {/* Background image - sharp at rest, blurred on hover so the text wins */}
-      <div className="absolute inset-0">
+    <a
+      href={`#pricing-${item.pricingKey}`}
+      className="group flex h-full flex-col overflow-hidden border border-neutral-800 bg-neutral-950 transition-colors duration-300 hover:border-brand/40"
+    >
+      <div className="relative aspect-[16/10] overflow-hidden bg-neutral-900">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={image}
-          alt={t("title")}
+          alt=""
           loading="lazy"
-          className="w-full h-full object-cover transition-all duration-700 ease-out group-hover:blur-md group-hover:scale-105 group-hover:brightness-[0.35]"
+          className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
         />
+        <span className="absolute bottom-3 end-4 text-5xl font-bold leading-none text-white/25 select-none">
+          {String(index + 1).padStart(2, "0")}
+        </span>
       </div>
 
-      {/* Icon chip + title */}
-      <div className="relative z-10 p-6 md:p-8">
-        <div className="w-12 h-12 flex items-center justify-center border border-white/25 bg-black/50 backdrop-blur-sm text-white mb-6 transition-colors duration-300 group-hover:bg-brand group-hover:border-brand">
-          <Icon className="w-5 h-5" />
+      <div className="flex flex-1 flex-col gap-4 p-6 md:p-8">
+        <div className="flex items-center gap-4">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center border border-white/25 bg-black/50 text-white transition-colors duration-300 group-hover:border-brand group-hover:bg-brand">
+            <Icon className="h-5 w-5" />
+          </div>
+          <h3 className="text-xl font-bold text-white">{t("title")}</h3>
         </div>
 
-        <h3 className="relative z-10 text-xl font-bold mb-3 text-white drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
-          {t("title")}
-        </h3>
-      </div>
+        <p className="text-sm leading-relaxed text-white/80">{t("need")}</p>
 
-      {/* The "why" - hidden at rest, revealed on hover */}
-      <div className="relative z-10 mt-auto p-6 md:p-8 pt-0">
-        <p className="text-sm leading-relaxed text-white/0 group-hover:text-white/85 transition-all duration-500 ease-out max-h-0 group-hover:max-h-48 opacity-0 group-hover:opacity-100 overflow-hidden">
+        <p className="mt-auto text-sm leading-relaxed text-white/45">
           {t("why")}
         </p>
-      </div>
 
-      {/* Index watermark */}
-      <span className="absolute bottom-4 end-6 text-5xl font-bold text-white/10 select-none">
-        {String(index + 1).padStart(2, "0")}
-      </span>
-    </div>
+        <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.25em] text-white/40 transition-colors group-hover:text-white">
+          {tSection("pricingCta")}
+          <ArrowUpRight className="h-3.5 w-3.5" />
+        </span>
+      </div>
+    </a>
   );
 }

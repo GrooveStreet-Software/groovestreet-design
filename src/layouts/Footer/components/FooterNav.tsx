@@ -1,22 +1,24 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { sectionLinks } from "../../constants";
+import { Link } from "@/i18n/navigation";
+import { footerLinks } from "../constants";
 
 export function FooterNav() {
   const t = useTranslations("navigation");
 
   return (
-    <nav className="flex gap-6">
-      {sectionLinks.map((link) => (
-        <a
-          key={link.href}
-          href={link.href}
-          className="text-neutral-400 hover:text-white transition-colors text-sm"
-        >
-          {t(link.key)}
-        </a>
+    <ul className="space-y-3">
+      {footerLinks.map((link) => (
+        <li key={link.href}>
+          <Link
+            href={link.href}
+            className="text-sm text-neutral-400 transition-colors hover:text-white"
+          >
+            {t(link.key)}
+          </Link>
+        </li>
       ))}
-    </nav>
+    </ul>
   );
 }

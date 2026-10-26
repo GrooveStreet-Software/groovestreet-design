@@ -4,7 +4,11 @@ import { useTranslations } from "next-intl";
 import { Input, Textarea, Button } from "@/components/ui";
 import { useContactForm } from "../hooks";
 
-export function ContactForm() {
+export function ContactForm({
+  idPrefix = "contact",
+}: {
+  idPrefix?: string;
+}) {
   const t = useTranslations("contact.form");
   const { register, errors, onSubmit, isPending, isSuccess, isError } =
     useContactForm();
@@ -12,7 +16,7 @@ export function ContactForm() {
   return (
     <form onSubmit={onSubmit} noValidate className="space-y-6">
       <Input
-        id="name"
+        id={`${idPrefix}-name`}
         label={t("fields.name.label")}
         type="text"
         placeholder={t("fields.name.placeholder")}
@@ -21,7 +25,7 @@ export function ContactForm() {
         {...register("name")}
       />
       <Input
-        id="email"
+        id={`${idPrefix}-email`}
         label={t("fields.email.label")}
         type="email"
         placeholder={t("fields.email.placeholder")}
@@ -30,7 +34,7 @@ export function ContactForm() {
         {...register("email")}
       />
       <Textarea
-        id="message"
+        id={`${idPrefix}-message`}
         label={t("fields.message.label")}
         rows={5}
         placeholder={t("fields.message.placeholder")}

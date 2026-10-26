@@ -1,12 +1,13 @@
 import { setRequestLocale } from "next-intl/server";
-import { Navbar, Footer } from "@/layouts";
+import { Footer } from "@/layouts";
 import {
   Hero,
   Features,
   LiveSample,
   Process,
-  Testimonials,
   Pricing,
+  Testimonials,
+  Trust,
   Contact,
 } from "@/features";
 import { NoiseBackground } from "@/components";
@@ -22,15 +23,15 @@ export default async function Home({
   return (
     <main className="bg-black text-white min-h-screen">
       <NoiseBackground />
-      <Navbar />
       <Hero />
       <Features />
       <LiveSample />
       <Process />
-      <Testimonials />
       <Pricing />
+      <Testimonials />
+      <Trust />
       <Contact />
-      <Footer />
+      <Footer cta={{ title: "Let's build yours." }} />
     </main>
   );
 }

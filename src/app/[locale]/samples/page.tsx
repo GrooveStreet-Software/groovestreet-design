@@ -1,19 +1,17 @@
 "use client";
 
 import { SectionHeader } from "@/components/ui";
-import { FloatingCursor, Reveal } from "@/components";
+import { GraphicsMarquee, Reveal } from "@/components";
 import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { Navbar, Footer } from "@/layouts";
+import { Footer } from "@/layouts";
 import { samplePreviews } from "@/lib";
-
 export default function SamplesPage() {
   const t = useTranslations("samples");
 
   return (
     <main className="bg-black text-white min-h-screen flex flex-col">
-      <Navbar />
-      <div className="container mx-auto px-4 md:px-8 py-24 flex-1">
+      <div className="container mx-auto py-24 flex-1">
         <Reveal>
           <SectionHeader
             label={t("label")}
@@ -37,7 +35,7 @@ export default function SamplesPage() {
                     src={sample.image}
                     alt={t(`items.${sample.messageKey}.title`)}
                     loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
                     <span className="text-white text-sm font-bold uppercase tracking-widest">
@@ -66,8 +64,8 @@ export default function SamplesPage() {
           ))}
         </div>
       </div>
+      <GraphicsMarquee />
       <Footer />
-      <FloatingCursor />
     </main>
   );
 }

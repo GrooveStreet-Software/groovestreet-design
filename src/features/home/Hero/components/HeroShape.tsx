@@ -36,7 +36,7 @@ export const HeroShape = forwardRef<HTMLDivElement>((_, ref) => {
 
         {/* Main square container */}
         <motion.div
-          className="aspect-square relative overflow-hidden border border-neutral-800"
+          className="group aspect-square relative overflow-hidden border border-neutral-800"
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{

@@ -8,8 +8,8 @@ export function Contact() {
   const t = useTranslations("contact");
 
   return (
-    <section id="contact" className="py-24 relative overflow-hidden">
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+    <section id="contact" className="scroll-mt-24 py-24 relative overflow-hidden">
+      <div className="container mx-auto relative z-10">
         <SectionHeader
           label={t("label")}
           title={t("title")}

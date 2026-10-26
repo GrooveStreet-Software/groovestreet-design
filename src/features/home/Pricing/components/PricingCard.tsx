@@ -21,7 +21,8 @@ export function PricingCard({ plan, currency, onCta }: PricingCardProps) {
 
   return (
     <div
-      className={`relative p-8 bg-white/5 backdrop-blur-sm group transition-all duration-300 border-2 ${
+      id={`pricing-${plan.key}`}
+      className={`relative scroll-mt-28 p-8 bg-white/5 backdrop-blur-sm group transition-all duration-300 border-2 target:border-brand target:bg-white/[0.08] ${
         plan.popular
           ? "border-white"
           : "border-white/20 hover:border-brand/40"
@@ -38,17 +39,24 @@ export function PricingCard({ plan, currency, onCta }: PricingCardProps) {
       </h3>
       <p className="text-white/70 mb-6">{t(`plans.${plan.key}.description`)}</p>
 
-      <div className="mb-6 flex items-baseline">
-        <span className="text-3xl md:text-4xl font-bold text-white">
-          {format.number(price, {
-            style: "currency",
-            currency,
-            maximumFractionDigits: currency === "USD" ? 0 : 0,
-          })}
-        </span>
-        <span className="text-white/70 ms-2">
+      <div className="mb-6 min-w-0">
+        <div className="flex items-baseline gap-1 text-2xl font-bold text-white md:text-3xl lg:text-[1.75rem]">
+          {plan.from && (
+            <span className="text-sm font-normal text-white/60">
+              {t("from")}
+            </span>
+          )}
+          <span>
+            {format.number(price, {
+              style: "currency",
+              currency,
+              maximumFractionDigits: currency === "USD" ? 0 : 0,
+            })}
+          </span>
+        </div>
+        <p className="mt-1 text-sm text-white/60">
           {t(`plans.${plan.key}.timeline`)}
-        </span>
+        </p>
       </div>
 
       <ul className="space-y-4 mb-8">
@@ -66,6 +74,7 @@ export function PricingCard({ plan, currency, onCta }: PricingCardProps) {
         variant={plan.popular ? "primary" : "outline"}
         className="w-full"
         onClick={onCta}
+        aria-haspopup="dialog"
       >
         {t(`plans.${plan.key}.cta`)}
       </Button>

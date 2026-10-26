@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { SectionHeader } from "@/components/ui";
 import { Reveal } from "@/components";
+import { useContactModal } from "@/providers";
 import { pricingPlans } from "./constants";
 import { CurrencyToggle, PricingCard } from "./components";
 
@@ -13,18 +14,14 @@ const UGX_PER_USD = 3700;
 export function Pricing() {
   const t = useTranslations("pricing");
   const [currency, setCurrency] = useState<"UGX" | "USD">("UGX");
-
-  const scrollToContact = () =>
-    document
-      .getElementById("contact")
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  const { open } = useContactModal();
 
   return (
     <section
       id="pricing"
-      className="py-24 relative overflow-hidden bg-[#0a0a0a]"
+      className="scroll-mt-24 py-24 relative overflow-hidden bg-[#0a0a0a]"
     >
-      <div className="container mx-auto px-4 md:px-8 relative z-10">
+      <div className="container mx-auto relative z-10">
         <Reveal>
           <SectionHeader label={t("label")} title={t("title")} />
         </Reveal>
@@ -33,7 +30,7 @@ export function Pricing() {
           <CurrencyToggle currency={currency} onToggle={setCurrency} />
         </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pricingPlans.map((plan) => (
             <Reveal key={plan.key} delay={150} as="article">
               <PricingCard
@@ -45,7 +42,7 @@ export function Pricing() {
                       : plan.price,
                 }}
                 currency={currency}
-                onCta={scrollToContact}
+                onCta={open}
               />
             </Reveal>
           ))}

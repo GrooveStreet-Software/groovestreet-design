@@ -1,1 +1,0 @@
-export { useFloatingCursor } from "./useFloatingCursor";
