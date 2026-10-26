@@ -110,37 +110,37 @@
         "quote": "They built my restaurant website in two weeks. I get booking calls every day now. Best money I've spent on my business.",
         "author": "Sarah Nakato",
         "role": "Owner, Kampala Restaurant",
-        "rating": 5
+        "rating": "5"
       },
       "michael": {
         "quote": "Professional, fast, and the WhatsApp bot saves me hours every day. My customers love it.",
         "author": "Michael Okello",
         "role": "Founder, Okello Designs",
-        "rating": 5
+        "rating": "5"
       },
       "emily": {
         "quote": "Fixed price, clear timeline, and they delivered exactly what they said. No stress at all.",
         "author": "Emily Achieng",
         "role": "Director, Achieng Academy",
-        "rating": 5
+        "rating": "5"
       },
       "david": {
         "quote": "My flyer looks like it came out of a print catalogue — but it took 48 hours, not two weeks.",
         "author": "David Ssemwanga",
         "role": "Manager, Ssemwanga Motors",
-        "rating": 5
+        "rating": "5"
       },
       "grace": {
         "quote": "Finally an agency that explains what they are doing. And the result speaks for itself.",
         "author": "Grace Mukasa",
         "role": "Marketing, Mukasa Events",
-        "rating": 4
+        "rating": "4"
       },
       "peter": {
         "quote": "The Google Maps listing alone brought me more customers than my old web designer did in two years.",
         "author": "Peter Kigozi",
         "role": "Owner, Kigozi Pharmacy",
-        "rating": 5
+        "rating": "5"
       }
     }
   },
@@ -249,7 +249,8 @@
       "street": "Kampala, Uganda",
       "city": "East Africa",
       "country": "Worldwide",
-      "social": "Social"
+      "social": "Social",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {

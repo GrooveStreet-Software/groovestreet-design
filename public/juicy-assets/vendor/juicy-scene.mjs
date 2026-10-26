@@ -16,6 +16,9 @@ const ASSETS = "/juicy-assets";
 const ENVIRONMENT_MAP = ASSETS + "/hdri/forest_slope_1k.hdr";
 const BOOT_TIMEOUT_MS = 15000;
 const SIZES = ["355", "100", "125"];
+/** Depth of the floating fruit and ice layers, in front of the can. */
+const FRUIT_Z = 0.2;
+const ICE_Z = 0.1;
 /**
  * The four juices of the original template, with the same themes and copy.
  */
@@ -307,6 +310,18 @@ async function showCan(index) {
 
 const fruitSprites = [];
 
+/**
+ * World-space half-extents visible at a given depth, derived from the live
+ * camera. Sprite layouts are expressed as fractions of these bounds so the
+ * composition holds at any viewport size — hard-coded world coordinates put
+ * the fruit and ice columns far outside the narrow field of view.
+ */
+function frustumAtDepth(z) {
+  const distance = Math.max(0.15, camera.position.z - z);
+  const halfH = Math.tan(THREE.MathUtils.degToRad(camera.fov) / 2) * distance;
+  return { halfW: halfH * camera.aspect, halfH };
+}
+
 function getFruitTexture(url) {
   if (!fruitTextures.has(url)) {
     const tex = new THREE.TextureLoader().load(url);
@@ -321,11 +336,13 @@ function buildFruits(juice) {
   fruitSprites.length = 0;
 
   const texture = getFruitTexture(juice.fruit);
+  // Fractions of the visible frustum at FRUIT_Z, flanking the can. Kept in the
+  // upper band so they never sit behind the product copy or the size picker.
   const slots = [
-    { x: -1.05, y: 0.62, s: 0.42 },
-    { x: -0.92, y: -0.55, s: 0.56 },
-    { x: 1.02, y: 0.6, s: 0.54 },
-    { x: 0.95, y: -0.5, s: 0.4 },
+    { fx: -0.6, fy: 0.7, s: 0.115 },
+    { fx: -0.44, fy: 0.4, s: 0.145 },
+    { fx: 0.58, fy: 0.68, s: 0.14 },
+    { fx: 0.42, fy: 0.38, s: 0.11 },
   ];
 
   slots.forEach((slot, i) => {
@@ -336,13 +353,13 @@ function buildFruits(juice) {
       depthWrite: false,
     });
     const sprite = new THREE.Sprite(material);
-    sprite.position.set(slot.x, slot.y, 0.2);
     sprite.scale.setScalar(slot.s);
     sprite.userData = {
-      baseX: slot.x,
-      baseY: slot.y,
+      fx: slot.fx,
+      fy: slot.fy,
       phase: i * 1.7,
       speed: 0.35 + i * 0.08,
+      z: FRUIT_Z,
     };
     fruitGroup.add(sprite);
     fruitSprites.push(sprite);
@@ -359,16 +376,18 @@ function buildIce() {
   iceGroup.clear();
   iceItems.length = 0;
 
+  // Two columns of ice cubes (with leaves mixed in) flanking the can, held in
+  // the clear band above the product copy.
   const columns = [
-    { x: -1.55, count: 5 },
-    { x: 1.55, count: 5 },
+    { fx: -0.86, count: 5 },
+    { fx: 0.86, count: 5 },
   ];
 
   columns.forEach((column, colIndex) => {
     for (let i = 0; i < column.count; i++) {
       const isLeaf = i % 3 === 2;
       const texture = isLeaf ? leafTextures[(i + colIndex) % 2] : iceTexture;
-      const size = isLeaf ? 0.24 + Math.random() * 0.1 : 0.13 + Math.random() * 0.09;
+      const size = isLeaf ? 0.075 : 0.05 + Math.random() * 0.02;
 
       const material = new THREE.SpriteMaterial({
         map: texture,
@@ -378,14 +397,14 @@ function buildIce() {
         rotation: Math.random() * Math.PI * 2,
       });
       const sprite = new THREE.Sprite(material);
-      const y = 0.85 - i * 0.42;
-      sprite.position.set(column.x + (Math.random() - 0.5) * 0.22, y, 0.1);
       sprite.scale.setScalar(size);
       sprite.userData = {
-        baseY: y,
+        fx: column.fx,
+        fy: 0.6 - i * 0.095,
         phase: Math.random() * Math.PI * 2,
         speed: 0.28 + Math.random() * 0.3,
-        drift: (Math.random() - 0.5) * 0.3,
+        drift: (Math.random() - 0.5) * 0.06,
+        z: ICE_Z,
       };
       iceGroup.add(sprite);
       iceItems.push(sprite);
@@ -530,16 +549,24 @@ function animate() {
   // Fruits drift around their anchor.
   fruitSprites.forEach((sprite) => {
     const d = sprite.userData;
-    sprite.position.x = d.baseX + Math.sin(t * d.speed + d.phase) * 0.06;
-    sprite.position.y = d.baseY + Math.cos(t * d.speed * 0.8 + d.phase) * 0.08;
+    const { halfW, halfH } = frustumAtDepth(d.z);
+    sprite.position.set(
+      d.fx * halfW + Math.sin(t * d.speed + d.phase) * halfW * 0.05,
+      d.fy * halfH + Math.cos(t * d.speed * 0.8 + d.phase) * halfH * 0.08,
+      d.z
+    );
     sprite.material.rotation = Math.sin(t * 0.4 + d.phase) * 0.2;
   });
 
   // Ice cubes float upward and wrap around.
   iceItems.forEach((sprite) => {
     const d = sprite.userData;
-    sprite.position.y = d.baseY + ((t * d.speed * 0.25 + d.phase) % 1) * 0.6;
-    sprite.position.x += d.drift * delta * 0.05;
+    const { halfW, halfH } = frustumAtDepth(d.z);
+    sprite.position.set(
+      d.fx * halfW + Math.sin(t * 0.5 + d.phase) * halfW * d.drift,
+      (d.fy + Math.sin(t * d.speed + d.phase) * 0.08) * halfH,
+      d.z
+    );
     sprite.material.rotation += delta * 0.12;
   });
 

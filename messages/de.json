@@ -171,37 +171,37 @@
         "quote": "Sie haben meine Restaurant-Website in zwei Wochen gebaut. Ich bekomme jetzt jeden Tag Buchungsanrufe.",
         "author": "Sarah Nakato",
         "role": "Inhaberin, Restaurant Kampala",
-        "rating": 5
+        "rating": "5"
       },
       "michael": {
         "quote": "Professionell, schnell, und der WhatsApp-Bot spart mir jeden Tag Stunden.",
         "author": "Michael Okello",
         "role": "Gründer, Okello Designs",
-        "rating": 5
+        "rating": "5"
       },
       "emily": {
         "quote": "Fester Preis, klare Fristen, und genau geliefert, was versprochen wurde.",
         "author": "Emily Achieng",
         "role": "Direktorin, Achieng Academy",
-        "rating": 5
+        "rating": "5"
       },
       "david": {
         "quote": "Meine Flyer sehen aus wie aus dem Druckerei-Katalog — aber in 48 Stunden statt zwei Wochen.",
         "author": "David Ssemwanga",
         "role": "Geschäftsführer, Ssemwanga Motors",
-        "rating": 5
+        "rating": "5"
       },
       "grace": {
         "quote": "Endlich eine Agentur, die auf Deutsch erklärt, was sie tut. Und das Ergebnis spricht für sich.",
         "author": "Grace Mukasa",
         "role": "Marketing, Mukasa Events",
-        "rating": 4
+        "rating": "4"
       },
       "peter": {
         "quote": "Der Google-Maps-Eintrag allein hat mehr Kunden gebracht als mein ehemaliger Webdesigner in zwei Jahren.",
         "author": "Peter Kigozi",
         "role": "Inhaber, Kigozi Pharmacy",
-        "rating": 5
+        "rating": "5"
       }
     }
   },
@@ -310,7 +310,8 @@
       "street": "Kampala, Uganda",
       "city": "Ostafrika",
       "country": "Weltweit",
-      "social": "WhatsApp"
+      "social": "Soziale Medien",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {

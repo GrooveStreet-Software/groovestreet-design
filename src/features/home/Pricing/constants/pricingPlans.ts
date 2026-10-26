@@ -1,8 +1,8 @@
 import type { PricingPlanItem } from "../types";
 
 /**
- * Prices live in the locale messages (pricing.plans.<key>.price) so the
- * English/French/German files stay the single source of truth.
+ * Single source of truth for prices. The `pricing.plans.<key>.price` entries in
+ * the locale messages are display-only and are not read by the pricing cards.
  */
 export const pricingPlans: PricingPlanItem[] = [
   { key: "graphic", price: 20000, popular: false },

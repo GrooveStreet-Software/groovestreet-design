@@ -17,6 +17,10 @@ describe("GROOVESTREET Site", () => {
       const { res, html } = await fetchOk("/en");
       expect(res.status).toBe(200);
       expect(html).toContain("GROOVESTREET");
+      // next-intl throws these when a message key is missing or a non-string
+      // value (e.g. a numeric rating) is passed to t(). Neither may reach the page.
+      expect(html).not.toContain("MISSING_MESSAGE");
+      expect(html).not.toContain("INVALID_MESSAGE");
     });
 
     it("renders hero with the Build indicator", async () => {
@@ -119,14 +123,19 @@ describe("GROOVESTREET Site", () => {
       expect(pricing).toContain("48 hours");
     });
 
-    it("pricing section has no UGX subtitle", async () => {
+    it("pricing section has a currency toggle instead of a UGX subtitle", async () => {
       const { html } = await fetchOk("/en");
       const pricing = html.slice(
         html.indexOf('id="pricing"'),
         html.indexOf('id="contact"')
       );
       expect(pricing).not.toContain("Fixed<br");
-      expect(pricing).not.toContain(">UGX<");
+      expect(pricing).not.toContain("Fixed UGX");
+      // UGX/USD are the toggle's option labels, not a price subtitle.
+      expect(pricing).toContain('aria-label="Show in"');
+      expect(pricing).toContain(">UGX</button>");
+      expect(pricing).toContain(">USD</button>");
+      expect(pricing).toContain('aria-pressed="true"');
     });
 
     it("renders contact section with real data", async () => {
@@ -173,6 +182,23 @@ describe("GROOVESTREET Site", () => {
     it("renders the star rating design", async () => {
       const { html } = await fetchOk("/en");
       expect(html).toContain("out of 5 stars");
+    });
+
+    it("resolves the rating to a number, not an unresolved message", async () => {
+      const { html } = await fetchOk("/en");
+      // A numeric rating in the catalog makes t() throw INVALID_MESSAGE, which
+      // would leave the stars unrated. The label must carry a real 1-5 value.
+      expect(html).toMatch(/aria-label="[1-5] out of 5 stars"/);
+    });
+  });
+
+  describe("Social links", () => {
+    it("every social icon has a resolved accessible label", async () => {
+      for (const locale of ["en", "fr", "de"]) {
+        const { html } = await fetchOk(`/${locale}`);
+        expect(html).not.toContain("MISSING_MESSAGE");
+        expect(html).toContain('aria-label="WhatsApp"');
+      }
     });
   });
 
@@ -289,8 +315,10 @@ describe("GROOVESTREET Site", () => {
   describe("Navigation", () => {
     it("navbar Contact control navigates instead of being a dead button", async () => {
       const { html } = await fetchOk("/en");
-      const nav = html.slice(html.indexOf("<nav"), html.indexOf("</nav>"));
-      expect(nav).toContain('href="/en/contact"');
+      // The Contact CTA sits next to the nav list inside the header.
+      const header = html.slice(html.indexOf("<header"), html.indexOf("</header>"));
+      expect(header).toContain('href="/en/contact"');
+      expect(header).not.toContain('href="/contact"');
     });
 
     it("language switcher is a dropdown with flags and shorthand", async () => {

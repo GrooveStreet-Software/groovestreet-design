@@ -14,7 +14,7 @@ export function BottomNav() {
   const channels = [
     { href: mailtoUrl, label: t("email"), icon: Mail, external: false },
     { href: telUrl, label: t("phone"), icon: Phone, external: false },
-    { href: whatsappUrl, label: "WhatsApp", icon: MessageCircle, external: true },
+    { href: whatsappUrl, label: t("whatsapp"), icon: MessageCircle, external: true },
   ];
 
   return (

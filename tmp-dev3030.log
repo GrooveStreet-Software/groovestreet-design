@@ -1886,3 +1886,2125 @@ Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages fo
   originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
 }
  GET /de/about 200 in 615ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 5248ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1848ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1462ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1455ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1820ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1639ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1984ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2087ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2472ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 3097ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2012ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1617ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1811ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2309ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1838ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2038ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2097ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 13412ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 9530ms
+ GET /en 200 in 9572ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/samples 200 in 2087ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/samples 200 in 1202ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/about 200 in 1545ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/about 200 in 1409ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/about 200 in 1502ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/about 200 in 1249ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/contact 200 in 1388ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/contact 200 in 966ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/contact 200 in 878ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/contact 200 in 806ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/privacy 200 in 1304ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/terms 200 in 1206ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2335ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2118ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1898ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1787ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `fr`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `fr`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `fr`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `fr`.'
+}
+ GET /fr 200 in 1694ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `de`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `de`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
+}
+ GET /de 200 in 1934ms
+ ○ Compiling /_not-found ...
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/samples 200 in 9640ms
+ ✓ Compiled /_not-found in 25.5s (2232 modules)
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `fr`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `fr`.'
+}
+ GET /en/ar 404 in 36676ms
+ GET /en 200 in 10221ms
+ GET /en 200 in 16098ms
+ GET /en 200 in 13605ms
+ GET /en 200 in 11076ms
+ GET /en 200 in 23298ms
+ GET /fr/samples 200 in 12837ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1956ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `de`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
+}
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /de/samples 200 in 4205ms
+ ○ Compiling /api/contact ...
+ GET /en 200 in 5997ms
+ ✓ Compiled /api/contact in 27.1s (2231 modules)
+ POST /api/contact 422 in 30168ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 26696ms
+ GET /en 200 in 24607ms
+ GET /en/contact 200 in 30739ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 3.7s (1243 modules)
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/about 200 in 6618ms
+ ✓ Compiled in 5.3s (1206 modules)
+ ✓ Compiled in 22.7s (2194 modules)
+ GET /en 200 in 2128ms
+ GET /en 200 in 9762ms
+ GET /en 200 in 4982ms
+ GET /en 200 in 3569ms
+ GET /en 200 in 3635ms
+ GET /en 200 in 2303ms
+ GET /en 200 in 1829ms
+ GET /en 200 in 1872ms
+ GET /en 200 in 2253ms
+ GET /en 200 in 2202ms
+ GET /en 200 in 2270ms
+ GET /en 200 in 3403ms
+ GET /en 200 in 4452ms
+ GET /en 200 in 4259ms
+ GET /en 200 in 2888ms
+ GET /en 200 in 5580ms
+ GET /en 200 in 7470ms
+ GET /en 200 in 9125ms
+ GET /en 200 in 3551ms
+ GET /en 200 in 5118ms
+ GET /en 200 in 5460ms
+ GET /en 200 in 4637ms
+ GET /en 200 in 5268ms
+ GET /en 200 in 11713ms
+ GET /en 200 in 12277ms
+ GET /en/samples 200 in 6161ms
+ GET /en/samples 200 in 5941ms
+ GET /en/samples 200 in 1597ms
+ GET /en 200 in 2679ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 6.8s (1213 modules)
+ GET /en/about 200 in 21703ms
+ ○ Compiling /[locale]/contact ...
+ GET /en/about 200 in 15239ms
+ GET /en 200 in 1992ms
+ GET /en/about 200 in 4788ms
+ GET /en/about 200 in 4809ms
+ ✓ Compiled /[locale]/contact in 12s (1221 modules)
+ GET /en/contact 200 in 35527ms
+ GET /en/contact 200 in 22994ms
+ GET /en/contact 200 in 30578ms
+ GET /en/contact 200 in 19744ms
+ ○ Compiling /[locale]/terms ...
+ ✓ Compiled /[locale]/terms in 4.5s (1236 modules)
+ ✓ Compiled (1238 modules)
+ GET /en 200 in 33866ms
+ GET /en 200 in 38662ms
+ GET /en 200 in 38700ms
+ ○ Compiling /_not-found ...
+ GET /en/privacy 200 in 42148ms
+ GET /en/terms 200 in 42031ms
+ GET /en 200 in 11923ms
+ GET /fr 200 in 11791ms
+ GET /de 200 in 13616ms
+ GET /en/samples 200 in 12930ms
+ GET /en 200 in 10069ms
+ GET /en 200 in 11959ms
+ GET /en 200 in 14597ms
+ ✓ Compiled /_not-found in 21.2s (2204 modules)
+ GET /en/ar 404 in 37672ms
+ ○ Compiling /api/contact ...
+ GET /fr/samples 200 in 20088ms
+ GET /en 200 in 14957ms
+ GET /en 200 in 18399ms
+ GET /en 200 in 20095ms
+ ✓ Compiled /[locale]/contact in 4.9s (1245 modules)
+ ✓ Compiled (1253 modules)
+ POST /api/contact 422 in 16646ms
+ GET /en 200 in 16235ms
+ GET /de/samples 200 in 16022ms
+ GET /en 200 in 17362ms
+ GET /en/contact 200 in 16038ms
+ GET /en 200 in 16155ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 2.5s (1243 modules)
+ GET /en/about 200 in 5650ms
+ GET /de 200 in 2188ms
+ GET /fr 200 in 1250ms
+ GET /en 200 in 5075ms
+ GET /en 200 in 1225ms
+ GET /en 200 in 1049ms
+ GET /en 200 in 4814ms
+ GET /en 200 in 1049ms
+ GET /en 200 in 992ms
+ GET /en 200 in 1050ms
+ GET /en 200 in 1119ms
+ GET /en 200 in 1166ms
+ GET /en 200 in 1395ms
+ GET /en 200 in 1411ms
+ GET /en 200 in 1304ms
+ GET /en 200 in 1009ms
+ GET /en 200 in 984ms
+ GET /en 200 in 1099ms
+ GET /en 200 in 1118ms
+ GET /en 200 in 1074ms
+ GET /en 200 in 1273ms
+ GET /en 200 in 1542ms
+ ✓ Compiled in 9.4s (2180 modules)
+ GET /en 200 in 10057ms
+ GET /en 200 in 15935ms
+ GET /en 200 in 2708ms
+ GET /en/samples 200 in 2711ms
+ GET /en/samples 200 in 858ms
+ GET /en/samples 200 in 854ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 5s (1213 modules)
+ GET /en/about 200 in 8078ms
+ GET /en/about 200 in 946ms
+ GET /en 200 in 2179ms
+ GET /en/about 200 in 1214ms
+ GET /en 200 in 2118ms
+ GET /en/about 200 in 1062ms
+ GET /en 200 in 3578ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 3.8s (1221 modules)
+ GET /en/contact 200 in 8973ms
+ GET /en/contact 200 in 11726ms
+ GET /en 200 in 10297ms
+ GET /en/contact 200 in 1059ms
+ GET /en/contact 200 in 3793ms
+ GET /en 200 in 3805ms
+ ○ Compiling /[locale]/privacy ...
+ ✓ Compiled /[locale]/terms in 14.4s (1236 modules)
+ ✓ Compiled (1238 modules)
+ GET /en 200 in 35978ms
+ GET /en 200 in 15641ms
+ GET /en 200 in 15641ms
+ GET /en 200 in 25070ms
+ GET /en/privacy 200 in 40778ms
+ GET /en/terms 200 in 33332ms
+ GET /en 200 in 5294ms
+ GET /fr 200 in 6838ms
+ GET /de 200 in 6841ms
+ GET /en 200 in 2120ms
+ ○ Compiling /_not-found ...
+ GET /en 200 in 1692ms
+ GET /en 200 in 1592ms
+ GET /en/samples 200 in 954ms
+ GET /en 200 in 1695ms
+ GET /fr/samples 200 in 1051ms
+ GET /en 200 in 2537ms
+ GET /de/samples 200 in 2464ms
+ GET /en 200 in 2440ms
+ GET /en 200 in 1610ms
+ GET /en 200 in 1473ms
+ GET /en 200 in 1421ms
+ GET /en 200 in 1571ms
+ GET /en 200 in 1644ms
+ GET /en 200 in 1504ms
+ GET /en 200 in 1734ms
+ GET /en 200 in 1504ms
+ GET /en 200 in 1463ms
+ GET /en 200 in 1600ms
+ GET /en 200 in 1539ms
+ GET /en/contact 200 in 763ms
+ GET /en 200 in 2397ms
+ GET /en/about 200 in 2467ms
+ GET /en 200 in 2446ms
+ GET /en 200 in 1572ms
+ GET /en 200 in 1577ms
+ GET /en 200 in 1574ms
+ GET /en/samples 200 in 750ms
+ GET /en/samples 200 in 726ms
+ GET /en/samples 200 in 660ms
+ GET /en/about 200 in 719ms
+ GET /en/about 200 in 736ms
+ GET /en/about 200 in 673ms
+ GET /en/about 200 in 5755ms
+ ✓ Compiled /_not-found in 58.9s (2219 modules)
+ GET /en/ar 404 in 63104ms
+ GET /en/contact 200 in 13076ms
+ GET /en/contact 200 in 657ms
+ GET /en/contact 200 in 617ms
+ GET /en/contact 200 in 636ms
+ GET /en/privacy 200 in 847ms
+ GET /en/terms 200 in 888ms
+ GET /de 200 in 1999ms
+ GET /en 200 in 2190ms
+ GET /en 200 in 1556ms
+ GET /en 200 in 2185ms
+ GET /en 200 in 1796ms
+ GET /fr 200 in 2201ms
+ GET /de 200 in 1525ms
+ GET /en/ar 404 in 272ms
+ GET /en/samples 200 in 969ms
+ GET /en 200 in 1428ms
+ GET /fr/samples 200 in 1043ms
+ GET /de/samples 200 in 1021ms
+ GET /en 200 in 2559ms
+ GET /en 200 in 1443ms
+ GET /en 200 in 1755ms
+ GET /en 200 in 1554ms
+ GET /en 200 in 1481ms
+ GET /en 200 in 1463ms
+ GET /en/contact 200 in 799ms
+ GET /en/about 200 in 1404ms
+ ○ Compiling /api/contact ...
+ ✓ Compiled /api/contact in 5.2s (1260 modules)
+ POST /api/contact 422 in 7582ms
+ GET /en 200 in 6047ms
+ GET /en 200 in 5087ms
+ GET /de 200 in 2648ms
+ GET /en 200 in 1381ms
+ GET /fr 200 in 1495ms
+ GET /en/about 200 in 778ms
+ GET /en/contact 200 in 800ms
+ GET /en/samples 200 in 803ms
+ GET /en/privacy 200 in 745ms
+ GET /en/terms 200 in 1019ms
+ GET /en 200 in 1942ms
+ GET /en 200 in 1545ms
+ GET /en 200 in 1745ms
+ GET /en 200 in 1332ms
+ GET /en 200 in 1383ms
+ GET /en 200 in 1388ms
+ GET /en 200 in 2129ms
+ GET /en 200 in 1795ms
+ GET /en 200 in 1462ms
+ GET /en 200 in 1514ms
+ GET /en 200 in 1652ms
+ GET /en 200 in 7318ms
+ GET /en 200 in 2440ms
+ GET /en 200 in 1310ms
+ GET /en 200 in 1373ms
+ GET /en 200 in 1181ms
+ GET /en 200 in 1117ms
+ GET /en 200 in 1435ms
+ GET /en 200 in 1154ms
+ GET /en 200 in 1167ms
+ GET /en/samples 200 in 575ms
+ GET /en/samples 200 in 547ms
+ GET /en/samples 200 in 652ms
+ GET /en/about 200 in 511ms
+ GET /en/about 200 in 709ms
+ GET /en/about 200 in 668ms
+ GET /en/about 200 in 659ms
+ GET /en/contact 200 in 633ms
+ GET /en/contact 200 in 637ms
+ GET /en/contact 200 in 608ms
+ GET /en/contact 200 in 508ms
+ GET /en/privacy 200 in 562ms
+ GET /en/terms 200 in 642ms
+ GET /en 200 in 1650ms
+ GET /en 200 in 1398ms
+ GET /en 200 in 1434ms
+ GET /en 200 in 1545ms
+ GET /fr 200 in 1663ms
+ GET /de 200 in 1546ms
+ GET /en/ar 404 in 427ms
+ GET /en/samples 200 in 824ms
+ GET /fr/samples 200 in 650ms
+ GET /de/samples 200 in 773ms
+ GET /en 200 in 1586ms
+ GET /en 200 in 1686ms
+ GET /en 200 in 1388ms
+ GET /en 200 in 1333ms
+ GET /en 200 in 1280ms
+ GET /en 200 in 1511ms
+ GET /en/contact 200 in 867ms
+ GET /en/about 200 in 926ms
+ POST /api/contact 422 in 94ms
+ GET /en 200 in 2260ms
+ GET /en 200 in 2524ms
+ GET /en 200 in 1411ms
+ GET /en 200 in 2466ms
+ GET /en/contact 200 in 670ms
+ GET /en 200 in 2165ms
+ GET /en 200 in 948ms
+ GET /en 200 in 1148ms
+ GET /en 200 in 1386ms
+ GET /en 200 in 1578ms
+ GET /en 200 in 2356ms
+ GET /en 200 in 1691ms
+ GET /en 200 in 1396ms
+ GET /en 200 in 1283ms
+ GET /en 200 in 1435ms
+ GET /en 200 in 1281ms
+ GET /en 200 in 1311ms
+ GET /en 200 in 1312ms
+ GET /en 200 in 1605ms
+ GET /en 200 in 7707ms
+ ✓ Compiled in 22.7s (2194 modules)
+ GET /en 200 in 6485ms
+ GET /en 200 in 21705ms
+ GET /en 200 in 1458ms
+ GET /en 200 in 1843ms
+ GET /en 200 in 2033ms
+ GET /en 200 in 2081ms
+ GET /en 200 in 1533ms
+ GET /en/samples 200 in 819ms
+ GET /en/samples 200 in 766ms
+ GET /en/samples 200 in 731ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 1162ms (1213 modules)
+ GET /en/about 200 in 3506ms
+ GET /en/about 200 in 679ms
+ GET /en/about 200 in 703ms
+ GET /en/about 200 in 811ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 1391ms (1221 modules)
+ GET /en/contact 200 in 3268ms
+ GET /en/contact 200 in 741ms
+ GET /en/contact 200 in 736ms
+ GET /en/contact 200 in 817ms
+ ○ Compiling /[locale]/privacy ...
+ ✓ Compiled /[locale]/privacy in 2s (1236 modules)
+ GET /en/privacy 200 in 3625ms
+ ○ Compiling /[locale]/terms ...
+ ✓ Compiled /[locale]/terms in 1733ms (1238 modules)
+ GET /en/terms 200 in 3563ms
+ GET /en 200 in 2161ms
+ GET /en 200 in 1401ms
+ GET /en 200 in 1501ms
+ GET /en 200 in 11206ms
+ GET /en 200 in 1607ms
+ GET /fr 200 in 1306ms
+ GET /de 200 in 1272ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 18.6s (2219 modules)
+ GET /en/ar 404 in 20362ms
+ GET /en/samples 200 in 2172ms
+ GET /fr/samples 200 in 857ms
+ GET /de/samples 200 in 878ms
+ GET /en 200 in 2068ms
+ GET /en 200 in 1464ms
+ GET /en 200 in 1445ms
+ GET /en 200 in 1275ms
+ GET /en 200 in 1167ms
+ GET /en 200 in 1143ms
+ GET /en/contact 200 in 590ms
+ GET /en/about 200 in 642ms
+ ○ Compiling /api/contact ...
+ ✓ Compiled /api/contact in 1973ms (1260 modules)
+ POST /api/contact 422 in 2809ms
+ GET /en 200 in 3319ms
+ GET /en 200 in 1381ms
+ GET /en 200 in 3089ms
+ GET /en 200 in 1432ms
+ GET /en 200 in 1428ms
+ GET /en 200 in 1220ms
+ GET /en 200 in 1289ms
+ GET /en 200 in 1373ms
+ GET /en 200 in 1379ms
+ GET /en 200 in 1664ms
+ GET /en 200 in 1368ms
+ GET /en 200 in 1226ms
+ GET /en 200 in 1151ms
+ GET /en 200 in 1103ms
+ GET /en 200 in 1061ms
+ GET /en 200 in 1217ms
+ GET /en 200 in 1254ms
+ GET /en 200 in 1266ms
+ GET /en 200 in 1393ms
+ GET /en 200 in 1298ms
+ GET /en 200 in 1242ms
+ GET /en 200 in 1473ms
+ GET /en 200 in 1150ms
+ GET /en 200 in 2426ms
+ GET /en 200 in 2666ms
+ GET /fr 200 in 1544ms
+ GET /de 200 in 2202ms
+ GET /en/samples 200 in 1812ms
+ GET /en/samples 200 in 1464ms
+ GET /en/samples 200 in 885ms
+ GET /en/about 200 in 1172ms
+ GET /en/about 200 in 852ms
+ GET /en/about 200 in 754ms
+ GET /en/about 200 in 1586ms
+ GET /en/contact 200 in 3973ms
+ GET /en/contact 200 in 2265ms
+ GET /en/contact 200 in 3433ms
+ GET /en/contact 200 in 830ms
+ GET /en/privacy 200 in 1023ms
+ GET /en/terms 200 in 975ms
+ GET /en 200 in 2284ms
+ GET /en 200 in 2505ms
+ GET /en 200 in 1369ms
+ GET /en 200 in 1803ms
+ GET /fr 200 in 1748ms
+ GET /de 200 in 1277ms
+ GET /en/ar 404 in 260ms
+ GET /en/samples 200 in 635ms
+ GET /fr/samples 200 in 597ms
+ GET /de/samples 200 in 654ms
+ GET /en 200 in 1288ms
+ GET /en 200 in 1107ms
+ GET /en 200 in 1166ms
+ GET /en 200 in 1291ms
+ GET /en 200 in 1044ms
+ GET /en 200 in 1069ms
+ GET /en/contact 200 in 503ms
+ GET /en/about 200 in 696ms
+ POST /api/contact 422 in 131ms
+ GET /en 200 in 1471ms
+ GET /en 200 in 1375ms
+ GET /en 200 in 1963ms
+ GET /en 200 in 2805ms
+ GET /en 200 in 2716ms
+ GET /en 200 in 2034ms
+ GET /en 200 in 1879ms
+ GET /en 200 in 1634ms
+ GET /en 200 in 1799ms
+ GET /en 200 in 1756ms
+ GET /en 200 in 1145ms
+ GET /en 200 in 1583ms
+ GET /en 200 in 3594ms
+ GET /en 200 in 1676ms
+ GET /en 200 in 1505ms
+ GET /en 200 in 1224ms
+ GET /en 200 in 1230ms
+ GET /en 200 in 1186ms
+ GET /en 200 in 1254ms
+ GET /en 200 in 1178ms
+ GET /en 200 in 1677ms
+ GET /en 200 in 1356ms
+ GET /en 200 in 1351ms
+ GET /en 200 in 1382ms
+ GET /fr 200 in 1318ms
+ GET /de 200 in 1274ms
+ GET /en/samples 200 in 780ms
+ GET /en/samples 200 in 788ms
+ GET /en/samples 200 in 787ms
+ GET /en/about 200 in 762ms
+ GET /en/about 200 in 708ms
+ GET /en/about 200 in 720ms
+ GET /en/about 200 in 636ms
+ GET /en/contact 200 in 628ms
+ GET /en/contact 200 in 679ms
+ GET /en/contact 200 in 518ms
+ GET /en/contact 200 in 610ms
+ GET /en/privacy 200 in 743ms
+ GET /en/terms 200 in 703ms
+ GET /en 200 in 1738ms
+ GET /en 200 in 2061ms
+ GET /en 200 in 1989ms
+ GET /en 200 in 1779ms
+ GET /fr 200 in 1478ms
+ GET /de 200 in 2287ms
+ GET /en/ar 404 in 263ms
+ GET /en/samples 200 in 1196ms
+ GET /fr/samples 200 in 673ms
+ GET /de/samples 200 in 774ms
+ GET /en 200 in 1658ms
+ GET /en 200 in 1179ms
+ GET /en 200 in 910ms
+ GET /en 200 in 1190ms
+ GET /en 200 in 1465ms
+ GET /en 200 in 1120ms
+ GET /en/contact 200 in 427ms
+ GET /en/about 200 in 559ms
+ POST /api/contact 422 in 69ms
+ GET /en 200 in 1665ms
+ GET /en 200 in 1565ms
+ ✓ Compiled in 7.6s (2194 modules)
+ GET /en 200 in 3837ms
+ GET /de 200 in 1280ms
+ GET /fr 200 in 1025ms
+ GET /en 200 in 6351ms
+ GET /en/samples 200 in 4073ms
+ GET /en 200 in 7624ms
+ GET /en 200 in 8458ms
+ GET /en 200 in 2938ms

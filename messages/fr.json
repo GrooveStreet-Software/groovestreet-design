@@ -110,37 +110,37 @@
         "quote": "Ils ont construit le site de mon restaurant en deux semaines. Je reçois des appels de réservation tous les jours.",
         "author": "Sarah Nakato",
         "role": "Propriétaire, Restaurant de Kampala",
-        "rating": 5
+        "rating": "5"
       },
       "michael": {
         "quote": "Professionnel, rapide, et le bot WhatsApp me fait gagner des heures chaque jour.",
         "author": "Michael Okello",
         "role": "Fondateur, Okello Designs",
-        "rating": 5
+        "rating": "5"
       },
       "emily": {
         "quote": "Prix fixe, délais clairs, et ils ont livré exactement ce qui était promis.",
         "author": "Emily Achieng",
         "role": "Directrice, Achieng Academy",
-        "rating": 5
+        "rating": "5"
       },
       "david": {
         "quote": "Mon flyer a l'air sorti d'un catalogue d'imprimerie — mais en 48 heures, pas deux semaines.",
         "author": "David Ssemwanga",
         "role": "Gérant, Ssemwanga Motors",
-        "rating": 5
+        "rating": "5"
       },
       "grace": {
         "quote": "Enfin une agence qui explique ce qu'elle fait. Et le résultat parle de lui-même.",
         "author": "Grace Mukasa",
         "role": "Marketing, Mukasa Events",
-        "rating": 4
+        "rating": "4"
       },
       "peter": {
         "quote": "La fiche Google Maps seule m'a apporté plus de clients que mon ancien webdesigner en deux ans.",
         "author": "Peter Kigozi",
         "role": "Propriétaire, Pharmacie Kigozi",
-        "rating": 5
+        "rating": "5"
       }
     }
   },
@@ -249,7 +249,8 @@
       "street": "Kampala, Ouganda",
       "city": "Afrique de l'Est",
       "country": "Monde",
-      "social": "Réseaux Sociaux"
+      "social": "Réseaux Sociaux",
+      "whatsapp": "WhatsApp"
     }
   },
   "footer": {
