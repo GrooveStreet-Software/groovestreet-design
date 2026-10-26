@@ -1,5 +1,5 @@
 export const openGraphLocales = {
   en: "en_US",
-  ar: "ar_AR",
   fr: "fr_FR",
+  de: "de_DE",
 } as const;

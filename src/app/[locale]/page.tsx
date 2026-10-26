@@ -3,7 +3,7 @@ import { Navbar, Footer } from "@/layouts";
 import {
   Hero,
   Features,
-  Work,
+  LiveSample,
   Process,
   Testimonials,
   Pricing,
@@ -25,7 +25,7 @@ export default async function Home({
       <Navbar />
       <Hero />
       <Features />
-      <Work />
+      <LiveSample />
       <Process />
       <Testimonials />
       <Pricing />

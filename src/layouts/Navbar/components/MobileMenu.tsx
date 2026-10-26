@@ -38,7 +38,11 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             </Link>
           ))}
           <LocaleSwitcher className="self-start px-0" />
-          <Button variant="outline" className="px-5 w-full mt-4 transition-colors">
+          <Button
+            variant="outline"
+            className="px-5 w-full mt-4 transition-colors"
+            render={<Link href="/contact" />}
+          >
             {t("contact")}
           </Button>
         </nav>

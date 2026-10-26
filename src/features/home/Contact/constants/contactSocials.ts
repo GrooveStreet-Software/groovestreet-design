@@ -1,7 +1,7 @@
-import { Instagram, Twitter, Linkedin } from "lucide-react";
+import { MessageCircle } from "lucide-react";
+import { whatsappUrl } from "@/lib";
 
+/** WhatsApp only for now. */
 export const contactSocials = [
-  { key: "instagram", href: "#", icon: Instagram },
-  { key: "twitter", href: "#", icon: Twitter },
-  { key: "linkedin", href: "#", icon: Linkedin },
+  { key: "whatsapp", href: whatsappUrl, icon: MessageCircle },
 ] as const;

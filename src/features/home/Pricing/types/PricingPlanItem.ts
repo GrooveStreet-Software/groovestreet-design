@@ -1,6 +1,5 @@
 export interface PricingPlanItem {
   key: string;
-  monthlyPrice: number;
-  annualPrice: number;
+  price: number;
   popular: boolean;
 }

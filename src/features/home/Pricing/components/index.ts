@@ -1,2 +1,2 @@
-export { PricingToggle } from "./PricingToggle";
 export { PricingCard } from "./PricingCard";
+export { CurrencyToggle } from "./PricingToggle";

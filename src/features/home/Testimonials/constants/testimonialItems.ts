@@ -4,4 +4,7 @@ export const testimonialItems: TestimonialItem[] = [
   { key: "sarah" },
   { key: "michael" },
   { key: "emily" },
+  { key: "david" },
+  { key: "grace" },
+  { key: "peter" },
 ];

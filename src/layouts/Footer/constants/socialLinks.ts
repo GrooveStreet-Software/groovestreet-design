@@ -1,7 +1,10 @@
-import { InstagramIcon, TwitterIcon, GithubIcon } from "@/components/icons";
+import { MessageCircle } from "lucide-react";
+import { whatsappUrl } from "@/lib";
 
+/**
+ * WhatsApp only for now — Instagram/X are not set up, so linking them would
+ * send visitors to a page that does not exist.
+ */
 export const socialLinks = [
-  { href: "https://www.instagram.com/groovestreet.design", key: "instagram", icon: InstagramIcon },
-  { href: "https://x.com/groovestreet", key: "twitter", icon: TwitterIcon },
-  { href: "https://www.linkedin.com/company/groovestreet-design", key: "linkedin", icon: GithubIcon },
+  { href: whatsappUrl, key: "whatsapp", icon: MessageCircle },
 ] as const;

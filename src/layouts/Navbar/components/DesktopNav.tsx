@@ -24,7 +24,11 @@ export function DesktopNav() {
       </nav>
       <div className="hidden md:flex items-center gap-4">
         <LocaleSwitcher />
-        <Button variant="outline" className="px-5 py-2 transition-colors">
+        <Button
+          variant="outline"
+          className="px-5 py-2 transition-colors"
+          render={<Link href="/contact" />}
+        >
           {t("contact")}
         </Button>
       </div>

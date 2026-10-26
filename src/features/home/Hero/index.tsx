@@ -9,6 +9,7 @@ import {
   HeroButtons,
   HeroShape,
   HeroScrollIndicator,
+  HeroStats,
 } from "./components";
 
 export function Hero() {
@@ -52,6 +53,7 @@ export function Hero() {
           <HeroShape ref={shapeRef} />
         </div>
 
+        <HeroStats />
         <HeroScrollIndicator />
       </div>
     </section>

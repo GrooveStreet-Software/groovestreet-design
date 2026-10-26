@@ -15,11 +15,27 @@ export function HeroButtons() {
       transition={{ duration: 0.5, delay: 0.6 }}
       className="flex flex-col sm:flex-row gap-4"
     >
-      <Button variant="outline" className="px-8 py-3 transition-colors">
+      <Button
+        variant="outline"
+        className="px-8 py-3 transition-colors"
+        onClick={() =>
+          document
+            .getElementById("contact")
+            ?.scrollIntoView({ behavior: "smooth", block: "start" })
+        }
+      >
         {t("primaryCta")}
         <ArrowRight className="ms-2 h-4 w-4 rtl:-scale-x-100" />
       </Button>
-      <Button variant="secondary" className="px-8 py-3 transition-colors">
+      <Button
+        variant="secondary"
+        className="px-8 py-3 transition-colors"
+        onClick={() =>
+          document
+            .getElementById("pricing")
+            ?.scrollIntoView({ behavior: "smooth", block: "start" })
+        }
+      >
         {t("secondaryCta")}
       </Button>
     </motion.div>

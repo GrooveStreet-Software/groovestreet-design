@@ -8,7 +8,7 @@ import { ContactItem } from "./ContactItem";
 
 export function ContactInfo() {
   const t = useTranslations("contact.info");
-  const tSocial = useTranslations("common.social");
+  const tSocial = useTranslations("contact.info");
 
   return (
     <Card className="h-full">

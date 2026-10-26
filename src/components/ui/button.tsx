@@ -1,16 +1,27 @@
 "use client";
 
-import { forwardRef, type ButtonHTMLAttributes } from "react";
+import {
+  cloneElement,
+  forwardRef,
+  type ButtonHTMLAttributes,
+  type ReactElement,
+} from "react";
 import { cn } from "@/lib/utils";
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary" | "outline" | "ghost";
   size?: "sm" | "md" | "lg";
+  /**
+   * Renders the button as the given element instead of a <button>.
+   * Use for CTAs that must navigate — a control that only looks clickable
+   * but has no destination is worse than no control at all.
+   */
+  render?: ReactElement<ButtonHTMLAttributes<HTMLElement>>;
 }
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   (
-    { className, variant = "primary", size = "md", children, ...props },
+    { className, variant = "primary", size = "md", children, render, ...props },
     ref
   ) => {
     const baseStyles =
@@ -30,12 +41,18 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       lg: "px-8 py-4 text-sm",
     };
 
+    const classes = cn(baseStyles, variants[variant], sizes[size], className);
+
+    if (render) {
+      return cloneElement(render, {
+        className: cn(classes, render.props.className),
+        children,
+        ...props,
+      });
+    }
+
     return (
-      <button
-        ref={ref}
-        className={cn(baseStyles, variants[variant], sizes[size], className)}
-        {...props}
-      >
+      <button ref={ref} className={classes} {...props}>
         {children}
       </button>
     );

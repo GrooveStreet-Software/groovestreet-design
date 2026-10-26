@@ -1,4 +1,4 @@
 export const legalLinks = [
-  { href: "#", key: "privacy" },
-  { href: "#", key: "terms" },
+  { href: "/privacy", key: "privacy" },
+  { href: "/terms", key: "terms" },
 ] as const;

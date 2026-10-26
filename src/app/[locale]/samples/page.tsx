@@ -1,97 +1,72 @@
-import type { Metadata } from "next";
-import Link from "next/link";
-import { setRequestLocale } from "next-intl/server";
-import { useTranslations } from "next-intl";
+"use client";
+
 import { SectionHeader } from "@/components/ui";
-import { FloatingCursor } from "@/components";
-
-const samples = [
-  {
-    key: "hotel-groovestreet",
-    title: "Hotel GrooveStreet",
-    subtitle: "Luxury Hotel",
-    description: "Luxury boutique hotel landing page with dark & gold palette, Cormorant Garamond + Jost typography, hero slider, reservation bar, amenities grid, and room cards.",
-    file: "/samples/hotel-groovestreet.html",
-  },
-  {
-    key: "juicy-main",
-    title: "Juicy",
-    subtitle: "3D Product Showcase",
-    description: "Premium juice brand single-page with 3D can carousel, animated water-wave background, floating fruits/ice cubes, and dynamic theming per flavor.",
-    file: "/samples/juicy-main.html",
-  },
-  {
-    key: "saaspro",
-    title: "SAASPRO",
-    subtitle: "SaaS Landing",
-    description: "SaaS landing page with 11 sections: hero, social proof, features, how-it-works, testimonials, pricing, comparison table, integrations, FAQ, blog preview, CTA.",
-    file: "/samples/saaspro.html",
-  },
-  {
-    key: "tech-landing",
-    title: "Tech Landing",
-    subtitle: "SaaS/Tech Landing",
-    description: "Dark-themed SaaS landing with 10 sections: hero, social proof, how-it-works, features, integrations, testimonials, blog preview, pricing, FAQ, CTA.",
-    file: "/samples/tech-landing.html",
-  },
-];
-
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  setRequestLocale(locale);
-  return {
-    title: "Samples — GROOVESTREET",
-    description: "One-page template previews for GROOVESTREET projects.",
-  };
-}
+import { FloatingCursor, Reveal } from "@/components";
+import { ExternalLink } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { Navbar, Footer } from "@/layouts";
+import { samplePreviews } from "@/lib";
 
 export default function SamplesPage() {
   const t = useTranslations("samples");
 
   return (
-    <main className="bg-black text-white min-h-screen">
-      <div className="container mx-auto px-4 md:px-8 py-24">
-        <SectionHeader
-          label="Template Previews"
-          title="One-Page"
-          subtitle="Samples"
-        />
+    <main className="bg-black text-white min-h-screen flex flex-col">
+      <Navbar />
+      <div className="container mx-auto px-4 md:px-8 py-24 flex-1">
+        <Reveal>
+          <SectionHeader
+            label={t("label")}
+            title={t("title")}
+            subtitle={t("subtitle")}
+          />
+        </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-          {samples.map((sample, index) => (
-            <a
-              key={sample.key}
-              href={sample.file}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block border border-neutral-800 hover:border-brand/40 transition-colors duration-300 overflow-hidden"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="aspect-[4/3] bg-neutral-900 relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-brand/20 to-transparent"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-4xl font-bold text-brand-foreground/30">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          {samplePreviews.map((sample, index) => (
+            <Reveal key={sample.key} delay={index * 100} as="article">
+              <a
+                href={sample.file}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group border border-neutral-800 hover:border-brand/40 transition-colors duration-300 overflow-hidden block"
+              >
+                <div className="aspect-[16/10] bg-neutral-900 relative overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={sample.image}
+                    alt={t(`items.${sample.messageKey}.title`)}
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-2">
+                    <span className="text-white text-sm font-bold uppercase tracking-widest">
+                      {t("openPreview")}
+                    </span>
+                    <ExternalLink size={16} className="text-white" />
+                  </div>
                 </div>
-              </div>
-              <div className="p-5">
-                <h3 className="text-lg font-bold mb-1 group-hover:text-brand-foreground/80 transition-colors">
-                  {sample.title}
-                </h3>
-                <p className="text-brand-foreground/60 text-xs uppercase tracking-widest mb-2">
-                  {sample.subtitle}
-                </p>
-                <p className="text-neutral-400 text-sm">{sample.description}</p>
-              </div>
-            </a>
+                <div className="p-5">
+                  <h3 className="text-lg font-bold mb-1">
+                    {t(`items.${sample.messageKey}.title`)}
+                  </h3>
+                  <p className="text-brand-foreground/60 text-xs uppercase tracking-widest mb-2">
+                    {t(`items.${sample.messageKey}.subtitle`)}
+                  </p>
+                  <p className="text-neutral-400 text-sm">
+                    {t(`items.${sample.messageKey}.description`)}
+                  </p>
+                  <p className="text-neutral-500 text-xs mt-3 flex items-center gap-1.5">
+                    <ExternalLink size={12} />
+                    {t("newTabHint")}
+                  </p>
+                </div>
+              </a>
+            </Reveal>
           ))}
         </div>
       </div>
+      <Footer />
       <FloatingCursor />
     </main>
   );

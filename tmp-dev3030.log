@@ -1,0 +1,1888 @@
+npm notice run mono@0.1.0 npx
+npm notice run next dev -p 3030
+   ▲ Next.js 15.5.26
+   - Local:        http://localhost:3030
+   - Network:      http://169.254.129.110:3030
+   - Experiments (use with caution):
+     ✓ optimizeCss
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 18s
+ ○ Compiling /middleware ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of D:\GROOVESTREET\WEB\GROOVESTREET\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t(c).href)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+ ✓ Compiled /middleware in 957ms (136 modules)
+ ○ Compiling /[locale] ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of D:\GROOVESTREET\WEB\GROOVESTREET\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t(c).href)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+Request timed out after 3000ms
+
+Retrying 1/3...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of D:\GROOVESTREET\WEB\GROOVESTREET\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t(c).href)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+ ✓ Compiled /[locale]/about in 48s (2175 modules)
+ GET /en/about 200 in 14109ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 1325ms (2163 modules)
+ GET /en/contact 200 in 3165ms
+ ○ Compiling /[locale]/samples ...
+ ✓ Compiled /[locale]/samples in 1480ms (2174 modules)
+ GET /en/samples 200 in 3094ms
+ GET /en/about 200 in 242ms
+ GET /en 200 in 637ms
+ GET /en 200 in 372ms
+ GET /en/about 200 in 194ms
+ GET /en/contact 200 in 195ms
+ GET /en/samples 200 in 192ms
+ GET /fr/samples 200 in 195ms
+ GET /ar/samples 200 in 225ms
+ GET /en 200 in 462ms
+ GET /en/about 200 in 168ms
+ GET /en/contact 200 in 171ms
+ GET /en/samples 200 in 167ms
+ GET /en 200 in 454ms
+ GET /en 200 in 329ms
+ GET /en 200 in 406ms
+ GET /en 200 in 360ms
+ GET /en 200 in 345ms
+ GET /en 200 in 441ms
+ GET /en 200 in 434ms
+ GET /en 200 in 410ms
+ GET /en/samples 200 in 202ms
+ GET /en/samples 200 in 197ms
+ GET /en/about 200 in 316ms
+ GET /en/about 200 in 195ms
+ GET /en/contact 200 in 203ms
+ GET /en/contact 200 in 206ms
+ GET /en/contact 200 in 206ms
+ GET /en/contact 200 in 228ms
+ GET /en 200 in 540ms
+ GET /ar 200 in 543ms
+ GET /fr 200 in 547ms
+ GET /ar 200 in 534ms
+ GET /en 200 in 512ms
+ GET /en 200 in 594ms
+ GET /en 200 in 516ms
+ GET /en 200 in 540ms
+ GET /en 200 in 533ms
+ GET /en 200 in 587ms
+ GET /en 200 in 546ms
+ GET /en 200 in 561ms
+ GET /en 200 in 561ms
+ GET /en 200 in 638ms
+ GET /en 200 in 551ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1910ms (2159 modules)
+ GET /en/samples/brutalist 404 in 2739ms
+ GET /en/samples/monochrome 404 in 105ms
+ GET /en/samples/minimal 404 in 127ms
+ GET /en/samples/contrast 404 in 121ms
+ ✓ Compiled in 5.7s (2166 modules)
+ GET /en 200 in 799ms
+ ✓ Compiled in 2.2s (2166 modules)
+ GET /en 200 in 817ms
+ ✓ Compiled in 702ms (1191 modules)
+ GET /en 200 in 516ms
+ ✓ Compiled in 3.6s (2173 modules)
+ GET /en 200 in 615ms
+ ✓ Compiled in 2s (2177 modules)
+ GET /en 200 in 558ms
+ ✓ Compiled in 2.6s (2177 modules)
+ GET /en 200 in 636ms
+ ✓ Compiled in 891ms (1196 modules)
+ ✓ Compiled in 518ms (1196 modules)
+ GET /en 200 in 1451ms
+ GET /en 200 in 176ms
+ ✓ Compiled in 1417ms (981 modules)
+ ✓ Compiled in 1770ms (981 modules)
+ GET /en 200 in 942ms
+ GET /en 200 in 279ms
+ ✓ Compiled in 2.5s (2166 modules)
+ GET /en 200 in 994ms
+ ✓ Compiled in 1245ms (2166 modules)
+ GET /en 200 in 764ms
+ ✓ Compiled in 786ms (982 modules)
+ GET /en 200 in 246ms
+ ✓ Compiled in 831ms (982 modules)
+ GET /en 200 in 217ms
+ ✓ Compiled in 724ms (982 modules)
+ GET /en 200 in 175ms
+ ✓ Compiled in 724ms (982 modules)
+ GET /en 200 in 550ms
+ ✓ Compiled in 1342ms (982 modules)
+ GET /en 200 in 331ms
+ GET /en 200 in 127ms
+ ✓ Compiled in 821ms (982 modules)
+ GET /en 200 in 265ms
+ GET /en 200 in 155ms
+ ✓ Compiled in 1429ms (982 modules)
+ GET /en 200 in 212ms
+ ✓ Compiled in 943ms (1198 modules)
+ GET /en 200 in 540ms
+ ✓ Compiled in 466ms (1198 modules)
+ ✓ Compiled in 524ms (1198 modules)
+ ✓ Compiled in 1023ms (982 modules)
+ GET /en 200 in 642ms
+ ✓ Compiled in 4.7s (2180 modules)
+ GET /en 200 in 939ms
+ ✓ Compiled in 3.3s (2180 modules)
+ GET /en 200 in 547ms
+ ✓ Compiled in 1985ms (2180 modules)
+ GET /en 200 in 977ms
+ ✓ Compiled in 2.1s (2180 modules)
+ GET /en 200 in 533ms
+ ✓ Compiled in 3.3s (2180 modules)
+ GET /en 200 in 600ms
+ ✓ Compiled in 2.9s (2180 modules)
+ GET /en 200 in 698ms
+ ✓ Compiled in 1571ms (982 modules)
+ GET /en 200 in 313ms
+ ✓ Compiled in 682ms (982 modules)
+ GET /en 200 in 229ms
+ ✓ Compiled in 4.5s (2180 modules)
+ GET /en 200 in 666ms
+ ✓ Compiled in 1865ms (2172 modules)
+ GET /en 200 in 519ms
+ ✓ Compiled in 1424ms (978 modules)
+ ✓ Compiled in 967ms (978 modules)
+ GET /en 200 in 1076ms
+ ✓ Compiled in 6.3s (2174 modules)
+ GET /en 200 in 6462ms
+ GET /en 200 in 118ms
+ ✓ Compiled in 4.4s (2174 modules)
+ GET /en 200 in 929ms
+ ✓ Compiled in 3.7s (2174 modules)
+ GET /en 200 in 1096ms
+ ✓ Compiled in 3.9s (2174 modules)
+ GET /en 200 in 880ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 3.4s (2167 modules)
+ GET /en/privacy 404 in 4322ms
+ GET /en/terms 404 in 95ms
+ ✓ Compiled in 981ms (1195 modules)
+ ✓ Compiled in 385ms (1195 modules)
+ GET /en 200 in 2874ms
+ ✓ Compiled in 609ms (1195 modules)
+ ✓ Compiled in 991ms (1195 modules)
+ ✓ Compiled in 1117ms (979 modules)
+ GET /en 200 in 465ms
+ GET /en 200 in 1277ms
+ ✓ Compiled in 921ms (979 modules)
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/en'
+}
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/en'
+}
+ ○ Compiling /_error ...
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'D:\DumpStack.log.tmp'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'D:\pagefile.sys'
+ ✓ Compiled /_error in 7.6s (2507 modules)
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'D:\DumpStack.log.tmp'
+Watchpack Error (initial scan): Error: EINVAL: invalid argument, lstat 'D:\pagefile.sys'
+Time 16ms
+Time 2ms
+ GET /en 500 in 12345ms
+ GET /en 500 in 12344ms
+ GET /en 200 in 623ms
+ GET /en 200 in 623ms
+ GET /en 200 in 164ms
+ GET /en 200 in 172ms
+ GET /en 200 in 154ms
+ GET /en 200 in 154ms
+ GET /en 200 in 1128ms
+ ✓ Compiled in 648ms (1132 modules)
+ ✓ Compiled in 795ms (1132 modules)
+ GET /en 200 in 702ms
+ GET /en 200 in 577ms
+ GET /en 200 in 228ms
+ GET /en 200 in 212ms
+ ✓ Compiled in 585ms (1131 modules)
+ ✓ Compiled in 865ms (1131 modules)
+ GET /en 200 in 671ms
+ GET /en 200 in 671ms
+ GET /en 200 in 176ms
+ GET /en 200 in 178ms
+ GET /en 200 in 154ms
+ GET /en 200 in 159ms
+ ✓ Compiled in 525ms (1131 modules)
+ ✓ Compiled in 819ms (1131 modules)
+ GET /en 200 in 593ms
+ GET /en 200 in 599ms
+ GET /en 200 in 234ms
+ GET /en 200 in 256ms
+ ✓ Compiled in 643ms (1131 modules)
+ ✓ Compiled in 1283ms (1131 modules)
+ GET /en 200 in 573ms
+ GET /en 200 in 574ms
+ GET /en 200 in 191ms
+ GET /en 200 in 196ms
+ ✓ Compiled in 2.8s (2425 modules)
+ GET /en 200 in 683ms
+ GET /en 200 in 687ms
+ ✓ Compiled in 3.1s (2425 modules)
+ GET /en 200 in 542ms
+ GET /en 200 in 547ms
+ ✓ Compiled in 4.5s (2425 modules)
+ GET /en 200 in 700ms
+ GET /en 200 in 709ms
+ GET /en 200 in 1353ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 1899ms (1307 modules)
+ GET /en/about 200 in 3075ms
+ GET /en 200 in 310ms
+ GET /en 200 in 311ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 1923ms (2437 modules)
+ GET /en/contact 200 in 2883ms
+ GET /en 200 in 239ms
+ GET /en 200 in 246ms
+ ○ Compiling /[locale]/samples ...
+ ✓ Compiled /[locale]/samples in 859ms (1322 modules)
+ GET /en/samples 200 in 1914ms
+ GET /en 200 in 336ms
+ GET /en 200 in 341ms
+ ○ Compiling /[locale]/privacy ...
+ ✓ Compiled /[locale]/privacy in 1756ms (2447 modules)
+ GET /en/privacy 200 in 3899ms
+ ○ Compiling /[locale]/terms ...
+ ✓ Compiled /[locale]/terms in 1446ms (2449 modules)
+ GET /en/terms 200 in 3266ms
+ GET /ar 200 in 600ms
+ GET /ar/samples 200 in 227ms
+ GET /fr 200 in 374ms
+ GET /fr/privacy 200 in 244ms
+ GET /en 200 in 839ms
+ GET /en 200 in 621ms
+ ✓ Compiled in 7s (2565 modules)
+ ✓ Compiled in 1411ms (1135 modules)
+ GET /en 200 in 859ms
+ GET /en 200 in 121ms
+ ⨯ Failed to generate static paths for /[locale]:
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+ GET /fr 200 in 190ms
+ GET /en 200 in 146ms
+ ✓ Compiled in 1827ms (1295 modules)
+ GET /en 200 in 457ms
+ ✓ Compiled in 1264ms (1295 modules)
+ GET /en 200 in 464ms
+ ✓ Compiled in 1253ms (1295 modules)
+ GET /en 200 in 366ms
+ ✓ Compiled in 1112ms (1296 modules)
+ ✓ Compiled in 422ms (1296 modules)
+ GET /en 200 in 1053ms
+ ✓ Compiled in 1226ms (1295 modules)
+ ✓ Compiled in 453ms (1295 modules)
+ GET /en 200 in 275ms
+ ✓ Compiled in 985ms (1295 modules)
+ GET /en 200 in 262ms
+ ✓ Compiled in 988ms (1295 modules)
+ GET /en 200 in 278ms
+ ✓ Compiled in 859ms (1294 modules)
+ GET /en 200 in 214ms
+   ▲ Next.js 15.5.26
+   - Local:        http://localhost:3030
+   - Network:      http://169.254.129.110:3030
+   - Experiments (use with caution):
+     ✓ optimizeCss
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 17.6s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 858ms (136 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 25.3s (2169 modules)
+ ✓ Compiled in 1288ms (974 modules)
+Error: MISSING_MESSAGE: Could not resolve `hero.scroll` in messages for locale `en`.
+    at HeroScrollIndicator (src\features\home\Hero\components\HeroScrollIndicator.tsx:18:12)
+  16 |       <div className="flex items-center gap-8 border border-neutral-800 px-8 py-4">
+  17 |         <div className="text-xs uppercase tracking-widest text-neutral-400">
+> 18 |           {t("scroll")}
+     |            ^
+  19 |         </div>
+  20 |         <div className="h-px w-10 bg-neutral-800"></div>
+  21 |         <div className="text-xs uppercase tracking-widest text-neutral-400"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `hero.scroll` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `hero.discover` in messages for locale `en`.
+    at HeroScrollIndicator (src\features\home\Hero\components\HeroScrollIndicator.tsx:22:12)
+  20 |         <div className="h-px w-10 bg-neutral-800"></div>
+  21 |         <div className="text-xs uppercase tracking-widest text-neutral-400">
+> 22 |           {t("discover")}
+     |            ^
+  23 |         </div>
+  24 |       </div>
+  25 |     </motion.div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `hero.discover` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.minimalist.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.minimalist.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.brutalist.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.brutalist.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.responsive.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.responsive.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.performance.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.performance.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `testimonials.items.sarah.quote` in messages for locale `en`.
+    at Testimonials (src\features\home\Testimonials\index.tsx:36:24)
+  34 |             <div className="relative z-10">
+  35 |               <TestimonialQuote
+> 36 |                 quote={t(`items.${activeKey}.quote`)}
+     |                        ^
+  37 |                 author={t(`items.${activeKey}.author`)}
+  38 |                 role={t(`items.${activeKey}.role`)}
+  39 |                 activeIndex={activeIndex} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `testimonials.items.sarah.quote` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `testimonials.items.sarah.author` in messages for locale `en`.
+    at Testimonials (src\features\home\Testimonials\index.tsx:37:25)
+  35 |               <TestimonialQuote
+  36 |                 quote={t(`items.${activeKey}.quote`)}
+> 37 |                 author={t(`items.${activeKey}.author`)}
+     |                         ^
+  38 |                 role={t(`items.${activeKey}.role`)}
+  39 |                 activeIndex={activeIndex}
+  40 |               /> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `testimonials.items.sarah.author` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `testimonials.items.sarah.role` in messages for locale `en`.
+    at Testimonials (src\features\home\Testimonials\index.tsx:38:23)
+  36 |                 quote={t(`items.${activeKey}.quote`)}
+  37 |                 author={t(`items.${activeKey}.author`)}
+> 38 |                 role={t(`items.${activeKey}.role`)}
+     |                       ^
+  39 |                 activeIndex={activeIndex}
+  40 |               />
+  41 |             </div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `testimonials.items.sarah.role` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.subtitle` in messages for locale `en`.
+    at Pricing (src\features\home\Pricing\index.tsx:22:21)
+  20 |           label={t("label")}
+  21 |           title={t("title")}
+> 22 |           subtitle={t("subtitle")}
+     |                     ^
+  23 |         />
+  24 |
+  25 |         <PricingToggle annual={annual} onToggle={setAnnual} /> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.subtitle` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.annual` in messages for locale `en`.
+    at PricingToggle (src\features\home\Pricing\components\PricingToggle.tsx:25:12)
+  23 |           }`}
+  24 |         >
+> 25 |           {t("annual")} <span className="text-xs opacity-80">{t("save")}</span>
+     |            ^
+  26 |         </button>
+  27 |         <button
+  28 |           onClick={() => onToggle(false)} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.annual` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.save` in messages for locale `en`.
+    at PricingToggle (src\features\home\Pricing\components\PricingToggle.tsx:25:63)
+  23 |           }`}
+  24 |         >
+> 25 |           {t("annual")} <span className="text-xs opacity-80">{t("save")}</span>
+     |                                                               ^
+  26 |         </button>
+  27 |         <button
+  28 |           onClick={() => onToggle(false)} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.save` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.monthly` in messages for locale `en`.
+    at PricingToggle (src\features\home\Pricing\components\PricingToggle.tsx:36:12)
+  34 |           }`}
+  35 |         >
+> 36 |           {t("monthly")}
+     |            ^
+  37 |         </button>
+  38 |       </div>
+  39 |     </div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.monthly` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.perYear` in messages for locale `en`.
+    at PricingCard (src\features\home\Pricing\components\PricingCard.tsx:43:21)
+  41 |         </span>
+  42 |         <span className="text-white/70 ms-2">
+> 43 |           {annual ? t("perYear") : t("perMonth")}
+     |                     ^
+  44 |         </span>
+  45 |       </div>
+  46 |       <ul className="space-y-4 mb-8"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.perYear` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.perYear` in messages for locale `en`.
+    at PricingCard (src\features\home\Pricing\components\PricingCard.tsx:43:21)
+  41 |         </span>
+  42 |         <span className="text-white/70 ms-2">
+> 43 |           {annual ? t("perYear") : t("perMonth")}
+     |                     ^
+  44 |         </span>
+  45 |       </div>
+  46 |       <ul className="space-y-4 mb-8"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.perYear` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.perYear` in messages for locale `en`.
+    at PricingCard (src\features\home\Pricing\components\PricingCard.tsx:43:21)
+  41 |         </span>
+  42 |         <span className="text-white/70 ms-2">
+> 43 |           {annual ? t("perYear") : t("perMonth")}
+     |                     ^
+  44 |         </span>
+  45 |       </div>
+  46 |       <ul className="space-y-4 mb-8"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.perYear` in messages for locale `en`.'
+}
+ GET /en 200 in 35860ms
+Error: MISSING_MESSAGE: Could not resolve `hero.scroll` in messages for locale `en`.
+    at HeroScrollIndicator (src\features\home\Hero\components\HeroScrollIndicator.tsx:18:12)
+  16 |       <div className="flex items-center gap-8 border border-neutral-800 px-8 py-4">
+  17 |         <div className="text-xs uppercase tracking-widest text-neutral-400">
+> 18 |           {t("scroll")}
+     |            ^
+  19 |         </div>
+  20 |         <div className="h-px w-10 bg-neutral-800"></div>
+  21 |         <div className="text-xs uppercase tracking-widest text-neutral-400"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `hero.scroll` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `hero.discover` in messages for locale `en`.
+    at HeroScrollIndicator (src\features\home\Hero\components\HeroScrollIndicator.tsx:22:12)
+  20 |         <div className="h-px w-10 bg-neutral-800"></div>
+  21 |         <div className="text-xs uppercase tracking-widest text-neutral-400">
+> 22 |           {t("discover")}
+     |            ^
+  23 |         </div>
+  24 |       </div>
+  25 |     </motion.div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `hero.discover` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.minimalist.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.minimalist.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.brutalist.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.brutalist.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.responsive.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.responsive.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `features.items.performance.description` in messages for locale `en`.
+    at FeatureCard (src\features\home\Features\components\FeatureCard.tsx:28:64)
+  26 |       </div>
+  27 |       <h3 className="text-xl font-bold mb-3">{t("title")}</h3>
+> 28 |       <p className="text-neutral-400 text-sm leading-relaxed">{t("description")}</p>
+     |                                                                ^
+  29 |     </motion.div>
+  30 |   );
+  31 | } {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `features.items.performance.description` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `work` in messages for locale `en`.
+    at Work (src\features\home\Work\index.tsx:11:28)
+   9 |
+  10 | export function Work() {
+> 11 |   const t = useTranslations("work");
+     |                            ^
+  12 |
+  13 |   return (
+  14 |     <section {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `work` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `testimonials.items.sarah.quote` in messages for locale `en`.
+    at Testimonials (src\features\home\Testimonials\index.tsx:36:24)
+  34 |             <div className="relative z-10">
+  35 |               <TestimonialQuote
+> 36 |                 quote={t(`items.${activeKey}.quote`)}
+     |                        ^
+  37 |                 author={t(`items.${activeKey}.author`)}
+  38 |                 role={t(`items.${activeKey}.role`)}
+  39 |                 activeIndex={activeIndex} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `testimonials.items.sarah.quote` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `testimonials.items.sarah.author` in messages for locale `en`.
+    at Testimonials (src\features\home\Testimonials\index.tsx:37:25)
+  35 |               <TestimonialQuote
+  36 |                 quote={t(`items.${activeKey}.quote`)}
+> 37 |                 author={t(`items.${activeKey}.author`)}
+     |                         ^
+  38 |                 role={t(`items.${activeKey}.role`)}
+  39 |                 activeIndex={activeIndex}
+  40 |               /> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `testimonials.items.sarah.author` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `testimonials.items.sarah.role` in messages for locale `en`.
+    at Testimonials (src\features\home\Testimonials\index.tsx:38:23)
+  36 |                 quote={t(`items.${activeKey}.quote`)}
+  37 |                 author={t(`items.${activeKey}.author`)}
+> 38 |                 role={t(`items.${activeKey}.role`)}
+     |                       ^
+  39 |                 activeIndex={activeIndex}
+  40 |               />
+  41 |             </div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `testimonials.items.sarah.role` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.subtitle` in messages for locale `en`.
+    at Pricing (src\features\home\Pricing\index.tsx:22:21)
+  20 |           label={t("label")}
+  21 |           title={t("title")}
+> 22 |           subtitle={t("subtitle")}
+     |                     ^
+  23 |         />
+  24 |
+  25 |         <PricingToggle annual={annual} onToggle={setAnnual} /> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.subtitle` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.annual` in messages for locale `en`.
+    at PricingToggle (src\features\home\Pricing\components\PricingToggle.tsx:25:12)
+  23 |           }`}
+  24 |         >
+> 25 |           {t("annual")} <span className="text-xs opacity-80">{t("save")}</span>
+     |            ^
+  26 |         </button>
+  27 |         <button
+  28 |           onClick={() => onToggle(false)} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.annual` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.save` in messages for locale `en`.
+    at PricingToggle (src\features\home\Pricing\components\PricingToggle.tsx:25:63)
+  23 |           }`}
+  24 |         >
+> 25 |           {t("annual")} <span className="text-xs opacity-80">{t("save")}</span>
+     |                                                               ^
+  26 |         </button>
+  27 |         <button
+  28 |           onClick={() => onToggle(false)} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.save` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.monthly` in messages for locale `en`.
+    at PricingToggle (src\features\home\Pricing\components\PricingToggle.tsx:36:12)
+  34 |           }`}
+  35 |         >
+> 36 |           {t("monthly")}
+     |            ^
+  37 |         </button>
+  38 |       </div>
+  39 |     </div> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.monthly` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.perYear` in messages for locale `en`.
+    at PricingCard (src\features\home\Pricing\components\PricingCard.tsx:43:21)
+  41 |         </span>
+  42 |         <span className="text-white/70 ms-2">
+> 43 |           {annual ? t("perYear") : t("perMonth")}
+     |                     ^
+  44 |         </span>
+  45 |       </div>
+  46 |       <ul className="space-y-4 mb-8"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.perYear` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.perYear` in messages for locale `en`.
+    at PricingCard (src\features\home\Pricing\components\PricingCard.tsx:43:21)
+  41 |         </span>
+  42 |         <span className="text-white/70 ms-2">
+> 43 |           {annual ? t("perYear") : t("perMonth")}
+     |                     ^
+  44 |         </span>
+  45 |       </div>
+  46 |       <ul className="space-y-4 mb-8"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.perYear` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `pricing.perYear` in messages for locale `en`.
+    at PricingCard (src\features\home\Pricing\components\PricingCard.tsx:43:21)
+  41 |         </span>
+  42 |         <span className="text-white/70 ms-2">
+> 43 |           {annual ? t("perYear") : t("perMonth")}
+     |                     ^
+  44 |         </span>
+  45 |       </div>
+  46 |       <ul className="space-y-4 mb-8"> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `pricing.perYear` in messages for locale `en`.'
+}
+ GET /en 200 in 6333ms
+ GET /fr 200 in 176ms
+ ✓ Compiled in 1305ms (1195 modules)
+ ✓ Compiled in 695ms (1195 modules)
+ GET /en 200 in 488ms
+ ✓ Compiled in 2.8s (2173 modules)
+ GET /en 200 in 457ms
+ ✓ Compiled in 2.8s (2175 modules)
+ GET /en 200 in 429ms
+ ✓ Compiled in 1120ms (977 modules)
+ ✓ Compiled in 684ms (977 modules)
+ GET /en 200 in 653ms
+ GET /en 200 in 94ms
+ ✓ Compiled in 4.1s (2182 modules)
+ GET /en 200 in 748ms
+ ✓ Compiled in 583ms (980 modules)
+ GET /en 200 in 186ms
+ ✓ Compiled in 862ms (980 modules)
+ GET /en 200 in 181ms
+ ✓ Compiled in 573ms (980 modules)
+ GET /en 200 in 265ms
+ ✓ Compiled in 3.8s (2182 modules)
+ GET /en 200 in 668ms
+ ✓ Compiled in 2.9s (2178 modules)
+ GET /en 200 in 605ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 702ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 686ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 560ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 553ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/app/[locale]/page.tsx
+Attempted import error: 'Work' is not exported from '@/features' (imported as 'Work').
+
+Import trace for requested module:
+./src/app/[locale]/page.tsx
+ GET /en 200 in 677ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 591ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 216ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 154ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 894ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 620ms
+ ⚠ ./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/components/index.ts
+export 'PricingToggle' (reexported as 'PricingToggle') was not found in './PricingToggle' (possible exports: CurrencyToggle)
+
+Import trace for requested module:
+./src/features/home/Pricing/components/index.ts
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 4331ms
+ GET /en 200 in 108ms
+ ⚠ ./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+
+./src/features/home/Pricing/index.tsx
+Attempted import error: 'CurrencyToggle' is not exported from './components' (imported as 'CurrencyToggle').
+
+Import trace for requested module:
+./src/features/home/Pricing/index.tsx
+ GET /en 200 in 740ms
+ ✓ Compiled in 5.5s (2173 modules)
+ GET /en 200 in 1097ms
+ ✓ Compiled in 9.3s (2170 modules)
+ GET /en 200 in 1588ms
+ GET /en 200 in 555ms
+ GET /en 200 in 220ms
+ GET /en 200 in 200ms
+ GET /en 200 in 177ms
+ GET /en 200 in 255ms
+ GET /en 200 in 216ms
+ GET /en 200 in 160ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 3868ms
+ ○ Compiling /[locale]/samples ...
+ ✓ Compiled /[locale]/samples in 11.4s (2181 modules)
+ ✓ Compiled in 3.1s (977 modules)
+ GET /en/samples 200 in 17761ms
+ GET /en/samples 200 in 813ms
+ GET /en/samples 200 in 939ms
+ GET /en/samples 200 in 320ms
+ GET /en/samples 200 in 199ms
+ GET /en/samples 200 in 211ms
+ GET /en/samples 200 in 180ms
+ GET /en 200 in 417ms
+ GET /en 200 in 181ms
+ GET /en 200 in 811ms
+ GET /en 200 in 471ms
+ GET /en 200 in 276ms
+ ✓ Compiled in 9.5s (2183 modules)
+ GET /en 200 in 1079ms
+ GET /en/samples 200 in 1009ms
+ ✓ Compiled in 3.5s (2183 modules)
+ GET /en/samples 200 in 891ms
+ GET /en 200 in 309ms
+ ✓ Compiled in 11.5s (2185 modules)
+ GET /en 200 in 1143ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 2573ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 863ms
+ ✓ Compiled in 7.8s (2185 modules)
+ GET /en 200 in 1033ms
+ ✓ Compiled in 3.7s (1206 modules)
+ ✓ Compiled in 801ms (1206 modules)
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 3523ms
+ ✓ Compiled in 3.8s (2185 modules)
+ ✓ Compiled in 1084ms (979 modules)
+ GET /en 200 in 936ms
+ GET /en 200 in 159ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 8851ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1760ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1373ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 894ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en 200 in 1423ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `fr`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `fr`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `fr`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `fr`.'
+}
+ GET /fr 200 in 1275ms
+Error: INVALID_MESSAGE: A message must be provided as a String or AST. (undefined)
+    at Testimonials (src\features\home\Testimonials\index.tsx:43:34)
+  41 |                   author={t(`reviews.${activeKey}.author`)}
+  42 |                   role={t(`reviews.${activeKey}.role`)}
+> 43 |                   rating={Number(t(`reviews.${activeKey}.rating`))}
+     |                                  ^
+  44 |                   activeIndex={activeIndex}
+  45 |                 />
+  46 |               </div> {
+  code: 'INVALID_MESSAGE',
+  originalMessage: 'A message must be provided as a String or AST. (undefined)'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `de`.
+    at eval (src\features\home\Contact\components\ContactInfo.tsx:65:29)
+    at Array.map (<anonymous>)
+    at ContactInfo (src\features\home\Contact\components\ContactInfo.tsx:60:29)
+  63 |                 href={href}
+  64 |                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
+> 65 |                 aria-label={tSocial(key)}
+     |                             ^
+  66 |               >
+  67 |                 <Icon className="w-5 h-5 text-white/70 group-hover:text-white transition-colors" />
+  68 |               </a> {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
+}
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `de`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
+}
+ GET /de 200 in 1537ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 17.1s (2195 modules)
+ ✓ Compiled in 3.3s (982 modules)
+ GET /en 200 in 1524ms
+ GET /en 200 in 278ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/about 200 in 25471ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 4.2s (2207 modules)
+ GET /en 200 in 708ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/contact 200 in 10940ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/samples 200 in 742ms
+ ○ Compiling /[locale]/privacy ...
+ ✓ Compiled /[locale]/privacy in 2.9s (2223 modules)
+ GET /en 200 in 520ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/privacy 200 in 8637ms
+ ○ Compiling /[locale]/terms ...
+ ✓ Compiled /[locale]/terms in 2.5s (2225 modules)
+ GET /en 200 in 559ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `en`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `en`.'
+}
+ GET /en/terms 200 in 9154ms
+Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages for locale `de`.
+    at eval (src\layouts\Footer\components\SocialLinks.tsx:13:50)
+    at Array.map (<anonymous>)
+    at SocialLinks (src\layouts\Footer\components\SocialLinks.tsx:12:20)
+  11 |     <div className="flex gap-4">
+  12 |       {socialLinks.map(({ key, href, icon: Icon }) => (
+> 13 |         <SocialIcon key={key} href={href} label={t(key)} external>
+     |                                                  ^
+  14 |           <Icon className="w-5 h-5" />
+  15 |         </SocialIcon>
+  16 |       ))} {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'Could not resolve `contact.info.whatsapp` in messages for locale `de`.'
+}
+ GET /de/about 200 in 615ms

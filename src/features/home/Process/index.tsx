@@ -20,10 +20,7 @@ export function Process() {
           subtitle={t("subtitle")}
         />
 
-        <div className="relative">
-          {/* Vertical line */}
-          <div className="absolute start-[39px] top-0 bottom-0 w-[2px] bg-white/30 md:start-1/2"></div>
-
+        <div className="relative max-w-3xl">
           {processSteps.map((step, index) => (
             <ProcessStep
               key={step.key}

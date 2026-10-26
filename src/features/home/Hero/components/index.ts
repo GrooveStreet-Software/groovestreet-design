@@ -4,3 +4,4 @@ export { HeroShape } from "./HeroShape";
 export { HeroShapeLines } from "./HeroShapeLines";
 export { HeroShapeCore } from "./HeroShapeCore";
 export { HeroScrollIndicator } from "./HeroScrollIndicator";
+export { HeroStats } from "./HeroStats";

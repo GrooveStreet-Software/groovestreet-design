@@ -1,17 +1,17 @@
 import type { ReactNode } from "react";
 import "@/styles/globals.css";
-import { Inter, Noto_Sans_Arabic } from "next/font/google";
+import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ThemeProvider, QueryProvider } from "@/providers";
 import { FloatingCursor } from "@/components";
+import { BottomNav } from "@/layouts";
 import { routing, getDirection, openGraphLocales } from "@/i18n";
 import { SITE_URL } from "@/lib";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const notoSansArabic = Noto_Sans_Arabic({ subsets: ["arabic"] });
 
 interface LocaleLayoutProps {
   children: ReactNode;
@@ -86,16 +86,14 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
-  const font = locale === "ar" ? notoSansArabic : inter;
-
   return (
     <html
       lang={locale}
-      dir={getDirection(locale)}
+      dir={getDirection()}
       className={`dark ${inter.variable}`}
       suppressHydrationWarning
     >
-      <body className={`${font.className} bg-black mx-auto max-w-[1440px]`}>
+      <body className={`${inter.className} bg-black mx-auto max-w-[1440px] pb-16`}>
         <NextIntlClientProvider>
           <ThemeProvider
             attribute="class"
@@ -103,6 +101,7 @@ export default async function LocaleLayout({
             enableSystem={false}
           >
             <QueryProvider>{children}</QueryProvider>
+            <BottomNav />
           </ThemeProvider>
           <FloatingCursor />
         </NextIntlClientProvider>

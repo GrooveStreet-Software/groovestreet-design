@@ -34,7 +34,7 @@ export function useTextGenerate({
     }, initialDelay * 1000);
 
     return () => clearTimeout(timer);
-  }, [scope.current, animate, duration, filter, speed, initialDelay]);
+  }, [animate, duration, filter, speed, initialDelay]);
 
   return { scope };
 }

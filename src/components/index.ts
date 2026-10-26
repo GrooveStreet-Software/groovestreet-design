@@ -3,3 +3,4 @@ export { FloatingCursor } from "./FloatingCursor";
 export { TextGenerateEffect } from "./TextGenerateEffect";
 export { Logo } from "./Logo";
 export { LocaleSwitcher } from "./LocaleSwitcher";
+export { Reveal } from "./Reveal";

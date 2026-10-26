@@ -3,6 +3,7 @@
 import { Quote } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { SectionHeader, Card } from "@/components/ui";
+import { Reveal } from "@/components";
 import { testimonialItems } from "./constants";
 import { useTestimonials } from "./hooks";
 import {
@@ -19,40 +20,44 @@ export function Testimonials() {
   return (
     <section className="py-24 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-8 relative z-10">
-        <SectionHeader
-          label={t("label")}
-          title={t("title")}
-          subtitle={t("subtitle")}
-        />
+        <Reveal>
+          <SectionHeader
+            label={t("label")}
+            title={t("title")}
+            subtitle={t("subtitle")}
+          />
+        </Reveal>
 
-        <div className="max-w-4xl mx-auto">
-          <Card className="relative p-8 md:p-12">
-            <div className="absolute top-6 end-8 text-white/10 opacity-60">
-              <Quote size={120} />
-            </div>
+        <Reveal delay={100}>
+          <div className="max-w-4xl mx-auto">
+            <Card className="relative p-8 md:p-12">
+              <div className="absolute top-6 end-8 text-white/10 opacity-60">
+                <Quote size={120} />
+              </div>
 
-            <div className="relative z-10">
-              <TestimonialQuote
-                quote={t(`items.${activeKey}.quote`)}
-                author={t(`items.${activeKey}.author`)}
-                role={t(`items.${activeKey}.role`)}
-                activeIndex={activeIndex}
+              <div className="relative z-10">
+                <TestimonialQuote
+                  quote={t(`reviews.${activeKey}.quote`)}
+                  author={t(`reviews.${activeKey}.author`)}
+                  role={t(`reviews.${activeKey}.role`)}
+                  rating={Number(t(`reviews.${activeKey}.rating`))}
+                  activeIndex={activeIndex}
+                />
+              </div>
+
+              <TestimonialPagination
+                current={activeIndex}
+                total={testimonialItems.length}
               />
-            </div>
 
-            <TestimonialPagination
-              current={activeIndex}
-              total={testimonialItems.length}
-            />
+              <TestimonialControls onPrev={prev} onNext={next} />
+            </Card>
+          </div>
+        </Reveal>
 
-            <TestimonialControls onPrev={prev} onNext={next} />
-          </Card>
-        </div>
+        <div className="absolute top-40 end-20 w-56 h-56 border border-white/5"></div>
+        <div className="absolute bottom-20 start-10 w-32 h-32 border-2 border-white/10"></div>
       </div>
-
-      {/* Visual accent elements */}
-      <div className="absolute top-40 end-20 w-56 h-56 border border-white/5"></div>
-      <div className="absolute bottom-20 start-10 w-32 h-32 border-2 border-white/10"></div>
     </section>
   );
 }

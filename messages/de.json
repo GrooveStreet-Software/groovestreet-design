@@ -1,0 +1,472 @@
+{
+  "metadata": {
+    "title": "GROOVESTREET — Ihr Geschäft digital stärken",
+    "siteName": "GROOVESTREET",
+    "description": "Premium Design und Umsetzung zu Preisen für wachsende Unternehmen. Feste UGX-Angebote, schriftliche Launch-Termine. Sitz in Kampala, für Ostafrika und weltweit.",
+    "ogImageAlt": "GROOVESTREET Website-Vorschau"
+  },
+  "common": {
+    "brand": "GROOVESTREET",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "localeSwitcher": {
+    "switchTo": "Sprache wechseln zu {language}",
+    "names": {
+      "en": "English",
+      "fr": "Français",
+      "de": "Deutsch"
+    }
+  },
+  "navigation": {
+    "features": "Leistungen",
+    "work": "Muster",
+    "process": "Ablauf",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "hero": {
+    "badge": "Webdesign · Kampala",
+    "headline": {
+      "line1": "GROOVE",
+      "line2": "STREET",
+      "line3": "DESIGN"
+    },
+    "description": "Premium Websites und digitale Tools für wachsende Unternehmen. Feste UGX-Angebote. Launch-Termine schriftlich. Ein Mensch, eine KI, null Übergaben.",
+    "primaryCta": "Projekt starten",
+    "secondaryCta": "Preise ansehen",
+    "build": "Bauen"
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "30+",
+        "label": "Websites built"
+      },
+      {
+        "value": "200+",
+        "label": "Posters & flyers designed"
+      },
+      {
+        "value": "50+",
+        "label": "Clients served"
+      },
+      {
+        "value": "90%",
+        "label": "5-star reviews"
+      }
+    ]
+  },
+  "features": {
+    "label": "Was wir tun",
+    "title": "Gestalten. Bauen.",
+    "subtitle": "Starten.",
+    "note": "Wir gestalten digitale Logos, Flyer und Poster.",
+    "items": {
+      "minimalist": {
+        "title": "Website Design & Umsetzung",
+        "why": "Ihre Website ist Ihr Verkaufsraum — sie ist der erste Eindruck, den Kunden von Ihrem Geschäft bekommen. Wir bauen schnell, mobilfreundlich und so, dass Anfragen tatsächlich ankommen.",
+        "image": "/hotel-assets/banner.jpg"
+      },
+      "brutalist": {
+        "title": "Website nach Maß",
+        "why": "Für Unternehmen, die online ernst genommen werden wollen: ein eigenes Design, klar strukturierte Seiten und Formulare, die zu Kontaktanfragen führen — nicht nur schön aussehen.",
+        "image": "/saaspro-assets/banner.webp"
+      },
+      "responsive": {
+        "title": "Grafikdesign",
+        "why": "Flyer, Poster und Social-Media-Grafiken, die Ihre Marke erkennbar machen. Einheitlich, druckfertig und in 48 Stunden statt erst in 48 Tagen.",
+        "image": "/tech-assets/banner.webp"
+      },
+      "performance": {
+        "title": "Online-Sichtbarkeit",
+        "why": "Sie finden uns, oder Ihre Kunden finden Sie nicht. Wir richten Google Maps, Suche und Analytics ein, damit Ihre Kunden Sie tatsächlich finden.",
+        "image": "/juicy-assets/images/can/lemon.webp"
+      }
+    }
+  },
+  "liveSample": {
+    "label": "Live-Muster",
+    "title": "Eine Website,",
+    "subtitle": "live ansehen",
+    "description": "So sieht eine von uns gebaute Website aus. Diese Seite läuft bereits online — klicken und selbst prüfen.",
+    "cta": "Live-Ansicht öffnen",
+    "newTabHint": "Öffnet in einem neuen Tab",
+    "liveBadge": "Live",
+    "viewAll": "Alle Muster ansehen",
+    "url": "https://hotel-groovestreet-live.netlify.app/"
+  },
+  "samples": {
+    "label": "Template-Vorschauen",
+    "title": "Einseitige",
+    "subtitle": "Muster",
+    "viewAll": "Alle Muster ansehen",
+    "openPreview": "Vorschau öffnen",
+    "newTabHint": "Öffnet in einem neuen Tab",
+    "items": {
+      "hotel": {
+        "title": "Hotel GrooveStreet",
+        "subtitle": "Luxushotel",
+        "description": "Landingpage für ein Luxushotel mit dunkler und goldener Palette: Hero, Reservierungsleiste, Über uns, Zimmer, Restaurant & Pool, Galerie und Footer."
+      },
+      "juicy": {
+        "title": "Juicy",
+        "subtitle": "3D-Produktpräsentation",
+        "description": "Einseitige Website für eine Premium-Saftmarke mit 3D-Dosenkarussell, animiertem Wellenhintergrund und dynamischem Farbschema je Geschmack."
+      },
+      "saaspro": {
+        "title": "SAASPRO",
+        "subtitle": "SaaS-Landingpage",
+        "description": "Helle SaaS-Landingpage mit neun Abschnitten: Hero, Feature-Grid, Referenzen, Preise, Bewertungen, FAQ und Footer."
+      },
+      "tech": {
+        "title": "Tech Landing",
+        "subtitle": "SaaS/Tech-Landingpage",
+        "description": "Dunkle Tech-Landingpage mit neun Abschnitten: Hero, Features, Entwickler-Bereich, Sicherheit, Portfolio, Bewertungen und Preise."
+      }
+    }
+  },
+  "process": {
+    "label": "So arbeiten wir",
+    "title": "Einfacher",
+    "subtitle": "Ablauf",
+    "steps": {
+      "discovery": {
+        "title": "Kennenlernen",
+        "description": "Sie erzählen uns von Ihrem Geschäft. Wir hören zu und planen."
+      },
+      "strategy": {
+        "title": "Angebot",
+        "description": "Fester UGX-Preis. Schriftlicher Zeitplan. Keine Überraschungen."
+      },
+      "design": {
+        "title": "Gestaltung",
+        "description": "Wir gestalten, Sie prüfen. Drei Überarbeitungsrunden inklusive."
+      },
+      "development": {
+        "title": "Umsetzung",
+        "description": "Wir bauen und testen auf echten Geräten — Android und iPhone."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Sie gehen live. Volles Eigentum. Zwei Wochen kostenloser Support."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Bewertungen",
+    "title": "Was Kunden",
+    "subtitle": "sagen",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "position": "{current} / {total}",
+    "reviews": {
+      "sarah": {
+        "quote": "Sie haben meine Restaurant-Website in zwei Wochen gebaut. Ich bekomme jetzt jeden Tag Buchungsanrufe.",
+        "author": "Sarah Nakato",
+        "role": "Inhaberin, Restaurant Kampala",
+        "rating": 5
+      },
+      "michael": {
+        "quote": "Professionell, schnell, und der WhatsApp-Bot spart mir jeden Tag Stunden.",
+        "author": "Michael Okello",
+        "role": "Gründer, Okello Designs",
+        "rating": 5
+      },
+      "emily": {
+        "quote": "Fester Preis, klare Fristen, und genau geliefert, was versprochen wurde.",
+        "author": "Emily Achieng",
+        "role": "Direktorin, Achieng Academy",
+        "rating": 5
+      },
+      "david": {
+        "quote": "Meine Flyer sehen aus wie aus dem Druckerei-Katalog — aber in 48 Stunden statt zwei Wochen.",
+        "author": "David Ssemwanga",
+        "role": "Geschäftsführer, Ssemwanga Motors",
+        "rating": 5
+      },
+      "grace": {
+        "quote": "Endlich eine Agentur, die auf Deutsch erklärt, was sie tut. Und das Ergebnis spricht für sich.",
+        "author": "Grace Mukasa",
+        "role": "Marketing, Mukasa Events",
+        "rating": 4
+      },
+      "peter": {
+        "quote": "Der Google-Maps-Eintrag allein hat mehr Kunden gebracht als mein ehemaliger Webdesigner in zwei Jahren.",
+        "author": "Peter Kigozi",
+        "role": "Inhaber, Kigozi Pharmacy",
+        "rating": 5
+      }
+    }
+  },
+  "pricing": {
+    "label": "Preise",
+    "title": "Feste",
+    "popular": "Beliebt",
+    "currencyToggle": "Anzeige in",
+    "ugx": "UGX",
+    "usd": "USD",
+    "rateNote": "Umrechnung zum Tageskurs, nur zur Orientierung.",
+    "plans": {
+      "basic": {
+        "name": "Landing Page",
+        "description": "Einseitige Website oder Portfolio",
+        "price": 200000,
+        "timeline": "3–5 Tage",
+        "features": [
+          "Eine hochkonvertierende Seite",
+          "Mobilfreundliches Design",
+          "WhatsApp- & Anruf-Buttons",
+          "Google Maps Einrichtung",
+          "Volles Eigentum"
+        ],
+        "cta": "Loslegen"
+      },
+      "standard": {
+        "name": "Website nach Maß",
+        "description": "5–10 Seiten",
+        "price": 500000,
+        "timeline": "2–3 Wochen",
+        "features": [
+          "5–10 Seiten",
+          "Eigenes Design",
+          "Formular + WhatsApp-Anbindung",
+          "Suchmaschinen-Einrichtung",
+          "2 Wochen Support"
+        ],
+        "cta": "Loslegen"
+      },
+      "premium": {
+        "name": "Signature / E-Commerce",
+        "description": "Online-Shop mit Zahlung",
+        "price": 1300000,
+        "timeline": "3–6 Wochen",
+        "features": [
+          "Bis zu 12 Seiten + Blog",
+          "Marken-Auffrischung",
+          "Online-Shop (MoMo + Airtel)",
+          "Analytics-Einrichtung",
+          "30 Tage Support"
+        ],
+        "cta": "Kontakt aufnehmen"
+      },
+      "graphic": {
+        "name": "Grafikdesign",
+        "description": "Digitale Logos, Flyer, Poster",
+        "price": 20000,
+        "timeline": "48 Stunden",
+        "features": [
+          "Digitale Logos",
+          "Flyer & Poster",
+          "Social-Media-Grafiken",
+          "Druckfertige Dateien",
+          "2 Überarbeitungsrunden"
+        ],
+        "cta": "Design anfragen"
+      }
+    }
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Lassen Sie uns",
+    "subtitle": "bauen",
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Ihr Name"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeholder": "ihre.email@beispiel.com"
+        },
+        "message": {
+          "label": "Nachricht",
+          "placeholder": "Erzählen Sie uns von Ihrem Projekt..."
+        }
+      },
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Danke. Wir antworten innerhalb von 24 Stunden.",
+      "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "validation": {
+        "nameRequired": "Bitte geben Sie Ihren Namen ein.",
+        "emailRequired": "Bitte geben Sie Ihre E-Mail ein.",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail ein.",
+        "messageRequired": "Bitte schreiben Sie eine Nachricht."
+      }
+    },
+    "info": {
+      "title": "Kontakt aufnehmen",
+      "email": "E-Mail",
+      "phone": "Telefon / WhatsApp",
+      "address": "Adresse",
+      "street": "Kampala, Uganda",
+      "city": "Ostafrika",
+      "country": "Weltweit",
+      "social": "WhatsApp"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} GROOVESTREET. Ihr Geschäft digital stärken.",
+    "legal": {
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    }
+  },
+  "pages": {
+    "contact": {
+      "title": "Kontakt — GROOVESTREET",
+      "description": "Kontaktieren Sie GROOVESTREET. Anrufen, E-Mail oder WhatsApp.",
+      "label": "Kontakt",
+      "heading": "Kontakt aufnehmen",
+      "subtitle": "Wir antworten innerhalb von 24 Stunden",
+      "channels": {
+        "email": {
+          "title": "E-Mail"
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "hint": "Öffnet WhatsApp"
+        },
+        "phone": {
+          "title": "Telefon"
+        }
+      },
+      "locationTitle": "Standort & Öffnungszeiten",
+      "hoursLabel": "Öffnungszeiten",
+      "coverageLabel": "Reichweite:",
+      "coverage": "Sitz in Kampala, für Ostafrika und weltweit",
+      "routingTitle": "Wohin gehen Nachrichten?",
+      "routingLead": "Nachrichten aus dem Formular werden an",
+      "routingAnd": "Sie erreichen uns auch direkt über WhatsApp oder Telefon unter"
+    },
+    "about": {
+      "title": "Über uns — GROOVESTREET",
+      "description": "Lernen Sie GROOVESTREET kennen: ein Design-Studio in Kampala, ein Mensch und eine KI.",
+      "label": "Über uns",
+      "heading": "Das Studio",
+      "subtitle": "Ein Mensch + eine KI",
+      "whoTitle": "Wer wir sind",
+      "whoBody": "GROOVESTREET ist ein Software-Design-Studio mit Sitz in Kampala, Uganda. Wir gestalten und bauen Premium-Websites und digitale Tools für wachsende Unternehmen in Ostafrika und darüber hinaus.",
+      "whoBody2": "Wir sind ein Mensch und eine KI — menschliche Vision trifft Maschinengeschwindigkeit. Das bedeutet schnellere Lieferung, niedrigere Kosten und eine Qualität, die eine klassische Agentur mit dieser Struktur nicht erreichen könnte.",
+      "whatTitle": "Was wir tun",
+      "howTitle": "So arbeiten wir",
+      "howBody": "Unser Ablauf ist einfach: Kennenlernen, Angebot, Gestaltung, Umsetzung, Launch. Sie erzählen uns von Ihrem Geschäft, wir machen ein festes UGX-Angebot mit schriftlichem Zeitplan — dann gestalten, bauen und testen wir auf echten Geräten.",
+      "teamTitle": "Das Team",
+      "teamSubtitle": "Drei Leute, ein Studio",
+      "motivationLabel": "Warum wir es tun",
+      "linksLabel": "So finden Sie uns",
+      "contactTitle": "Kontakt",
+      "members": {
+        "atigo": {
+          "name": "Atigo Paul Odoch",
+          "role": "Teamleiter & Gründer",
+          "image": "/team/atigo.svg",
+          "description": "Atigo leitet das Studio und jede Kundenbeziehung. Er hört zu, gestaltet den Ansatz und sorgt dafür, dass das Ergebnis hält, was das Angebot verspricht.",
+          "motivation": "Er hat gesehen, wie viele gute Geschäfte in Uganda online unsichtbar bleiben. Er gründete GROOVESTREET, um das zu ändern — zu Preisen, die ein wachsendes Unternehmen wirklich zahlen kann.",
+          "links": {
+            "portfolio": "Portfolio",
+            "whatsapp": "WhatsApp"
+          },
+          "portfolioUrl": "https://atigo.netlify.app",
+          "email": "atgodoch@gmail.com"
+        },
+        "josh": {
+          "name": "Okello Josh",
+          "role": "Entwicklung & Technik",
+          "image": "/team/josh.svg",
+          "description": "Josh baut, was entworfen wird. Er setzt Websites, Formulare und Integrationen um und testet jede Seite auf echten Geräten, bevor sie live geht.",
+          "motivation": "Er will, dass Technik bei Kunden ankommt, nicht nur funktioniert. Sauberer Code, schnelle Ladezeit, keine Überraschungen nach dem Launch.",
+          "links": {
+            "portfolio": "Portfolio",
+            "whatsapp": "WhatsApp"
+          },
+          "portfolioUrl": "https://atigo.netlify.app",
+          "email": "atgodoch@gmail.com"
+        },
+        "emily": {
+          "name": "Achieng Emily",
+          "role": "Design & Marke",
+          "image": "/team/emily.svg",
+          "description": "Emily gestaltet Logos, Flyer, Poster und die visuelle Seite jeder Website. Sie hält alles konsistent und zur Marke treu.",
+          "motivation": "Sie glaubt, dass gutes Design kein Luxus ist, sondern die günstigste Form der Werbung. Ein starkes Flyer oder Logo arbeitet weiter für das Geschäft, solange es in der Hand ist.",
+          "links": {
+            "portfolio": "Portfolio",
+            "whatsapp": "WhatsApp"
+          },
+          "portfolioUrl": "https://atigo.netlify.app",
+          "email": "atgodoch@gmail.com"
+        }
+      }
+    },
+    "privacy": {
+      "title": "Datenschutz — GROOVESTREET",
+      "description": "Wie GROOVESTREET Ihre Daten erhebt, nutzt und schützt.",
+      "label": "Rechtliches",
+      "heading": "Datenschutzerklärung",
+      "updated": "Zuletzt aktualisiert: {date}",
+      "sections": [
+        {
+          "h": "Was wir erheben",
+          "p": "Wenn Sie uns über das Kontaktformular schreiben, erheben wir Ihren Namen, Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht. Wir betreiben keine Werbe-Tracker und verkaufen keine Daten."
+        },
+        {
+          "h": "Wie wir sie nutzen",
+          "p": "Wir verwenden Ihre Angaben ausschließlich, um auf Ihre Anfrage zu antworten und die gewünschte Arbeit zu liefern. Wir setzen Sie niemals ohne Rückfrage auf eine Marketingliste."
+        },
+        {
+          "h": "Speicherdauer",
+          "p": "Anfragen werden 12 Monate aufbewahrt, dann gelöscht. Sie können jederzeit eine frühere Löschung verlangen."
+        },
+        {
+          "h": "Ihre Rechte",
+          "p": "Sie können die über Sie gespeicherten personenbezogenen Daten einsehen, berichtigen oder löschen lassen."
+        },
+        {
+          "h": "Kontakt",
+          "p": "Fragen zu dieser Erklärung richten Sie an die E-Mail-Adresse auf unserer Kontaktseite."
+        }
+      ]
+    },
+    "terms": {
+      "title": "AGB — GROOVESTREET",
+      "description": "Die Bedingungen für den Kauf eines Website- oder Designpakets bei GROOVESTREET.",
+      "label": "Rechtliches",
+      "heading": "Allgemeine Geschäftsbedingungen",
+      "updated": "Zuletzt aktualisiert: {date}",
+      "sections": [
+        {
+          "h": "Feste Angebote",
+          "p": "Jedes Projekt beginnt mit einem festen UGX-Preis und einem schriftlichen Launch-Termin. Ändert sich der Umfang, vereinbaren wir den neuen Preis schriftlich, bevor die zusätzliche Arbeit beginnt."
+        },
+        {
+          "h": "Überarbeitungen",
+          "p": "Die Design-Runden sind wie auf der Preisseite beschrieben im Angebot enthalten. Zusätzliche Runden werden separat ausgeschrieben."
+        },
+        {
+          "h": "Zahlung",
+          "p": "Wir bitten um 50 % Anzahlung zur Sicherung des Starttermins und den Rest beim Launch. Mobile Money und Banküberweisung werden akzeptiert."
+        },
+        {
+          "h": "Eigentum",
+          "p": "Nach Begleichung der Schlussrechnung gehören Ihnen die gelieferte Arbeit vollständig, einschließlich Quelldateien und Ihrer Inhalte."
+        },
+        {
+          "h": "Support",
+          "p": "Jedes Paket enthält das auf der Preisseite genannte Supportfenster für Korrekturen an unserer gelieferten Arbeit."
+        },
+        {
+          "h": "Kontakt",
+          "p": "Fragen zu diesen Bedingungen richten Sie an die E-Mail-Adresse auf unserer Kontseite."
+        }
+      ]
+    }
+  }
+}

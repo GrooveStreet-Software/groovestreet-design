@@ -90,8 +90,6 @@ export function useFloatingCursor() {
         };
 
         const handleMouseUp = () => setClicked(false);
-        const handleMouseEnterLink = () => setLinkHovered(true);
-        const handleMouseLeaveLink = () => setLinkHovered(false);
 
         requestRef.current = requestAnimationFrame(animateCursor);
 
@@ -99,21 +97,28 @@ export function useFloatingCursor() {
         window.addEventListener("mousedown", handleMouseDown);
         window.addEventListener("mouseup", handleMouseUp);
 
-        const links = document.querySelectorAll("a, button");
-        links.forEach((link) => {
-            link.addEventListener("mouseenter", handleMouseEnterLink);
-            link.addEventListener("mouseleave", handleMouseLeaveLink);
-        });
+        // Delegated: one listener covers links added after mount too, and there
+        // is nothing to detach per element.
+        const isInteractive = (target: EventTarget | null) =>
+            target instanceof Element && !!target.closest("a, button");
+
+        const handleOver = (e: MouseEvent) => {
+            if (isInteractive(e.target)) setLinkHovered(true);
+        };
+        const handleOut = (e: MouseEvent) => {
+            if (isInteractive(e.target)) setLinkHovered(false);
+        };
+
+        document.addEventListener("mouseover", handleOver);
+        document.addEventListener("mouseout", handleOut);
 
         return () => {
             if (requestRef.current) cancelAnimationFrame(requestRef.current);
             window.removeEventListener("mousemove", updatePosition);
             window.removeEventListener("mousedown", handleMouseDown);
             window.removeEventListener("mouseup", handleMouseUp);
-            links.forEach((link) => {
-                link.removeEventListener("mouseenter", handleMouseEnterLink);
-                link.removeEventListener("mouseleave", handleMouseLeaveLink);
-            });
+            document.removeEventListener("mouseover", handleOver);
+            document.removeEventListener("mouseout", handleOut);
         };
     }, [animateCursor, resetCursorPosition]);
 

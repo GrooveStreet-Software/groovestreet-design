@@ -1,5 +1,4 @@
-import { routing } from "./routing";
-
-export function getDirection(locale: string): "ltr" | "rtl" {
-  return locale === "ar" ? "rtl" : "ltr";
+/** Every active locale is left-to-right. */
+export function getDirection(): "ltr" | "rtl" {
+  return "ltr";
 }
