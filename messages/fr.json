@@ -41,7 +41,11 @@
     },
     "serviceSwitch": {
       "prefix": "PREMIUM",
-      "services": ["SITES WEB", "GRAPHISME", "OUTILS NUMÉRIQUES"],
+      "services": [
+        "SITES WEB",
+        "GRAPHISME",
+        "OUTILS NUMÉRIQUES"
+      ],
       "accessible": "Sites web, graphismes et outils numériques premium"
     },
     "description": "Nous mettons les entreprises en croissance en ligne avec des sites web, des graphismes et des outils numériques qui transforment les visiteurs en clients. Une équipe concentrée, amplifiée par l'IA.",
@@ -342,6 +346,18 @@
         "subtitle": "Landing SaaS/Tech",
         "description": "Page d'atterrissage tech sombre en 9 sections : héro, fonctionnalités, vitrine développeurs, sécurité, portfolio, témoignages, tarifs, appel à l'action et pied de page — compteurs animés et halo suivant le curseur.",
         "image": "/samples-shots/tech.jpg"
+      },
+      "dakatal": {
+        "title": "Dakatal",
+        "subtitle": "Healthcare in Mbale, Uganda",
+        "description": "Aperçu de la clinique de santé premium avec héro, services, médecins, formulaire de contact et pied de page.",
+        "image": "/samples-shots/dakatal.jpg"
+      },
+      "clinic": {
+        "title": "GrooveStreet Clinic",
+        "subtitle": "Healthcare in Mbale, Uganda",
+        "description": "Aperçu d'une seule page de GrooveStreet Clinic — soins de santé de premium à Mbale, en Ouganda, avec cardiologie, pédiatrie, maternité, laboratoire, pharmacie et une équipe médicale complète.",
+        "image": "/samples-shots/clinic.png"
       }
     }
   },

@@ -41,7 +41,11 @@
     },
     "serviceSwitch": {
       "prefix": "PREMIUM",
-      "services": ["WEBSITES", "GRAPHICS", "DIGITAL TOOLS"],
+      "services": [
+        "WEBSITES",
+        "GRAPHICS",
+        "DIGITAL TOOLS"
+      ],
       "accessible": "Premium websites, graphics and digital tools"
     },
     "description": "We put growing businesses online with websites, graphics and digital tools that turn visitors into customers. A focused team, amplified by AI.",
@@ -342,6 +346,18 @@
         "subtitle": "SaaS/Tech Landing",
         "description": "Dark tech SaaS landing with 9 sections: hero, features, developer showcase, security, portfolio, testimonials, pricing, CTA and footer — animated counters and cursor-tracked glow.",
         "image": "/samples-shots/tech.jpg"
+      },
+      "dakatal": {
+        "title": "Dakatal",
+        "subtitle": "Healthcare in Mbale, Uganda",
+        "description": "Premium healthcare clinic preview with hero, services, doctors, contact form and footer.",
+        "image": "/samples-shots/dakatal.jpg"
+      },
+      "clinic": {
+        "title": "GrooveStreet Clinic",
+        "subtitle": "Healthcare in Mbale, Uganda",
+        "description": "Single-page preview of GrooveStreet Clinic — premium healthcare in Mbale, Uganda, with cardiology, pediatrics, maternity, laboratory, pharmacy and a full medical team.",
+        "image": "/samples-shots/clinic.png"
       }
     }
   },
