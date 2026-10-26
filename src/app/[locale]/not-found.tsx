@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function NotFound() {
@@ -22,12 +23,12 @@ export default function NotFound() {
       {!show && (
         <div className="flex flex-col items-center justify-center gap-4">
           <p className="text-gray-400">The page has been removed or moved.</p>
-          <a
+          <Link
             href="/"
             className="rounded-lg bg-white px-6 py-3 font-semibold text-black transition hover:bg-gray-200"
           >
             Return to home
-          </a>
+          </Link>
         </div>
       )}
     </div>
