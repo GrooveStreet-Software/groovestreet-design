@@ -33,13 +33,18 @@
     "closeMenu": "Menü schließen"
   },
   "hero": {
-    "badge": "Webdesign · Kampala",
+    "badge": "Webdesign · Kampala · Für Afrika und darüber hinaus",
     "headline": {
       "line1": "GROOVE",
       "line2": "STREET",
       "line3": "DESIGN"
     },
-    "description": "Premium Websites und digitale Tools für wachsende Unternehmen. Feste UGX-Angebote. Launch-Termine schriftlich. Ein Mensch, eine KI, null Übergaben.",
+    "serviceSwitch": {
+      "prefix": "PREMIUM",
+      "services": ["WEBSITES", "GRAFIK", "DIGITALE TOOLS"],
+      "accessible": "Premium-Websites, Grafiken und digitale Tools"
+    },
+    "description": "Wir bringen wachsende Unternehmen online – mit Websites, Grafiken und digitalen Tools, die Besucher zu Kunden machen. Ein fokussiertes Team, verstärkt durch KI.",
     "primaryCta": "Projekt starten",
     "secondaryCta": "Preise ansehen",
     "build": "Bauen"
@@ -72,23 +77,33 @@
     "label": "Was wir machen",
     "title": "Design. Build.",
     "subtitle": "Launch.",
+    "pricingCta": "Preise ansehen",
     "items": {
       "minimalist": {
         "title": "Website-Design & Umsetzung",
+        "need": "Eine Website, die Besucher zu Anrufen und Buchungen macht.",
         "image": "/service-assets/website-design.jpg",
         "why": "Ihre Website ist Ihr Schaufenster — das erste, was Kunden sehen. Wir bauen sie schnell, mobil-optimiert und darauf ausgelegt, Anrufe und Nachrichten zu bringen."
       },
       "responsive": {
         "title": "Grafikdesign",
+        "need": "Markengrafiken, die überall scharf aussehen.",
         "image": "/service-assets/graphic-design.jpg",
         "why": "Flyer, Poster und Social-Media-Grafiken, die Ihre Marke erkennbar machen. Konsistent, druckfertig und in 48 Stunden geliefert — nicht in 48 Tagen."
       },
       "performance": {
         "title": "Online-Sichtbarkeit",
+        "need": "Auf Google, Maps und in der Suche gefunden werden, wenn es zählt.",
         "image": "/service-assets/online-visibility.jpg",
         "why": "Entweder Sie werden gefunden, oder nicht. Wir richten Google Maps, Suche und Analytics ein, damit Kunden Sie wirklich erreichen."
       }
     }
+  },
+  "graphics": {
+    "label": "Grafikdesign",
+    "title": "Ausgewählte",
+    "subtitle": "Arbeiten",
+    "note": "Logos, Flyer, Poster und Social-Grafiken, die den Scroll stoppen."
   },
   "liveSample": {
     "label": "Live-Beispiel",
@@ -98,7 +113,7 @@
     "url": "https://hotel-groovestreet-live.netlify.app/",
     "liveBadge": "Live",
     "newTabHint": "Öffnet in neuem Tab",
-    "viewAll": "Alle Beispiele"
+    "viewAll": "Mehr Beispiele"
   },
   "samples": {
     "label": "Vorlagen",
@@ -114,11 +129,17 @@
         "description": "Landingpage für ein Luxushotel mit dunkler und goldener Palette: Hero, Reservierungsleiste, Über uns, Zimmer, Restaurant & Pool, Galerie und Footer.",
         "image": "/samples-shots/hotel.jpg"
       },
-      "juicy": {
-        "title": "Juicy",
-        "subtitle": "3D-Produktpräsentation",
-        "description": "Einseitige Website für eine Premium-Saftmarke mit 3D-Dosenkarussell, animiertem Wellenhintergrund und dynamischem Farbschema je Geschmack.",
-        "image": "/samples-shots/juicy.jpg"
+      "feane": {
+        "title": "Feane",
+        "subtitle": "Schnellrestaurant",
+        "description": "Warme Schnellrestaurant-Website mit vollflächigem Hero, Menükarten, Sonderangeboten, Chefgeschichte, Galerie, Reservierungsformular und Kontaktseite.",
+        "image": "/samples-shots/feane.jpg"
+      },
+      "sarab": {
+        "title": "Sarab",
+        "subtitle": "Modernes Schnellrestaurant",
+        "description": "Markante Schnellrestaurant-Website mit filterbarem Menü, Angebots-Countdown, Galerie-Lightbox, Chefprofilen, Reservierungen und Kundenbewertungen.",
+        "image": "/samples-shots/sarab.jpg"
       },
       "saaspro": {
         "title": "SAASPRO",
@@ -183,21 +204,21 @@
       },
       "emily": {
         "quote": "Fester Preis, klare Fristen, und genau geliefert, was versprochen wurde.",
-        "author": "Emily Achieng",
-        "role": "Direktorin, Achieng Academy",
-        "rating": "5"
+        "author": "Emily Ashaba",
+        "role": "Direktorin, Ashaba Academy",
+        "rating": "4"
       },
       "david": {
         "quote": "Meine Flyer sehen aus wie aus dem Druckerei-Katalog — aber in 48 Stunden statt zwei Wochen.",
         "author": "David Ssemwanga",
         "role": "Geschäftsführer, Ssemwanga Motors",
-        "rating": "5"
+        "rating": "4"
       },
       "grace": {
         "quote": "Endlich eine Agentur, die auf Deutsch erklärt, was sie tut. Und das Ergebnis spricht für sich.",
         "author": "Grace Mukasa",
         "role": "Marketing, Mukasa Events",
-        "rating": "4"
+        "rating": "3"
       },
       "peter": {
         "quote": "Der Google-Maps-Eintrag allein hat mehr Kunden gebracht als mein ehemaliger Webdesigner in zwei Jahren.",
@@ -271,6 +292,20 @@
           "2 Überarbeitungsrunden"
         ],
         "cta": "Design anfragen"
+      },
+      "seo": {
+        "name": "SEO-Optimierung",
+        "description": "Auf Google, Maps und in der Suche gefunden werden",
+        "price": 100000,
+        "timeline": "Pro Monat",
+        "features": [
+          "Keyword-Recherche",
+          "On-Page-SEO",
+          "Google-Unternehmensprofil",
+          "Performance-Bericht",
+          "Lokale & internationale Suche"
+        ],
+        "cta": "Gefunden werden"
       }
     },
     "from": "ab"
@@ -279,6 +314,9 @@
     "label": "Kontakt",
     "title": "Lassen Sie uns",
     "subtitle": "bauen",
+    "whatsappCta": "Auf WhatsApp schreiben",
+    "whatsappLead": "Lieber WhatsApp? Starten Sie mit einer vorbereiteten Nachricht und sprechen Sie mit einem Menschen.",
+    "whatsappIntro": "Hallo GROOVESTREET, ich möchte über ein Projekt sprechen. Ich habe Sie online gefunden.",
     "form": {
       "fields": {
         "name": {
@@ -314,55 +352,49 @@
       "city": "Ostafrika",
       "country": "Weltweit",
       "social": "Soziale Medien",
-      "whatsapp": "WhatsApp"
+      "whatsapp": "WhatsApp",
+      "github": "GitHub"
+    },
+    "modal": {
+      "close": "Kontaktformular schließen",
+      "note": "Ein echter Mensch liest jede Nachricht. Wir antworten in der Regel innerhalb von 24 Stunden.",
+      "human": "Lieber persönlich sprechen? Rufen Sie uns an oder schreiben Sie uns auf WhatsApp — und danke, dass Sie GROOVESTREET in Betracht ziehen."
     }
   },
+  "contactMarquee": {
+    "aria": "Kontaktieren Sie GROOVESTREET",
+    "items": [
+      "Mit einem Menschen sprechen",
+      "Erzählen Sie uns von Ihrem Projekt",
+      "Feste Angebote. Echte Launch-Termine.",
+      "Danke, dass Sie GROOVESTREET in Betracht ziehen",
+      "Bauen wir etwas, das funktioniert"
+    ]
+  },
   "footer": {
-    "description": "GROOVESTREET ist ein Designstudio in Kampala, Uganda. Wir bauen Websites, Marken und Grafiken für wachsende Unternehmen — in Ostafrika und weltweit.",
+    "description": "GROOVESTREET ist ein Designstudio in Kampala, Uganda. Wir bauen Websites, Marken und Grafiken für wachsende Unternehmen — für Afrika und darüber hinaus.",
     "ctaTitle": "Bereit zum Bauen?",
     "ctaButton": "Kontakt",
+    "explore": "Entdecken",
+    "contact": "Kontakt",
+    "phoneWhatsApp": "Telefon / WhatsApp",
     "copyright": "© {year} GROOVESTREET. Digitizing Your Business.",
+    "builtBy": "Von Ugandern gebaut",
     "legal": {
       "privacy": "Datenschutz",
       "terms": "AGB"
     }
   },
   "pages": {
-    "contact": {
-      "title": "Kontakt — GROOVESTREET",
-      "description": "Kontaktieren Sie GROOVESTREET. Anrufen, E-Mail oder WhatsApp.",
-      "label": "Kontakt",
-      "heading": "Kontakt aufnehmen",
-      "subtitle": "Wir antworten innerhalb von 24 Stunden",
-      "channels": {
-        "email": {
-          "title": "E-Mail"
-        },
-        "whatsapp": {
-          "title": "WhatsApp",
-          "hint": "Öffnet WhatsApp"
-        },
-        "phone": {
-          "title": "Telefon"
-        }
-      },
-      "locationTitle": "Standort & Öffnungszeiten",
-      "hoursLabel": "Öffnungszeiten",
-      "coverageLabel": "Reichweite:",
-      "coverage": "Sitz in Kampala, für Ostafrika und weltweit",
-      "routingTitle": "Wohin gehen Nachrichten?",
-      "routingLead": "Nachrichten aus dem Formular werden an",
-      "routingAnd": "Sie erreichen uns auch direkt über WhatsApp oder Telefon unter"
-    },
     "about": {
       "title": "Über uns — GROOVESTREET",
-      "description": "Lernen Sie GROOVESTREET kennen: ein Design-Studio in Kampala, ein Mensch und eine KI.",
+      "description": "Lernen Sie GROOVESTREET kennen: ein Design-Studio in Kampala, in dem ein fokussiertes Team mit KI arbeitet.",
       "label": "Über uns",
       "heading": "Das Studio",
-      "subtitle": "Ein Mensch + eine KI",
+      "subtitle": "Ein Team, verstärkt durch KI",
       "whoTitle": "Wer wir sind",
       "whoBody": "GROOVESTREET ist ein Software-Design-Studio mit Sitz in Kampala, Uganda. Wir gestalten und bauen Premium-Websites und digitale Tools für wachsende Unternehmen in Ostafrika und darüber hinaus.",
-      "whoBody2": "Wir sind ein Mensch und eine KI — menschliche Vision trifft Maschinengeschwindigkeit. Das bedeutet schnellere Lieferung, niedrigere Kosten und eine Qualität, die eine klassische Agentur mit dieser Struktur nicht erreichen könnte.",
+      "whoBody2": "Wir sind ein fokussiertes Team, das KI als Werkzeug einsetzt – nicht als Ersatz für Handwerk. Diese Kombination lässt uns schneller arbeiten, Kosten niedrig halten und eine Qualität liefern, die eine klassische Agenturstruktur kaum erreichen würde.",
       "whatTitle": "Was wir tun",
       "howTitle": "So arbeiten wir",
       "howBody": "Unser Ablauf ist einfach: Kennenlernen, Angebot, Gestaltung, Umsetzung, Launch. Sie erzählen uns von Ihrem Geschäft, wir machen ein festes UGX-Angebot mit schriftlichem Zeitplan — dann gestalten, bauen und testen wir auf echten Geräten.",
@@ -371,6 +403,10 @@
       "motivationLabel": "Warum wir es tun",
       "linksLabel": "So finden Sie uns",
       "contactTitle": "Kontakt",
+      "contactCta": "Mit einem Menschen sprechen",
+      "contactLabel": "Kontakt aufnehmen",
+      "contactSubtitle": "Erzählen Sie uns von Ihrem Projekt. Wir antworten in der Regel innerhalb von 24 Stunden.",
+      "contactLead": "E-Mail, Anruf oder WhatsApp — ganz wie Sie möchten.",
       "members": {
         "atigo": {
           "name": "Atigo Paul Odoch",
@@ -399,7 +435,7 @@
           "email": "atgodoch@gmail.com"
         },
         "emily": {
-          "name": "Achieng Emily",
+          "name": "Ashaba Emily",
           "role": "Design & Marke",
           "image": "/team/emily.svg",
           "description": "Emily gestaltet Logos, Flyer, Poster und die visuelle Seite jeder Website. Sie hält alles konsistent und zur Marke treu.",

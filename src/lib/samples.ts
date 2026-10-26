@@ -20,25 +20,31 @@ export const samplePreviews: SamplePreview[] = [
     key: "brutalist",
     messageKey: "hotel",
     file: "/samples/hotel-real.html",
-    image: "/hotel-assets/banner.jpg",
+    image: "/samples-shots/hotel.jpg",
   },
   {
-    key: "monochrome",
-    messageKey: "juicy",
-    file: "/samples/juicy-real.html",
-    image: "/juicy-assets/images/can/lemon.webp",
+    key: "feane",
+    messageKey: "feane",
+    file: "/samples/feane-real.html",
+    image: "/samples-shots/feane.jpg",
+  },
+  {
+    key: "sarab",
+    messageKey: "sarab",
+    file: "/samples/sarab-real.html",
+    image: "/samples-shots/sarab.jpg",
   },
   {
     key: "minimal",
     messageKey: "saaspro",
     file: "/samples/saaspro-real.html",
-    image: "/saaspro-assets/banner.webp",
+    image: "/samples-shots/saaspro.jpg",
   },
   {
     key: "contrast",
     messageKey: "tech",
     file: "/samples/tech-real.html",
-    image: "/tech-assets/banner.webp",
+    image: "/samples-shots/tech.jpg",
   },
 ];
 
