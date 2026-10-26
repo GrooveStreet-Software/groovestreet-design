@@ -24,9 +24,10 @@
   },
   "navigation": {
     "features": "Services",
-    "work": "Modèles",
+    "work": "Exemples",
     "process": "Processus",
     "pricing": "Tarifs",
+    "about": "À propos",
     "contact": "Contact",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu"
@@ -44,32 +45,26 @@
     "build": "Construire"
   },
   "features": {
-    "label": "Ce Que Nous Faisons",
-    "title": "Concevoir. Construire.",
-    "subtitle": "Lancer.",
+    "label": "Ce que nous faisons",
+    "title": "Design. Build.",
+    "subtitle": "Launch.",
     "items": {
       "minimalist": {
         "title": "Conception & Réalisation de Sites",
-        "image": "/hotel-assets/banner.jpg",
-        "why": "Votre site est votre vitrine — c'est la première chose que vos clients voient. Nous le construisons rapidement, pensé mobile, et conçu pour générer des appels et des messages."
-      },
-      "brutalist": {
-        "title": "Site Sur Mesure",
-        "image": "/saaspro-assets/banner.webp",
-        "why": "Pour les entreprises qui veulent être prises au sérieux en ligne : votre propre design, des pages claires et des formulaires qui deviennent de vraies demandes."
+        "image": "/service-assets/website-design.jpg",
+        "why": "Votre site est votre vitrine — la première chose que les clients voient. Nous le construisons rapidement, mobile-first, pour générer appels et messages."
       },
       "responsive": {
         "title": "Design Graphique",
-        "image": "/tech-assets/banner.webp",
-        "why": "Affiches, flyers et visuels pour réseaux sociaux qui rendent votre marque reconnaissable. Cohérent, prêt à imprimer, livré en 48 heures."
+        "image": "/service-assets/graphic-design.jpg",
+        "why": "Flyers, affiches et visuels pour les réseaux sociaux qui rendent votre marque reconnaissable. Cohérent, prêt à imprimer, livré en 48 heures — pas 48 jours."
       },
       "performance": {
         "title": "Visibilité en Ligne",
-        "image": "/juicy-assets/images/can/lemon.webp",
-        "why": "Soit l'on vous trouve, soit on ne vous trouve pas. Nous configurons Google Maps, la recherche et les statistiques pour que vos clients vous atteignent."
+        "image": "/service-assets/online-visibility.jpg",
+        "why": "Soit vous êtes trouvé, soit vous ne l'êtes pas. Nous configurons Google Maps, la recherche et les statistiques pour que les clients vous atteignent vraiment."
       }
-    },
-    "note": "Nous faisons uniquement des logos numériques, des flyers et des affiches."
+    }
   },
   "process": {
     "label": "Comment Nous Travaillons",
@@ -146,7 +141,7 @@
   },
   "pricing": {
     "label": "Tarifs",
-    "title": "Fixes",
+    "title": "Abordable et Premium",
     "popular": "Populaire",
     "currencyToggle": "Afficher en",
     "ugx": "UGX",
@@ -209,7 +204,8 @@
         ],
         "cta": "Demander un design"
       }
-    }
+    },
+    "from": "à partir de"
   },
   "contact": {
     "label": "Contact",
@@ -254,39 +250,46 @@
     }
   },
   "footer": {
-    "copyright": "© {year} GROOVESTREET. Digitalisons Votre Entreprise.",
+    "description": "GROOVESTREET est un studio de design à Kampala, en Ouganda. Nous concevons sites web, marques et graphismes pour les entreprises en croissance — en Afrique de l'Est et dans le monde entier.",
+    "ctaTitle": "Prêt à construire ?",
+    "ctaButton": "Contactez-nous",
+    "copyright": "© {year} GROOVESTREET. Digitizing Your Business.",
     "legal": {
-      "privacy": "Politique de Confidentialité",
-      "terms": "Conditions d'Utilisation"
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
     }
   },
   "samples": {
-    "label": "Aperçus de templates",
-    "title": "Pages uniques",
+    "label": "Aperçus de Templates",
+    "title": "Aperçu",
     "subtitle": "Exemples",
-    "viewAll": "Voir tous les modèles",
+    "viewAll": "Voir tous les exemples",
     "openPreview": "Ouvrir l'aperçu",
     "newTabHint": "S'ouvre dans un nouvel onglet",
     "items": {
       "hotel": {
         "title": "Hotel GrooveStreet",
         "subtitle": "Hôtel de luxe",
-        "description": "Page d'atterrissage d'hôtel boutique de luxe aux tons sombres et dorés, typographies Cormorant Garamond + Jost : héro, barre de réservation, présentation, services, chambres, restaurant et piscine, galerie, témoignage, appel à l'action et pied de page."
+        "description": "Page d'atterrissage d'hôtel boutique de luxe aux tons sombres et dorés, typographies Cormorant Garamond + Jost : héro, barre de réservation, présentation, services, chambres, restaurant et piscine, galerie, témoignage, appel à l'action et pied de page.",
+        "image": "/samples-shots/hotel.jpg"
       },
       "juicy": {
         "title": "Juicy",
         "subtitle": "Vitrine produit 3D",
-        "description": "Page unique pour une marque de jus premium avec carrousel de canettes 3D, fond animé de vagues, fruits et glaçons flottants, et thème dynamique par saveur."
+        "description": "Page unique pour une marque de jus premium avec carrousel de canettes 3D, fond animé de vagues, fruits et glaçons flottants, et thème dynamique par saveur.",
+        "image": "/samples-shots/juicy.jpg"
       },
       "saaspro": {
         "title": "SAASPRO",
-        "subtitle": "Page SaaS",
-        "description": "Page d'atterrissage SaaS indigo clair en 9 sections : héro, grille de fonctionnalités, vitrines, tarifs, témoignages, FAQ, appel à l'action et pied de page — avec animations d'apparition et navigation fixe."
+        "subtitle": "Landing SaaS",
+        "description": "Page d'atterrissage SaaS indigo clair en 9 sections : héro, grille de fonctionnalités, vitrines, tarifs, témoignages, FAQ, appel à l'action et pied de page — avec animations d'apparition et navigation fixe.",
+        "image": "/samples-shots/saaspro.jpg"
       },
       "tech": {
         "title": "Tech Landing",
-        "subtitle": "Page SaaS/Tech",
-        "description": "Page d'atterrissage tech sombre en 9 sections : héro, fonctionnalités, vitrine développeurs, sécurité, portfolio, témoignages, tarifs, appel à l'action et pied de page — compteurs animés et halo suivant le curseur."
+        "subtitle": "Landing SaaS/Tech",
+        "description": "Page d'atterrissage tech sombre en 9 sections : héro, fonctionnalités, vitrine développeurs, sécurité, portfolio, témoignages, tarifs, appel à l'action et pied de page — compteurs animés et halo suivant le curseur.",
+        "image": "/samples-shots/tech.jpg"
       }
     }
   },
@@ -400,7 +403,7 @@
         "atigo": {
           "name": "Atigo Paul Odoch",
           "role": "Chef d'équipe & Fondateur",
-          "image": "/team/atigo.svg",
+          "image": "/team/atigo.jpg",
           "description": "Atigo dirige le studio et chaque relation client. Il écoute, définit l'approche et s'assure que le résultat tient les promesses du devis.",
           "motivation": "Il a vu trop de bonnes entreprises ougandaises rester invisibles en ligne. Il a créé GROOVESTREET pour changer cela — à des prix qu'une entreprise en croissance peut vraiment payer.",
           "links": {
@@ -443,31 +446,40 @@
     "items": [
       {
         "value": "30+",
-        "label": "Sites web réalisés"
+        "count": 30,
+        "label": "Sites"
       },
       {
         "value": "200+",
-        "label": "Affiches et flyers créés"
+        "count": 200,
+        "label": "Designs"
       },
       {
         "value": "50+",
-        "label": "Clients accompagnés"
+        "count": 50,
+        "label": "Clients"
       },
       {
         "value": "90%",
-        "label": "Avis 5 étoiles"
+        "count": 90,
+        "label": "5 étoiles"
       }
     ]
   },
   "liveSample": {
-    "label": "Exemple Live",
+    "label": "Exemple en direct",
     "title": "Un site,",
-    "subtitle": "déjà en ligne",
-    "description": "Voici un site que nous avons construit, déjà en ligne sur son propre domaine. Cliquez pour le voir comme vos clients.",
+    "subtitle": "en ligne",
+    "description": "Voici un site que nous avons construit, déjà en ligne sur son propre domaine — affiché ci-dessous exactement comme vos clients le verraient.",
     "url": "https://hotel-groovestreet-live.netlify.app/",
-    "cta": "Ouvrir l'Aperçu Live",
-    "newTabHint": "S'ouvre dans un nouvel onglet",
     "liveBadge": "Live",
+    "newTabHint": "S'ouvre dans un nouvel onglet",
     "viewAll": "Voir tous les exemples"
+  },
+  "trust": {
+    "label": "Éprouvé",
+    "title": "Testé, approuvé et fiable",
+    "subtitle": "Chaque site est vérifié sur de vrais appareils, dans de vrais navigateurs, avant de vous être livré.",
+    "partnersLabel": "Ils nous font confiance"
   }
 }

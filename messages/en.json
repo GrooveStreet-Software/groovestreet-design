@@ -27,6 +27,7 @@
     "work": "Samples",
     "process": "Process",
     "pricing": "Pricing",
+    "about": "About",
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
@@ -50,26 +51,20 @@
     "items": {
       "minimalist": {
         "title": "Website Design & Build",
-        "image": "/hotel-assets/banner.jpg",
-        "why": "Your website is your shopfront — it is the first thing customers see. We build it fast, mobile-first, and built to bring in calls and messages."
-      },
-      "brutalist": {
-        "title": "Custom Website",
-        "image": "/saaspro-assets/banner.webp",
-        "why": "For businesses that need to be taken seriously online: your own design, pages that read clearly, and forms that turn into enquiries rather than just looking good."
+        "image": "/service-assets/website-design.jpg",
+        "why": "Your website is your shopfront — the first thing customers see. We build it fast, mobile-first, and built to bring in calls and messages."
       },
       "responsive": {
         "title": "Graphic Design",
-        "image": "/tech-assets/banner.webp",
+        "image": "/service-assets/graphic-design.jpg",
         "why": "Flyers, posters and social media graphics that make your brand recognisable. Consistent, print-ready, and delivered in 48 hours — not 48 days."
       },
       "performance": {
         "title": "Online Visibility",
-        "image": "/juicy-assets/images/can/lemon.webp",
+        "image": "/service-assets/online-visibility.jpg",
         "why": "Either you are found, or you are not. We set up Google Maps, search and analytics so customers actually reach you."
       }
-    },
-    "note": "We only do digital logos, flyers and posters."
+    }
   },
   "process": {
     "label": "How We Work",
@@ -146,7 +141,7 @@
   },
   "pricing": {
     "label": "Pricing",
-    "title": "Fixed",
+    "title": "Affordable and Premium",
     "popular": "Popular",
     "currencyToggle": "Show in",
     "ugx": "UGX",
@@ -209,7 +204,8 @@
         ],
         "cta": "Request a Design"
       }
-    }
+    },
+    "from": "from"
   },
   "contact": {
     "label": "Contact",
@@ -254,6 +250,9 @@
     }
   },
   "footer": {
+    "description": "GROOVESTREET is a design studio in Kampala, Uganda. We build websites, brands and graphics for growing businesses — in East Africa and worldwide.",
+    "ctaTitle": "Ready to build?",
+    "ctaButton": "Contact Us",
     "copyright": "© {year} GROOVESTREET. Digitizing Your Business.",
     "legal": {
       "privacy": "Privacy Policy",
@@ -262,7 +261,7 @@
   },
   "samples": {
     "label": "Template Previews",
-    "title": "One-Page",
+    "title": "Preview",
     "subtitle": "Samples",
     "viewAll": "View All Samples",
     "openPreview": "Open preview",
@@ -271,22 +270,26 @@
       "hotel": {
         "title": "Hotel GrooveStreet",
         "subtitle": "Luxury Hotel",
-        "description": "Luxury boutique hotel landing page with a dark & gold palette and Cormorant Garamond + Jost typography: hero, reservation bar, about, amenities, rooms, dining & pool, gallery, testimonial, CTA and footer."
+        "description": "Luxury boutique hotel landing page with a dark & gold palette and Cormorant Garamond + Jost typography: hero, reservation bar, about, amenities, rooms, dining & pool, gallery, testimonial, CTA and footer.",
+        "image": "/samples-shots/hotel.jpg"
       },
       "juicy": {
         "title": "Juicy",
         "subtitle": "3D Product Showcase",
-        "description": "Premium juice brand single-page with 3D can carousel, animated water-wave background, floating fruits/ice cubes, and dynamic theming per flavor."
+        "description": "Premium juice brand single-page with 3D can carousel, animated water-wave background, floating fruits/ice cubes, and dynamic theming per flavor.",
+        "image": "/samples-shots/juicy.jpg"
       },
       "saaspro": {
         "title": "SAASPRO",
         "subtitle": "SaaS Landing",
-        "description": "Bright indigo SaaS landing page with 9 sections: hero, feature grid, showcases, pricing, testimonials, FAQ, CTA and footer — plus reveal animations and a sticky nav."
+        "description": "Bright indigo SaaS landing page with 9 sections: hero, feature grid, showcases, pricing, testimonials, FAQ, CTA and footer — plus reveal animations and a sticky nav.",
+        "image": "/samples-shots/saaspro.jpg"
       },
       "tech": {
         "title": "Tech Landing",
         "subtitle": "SaaS/Tech Landing",
-        "description": "Dark tech SaaS landing with 9 sections: hero, features, developer showcase, security, portfolio, testimonials, pricing, CTA and footer — animated counters and cursor-tracked glow."
+        "description": "Dark tech SaaS landing with 9 sections: hero, features, developer showcase, security, portfolio, testimonials, pricing, CTA and footer — animated counters and cursor-tracked glow.",
+        "image": "/samples-shots/tech.jpg"
       }
     }
   },
@@ -400,7 +403,7 @@
         "atigo": {
           "name": "Atigo Paul Odoch",
           "role": "Team Lead & Founder",
-          "image": "/team/atigo.svg",
+          "image": "/team/atigo.jpg",
           "description": "Atigo leads the studio and every client relationship. He listens, shapes the approach, and makes sure the result delivers what the quote promised.",
           "motivation": "He watched too many good businesses in Uganda stay invisible online. He built GROOVESTREET to stop that — at prices a growing business can actually pay.",
           "links": {
@@ -443,19 +446,23 @@
     "items": [
       {
         "value": "30+",
-        "label": "Websites built"
+        "count": 30,
+        "label": "Websites"
       },
       {
         "value": "200+",
-        "label": "Posters & flyers designed"
+        "count": 200,
+        "label": "Designs"
       },
       {
         "value": "50+",
-        "label": "Clients served"
+        "count": 50,
+        "label": "Clients"
       },
       {
         "value": "90%",
-        "label": "5-star reviews"
+        "count": 90,
+        "label": "5-star rated"
       }
     ]
   },
@@ -463,11 +470,16 @@
     "label": "Live Sample",
     "title": "A website,",
     "subtitle": "running live",
-    "description": "This is a site we built, already live on its own domain. Click to see it exactly as your customers would.",
+    "description": "This is a site we built, already live on its own domain — running below exactly as your customers would see it.",
     "url": "https://hotel-groovestreet-live.netlify.app/",
-    "cta": "Open Live Preview",
-    "newTabHint": "Opens in a new tab",
     "liveBadge": "Live",
+    "newTabHint": "Opens in a new tab",
     "viewAll": "View All Samples"
+  },
+  "trust": {
+    "label": "Proven",
+    "title": "Tested Approved And Trusted",
+    "subtitle": "Every site is checked on real devices, in real browsers, before it reaches you.",
+    "partnersLabel": "Trusted by teams at"
   }
 }

@@ -250,7 +250,7 @@ describe("GROOVESTREET Site", () => {
 
     it("team members have images, motivation and links", async () => {
       const { html } = await fetchOk("/en/about");
-      expect(html).toContain("/team/atigo.svg");
+      expect(html).toContain("/team/atigo.jpg");
       expect(html).toContain("/team/josh.svg");
       expect(html).toContain("/team/emily.svg");
       expect(html).toContain("Why we do it");

@@ -24,9 +24,10 @@
   },
   "navigation": {
     "features": "Leistungen",
-    "work": "Muster",
+    "work": "Beispiele",
     "process": "Ablauf",
     "pricing": "Preise",
+    "about": "Über uns",
     "contact": "Kontakt",
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen"
@@ -47,88 +48,89 @@
     "items": [
       {
         "value": "30+",
-        "label": "Websites built"
+        "count": 30,
+        "label": "Websites"
       },
       {
         "value": "200+",
-        "label": "Posters & flyers designed"
+        "count": 200,
+        "label": "Designs"
       },
       {
         "value": "50+",
-        "label": "Clients served"
+        "count": 50,
+        "label": "Kunden"
       },
       {
         "value": "90%",
-        "label": "5-star reviews"
+        "count": 90,
+        "label": "5-Sterne"
       }
     ]
   },
   "features": {
-    "label": "Was wir tun",
-    "title": "Gestalten. Bauen.",
-    "subtitle": "Starten.",
-    "note": "Wir gestalten digitale Logos, Flyer und Poster.",
+    "label": "Was wir machen",
+    "title": "Design. Build.",
+    "subtitle": "Launch.",
     "items": {
       "minimalist": {
-        "title": "Website Design & Umsetzung",
-        "why": "Ihre Website ist Ihr Verkaufsraum — sie ist der erste Eindruck, den Kunden von Ihrem Geschäft bekommen. Wir bauen schnell, mobilfreundlich und so, dass Anfragen tatsächlich ankommen.",
-        "image": "/hotel-assets/banner.jpg"
-      },
-      "brutalist": {
-        "title": "Website nach Maß",
-        "why": "Für Unternehmen, die online ernst genommen werden wollen: ein eigenes Design, klar strukturierte Seiten und Formulare, die zu Kontaktanfragen führen — nicht nur schön aussehen.",
-        "image": "/saaspro-assets/banner.webp"
+        "title": "Website-Design & Umsetzung",
+        "image": "/service-assets/website-design.jpg",
+        "why": "Ihre Website ist Ihr Schaufenster — das erste, was Kunden sehen. Wir bauen sie schnell, mobil-optimiert und darauf ausgelegt, Anrufe und Nachrichten zu bringen."
       },
       "responsive": {
         "title": "Grafikdesign",
-        "why": "Flyer, Poster und Social-Media-Grafiken, die Ihre Marke erkennbar machen. Einheitlich, druckfertig und in 48 Stunden statt erst in 48 Tagen.",
-        "image": "/tech-assets/banner.webp"
+        "image": "/service-assets/graphic-design.jpg",
+        "why": "Flyer, Poster und Social-Media-Grafiken, die Ihre Marke erkennbar machen. Konsistent, druckfertig und in 48 Stunden geliefert — nicht in 48 Tagen."
       },
       "performance": {
         "title": "Online-Sichtbarkeit",
-        "why": "Sie finden uns, oder Ihre Kunden finden Sie nicht. Wir richten Google Maps, Suche und Analytics ein, damit Ihre Kunden Sie tatsächlich finden.",
-        "image": "/juicy-assets/images/can/lemon.webp"
+        "image": "/service-assets/online-visibility.jpg",
+        "why": "Entweder Sie werden gefunden, oder nicht. Wir richten Google Maps, Suche und Analytics ein, damit Kunden Sie wirklich erreichen."
       }
     }
   },
   "liveSample": {
-    "label": "Live-Muster",
+    "label": "Live-Beispiel",
     "title": "Eine Website,",
-    "subtitle": "live ansehen",
-    "description": "So sieht eine von uns gebaute Website aus. Diese Seite läuft bereits online — klicken und selbst prüfen.",
-    "cta": "Live-Ansicht öffnen",
-    "newTabHint": "Öffnet in einem neuen Tab",
+    "subtitle": "live aktiv",
+    "description": "Das ist eine Website, die wir gebaut haben und die bereits unter einer eigenen Domain läuft — unten genau so, wie Ihre Kunden sie sehen würden.",
+    "url": "https://hotel-groovestreet-live.netlify.app/",
     "liveBadge": "Live",
-    "viewAll": "Alle Muster ansehen",
-    "url": "https://hotel-groovestreet-live.netlify.app/"
+    "newTabHint": "Öffnet in neuem Tab",
+    "viewAll": "Alle Beispiele"
   },
   "samples": {
-    "label": "Template-Vorschauen",
-    "title": "Einseitige",
-    "subtitle": "Muster",
-    "viewAll": "Alle Muster ansehen",
+    "label": "Vorlagen",
+    "title": "Vorschau",
+    "subtitle": "Beispiele",
+    "viewAll": "Alle Beispiele",
     "openPreview": "Vorschau öffnen",
-    "newTabHint": "Öffnet in einem neuen Tab",
+    "newTabHint": "Öffnet in neuem Tab",
     "items": {
       "hotel": {
         "title": "Hotel GrooveStreet",
         "subtitle": "Luxushotel",
-        "description": "Landingpage für ein Luxushotel mit dunkler und goldener Palette: Hero, Reservierungsleiste, Über uns, Zimmer, Restaurant & Pool, Galerie und Footer."
+        "description": "Landingpage für ein Luxushotel mit dunkler und goldener Palette: Hero, Reservierungsleiste, Über uns, Zimmer, Restaurant & Pool, Galerie und Footer.",
+        "image": "/samples-shots/hotel.jpg"
       },
       "juicy": {
         "title": "Juicy",
         "subtitle": "3D-Produktpräsentation",
-        "description": "Einseitige Website für eine Premium-Saftmarke mit 3D-Dosenkarussell, animiertem Wellenhintergrund und dynamischem Farbschema je Geschmack."
+        "description": "Einseitige Website für eine Premium-Saftmarke mit 3D-Dosenkarussell, animiertem Wellenhintergrund und dynamischem Farbschema je Geschmack.",
+        "image": "/samples-shots/juicy.jpg"
       },
       "saaspro": {
         "title": "SAASPRO",
         "subtitle": "SaaS-Landingpage",
-        "description": "Helle SaaS-Landingpage mit neun Abschnitten: Hero, Feature-Grid, Referenzen, Preise, Bewertungen, FAQ und Footer."
+        "description": "Helle SaaS-Landingpage mit neun Abschnitten: Hero, Feature-Grid, Referenzen, Preise, Bewertungen, FAQ und Footer.",
+        "image": "/samples-shots/saaspro.jpg"
       },
       "tech": {
         "title": "Tech Landing",
         "subtitle": "SaaS/Tech-Landingpage",
-        "description": "Dunkle Tech-Landingpage mit neun Abschnitten: Hero, Features, Entwickler-Bereich, Sicherheit, Portfolio, Bewertungen und Preise."
+        "description": "Dunkle Tech-Landingpage mit neun Abschnitten: Hero, Features, Entwickler-Bereich, Sicherheit, Portfolio, Bewertungen und Preise.",
+        "image": "/samples-shots/tech.jpg"
       }
     }
   },
@@ -207,12 +209,12 @@
   },
   "pricing": {
     "label": "Preise",
-    "title": "Feste",
+    "title": "Erschwinglich und Premium",
     "popular": "Beliebt",
-    "currencyToggle": "Anzeige in",
+    "currencyToggle": "Anzeigen in",
     "ugx": "UGX",
     "usd": "USD",
-    "rateNote": "Umrechnung zum Tageskurs, nur zur Orientierung.",
+    "rateNote": "Zum Tageskurs umgerechnet, nur zur Orientierung.",
     "plans": {
       "basic": {
         "name": "Landing Page",
@@ -270,7 +272,8 @@
         ],
         "cta": "Design anfragen"
       }
-    }
+    },
+    "from": "ab"
   },
   "contact": {
     "label": "Kontakt",
@@ -315,7 +318,10 @@
     }
   },
   "footer": {
-    "copyright": "© {year} GROOVESTREET. Ihr Geschäft digital stärken.",
+    "description": "GROOVESTREET ist ein Designstudio in Kampala, Uganda. Wir bauen Websites, Marken und Grafiken für wachsende Unternehmen — in Ostafrika und weltweit.",
+    "ctaTitle": "Bereit zum Bauen?",
+    "ctaButton": "Kontakt",
+    "copyright": "© {year} GROOVESTREET. Digitizing Your Business.",
     "legal": {
       "privacy": "Datenschutz",
       "terms": "AGB"
@@ -369,7 +375,7 @@
         "atigo": {
           "name": "Atigo Paul Odoch",
           "role": "Teamleiter & Gründer",
-          "image": "/team/atigo.svg",
+          "image": "/team/atigo.jpg",
           "description": "Atigo leitet das Studio und jede Kundenbeziehung. Er hört zu, gestaltet den Ansatz und sorgt dafür, dass das Ergebnis hält, was das Angebot verspricht.",
           "motivation": "Er hat gesehen, wie viele gute Geschäfte in Uganda online unsichtbar bleiben. Er gründete GROOVESTREET, um das zu ändern — zu Preisen, die ein wachsendes Unternehmen wirklich zahlen kann.",
           "links": {
@@ -469,5 +475,11 @@
         }
       ]
     }
+  },
+  "trust": {
+    "label": "Bewährt",
+    "title": "Getestet, geprüft und vertrauenswürdig",
+    "subtitle": "Jede Website wird vor der Übergabe auf echten Geräten und in echten Browsern geprüft.",
+    "partnersLabel": "Vertrauen von Teams bei"
   }
 }

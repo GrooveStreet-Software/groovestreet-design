@@ -4008,3 +4008,132 @@ Error: MISSING_MESSAGE: Could not resolve `contact.info.whatsapp` in messages fo
  GET /en 200 in 7624ms
  GET /en 200 in 8458ms
  GET /en 200 in 2938ms
+ GET /en 200 in 2081ms
+ GET /en 200 in 1632ms
+ GET /en 200 in 1777ms
+ GET /en 200 in 1471ms
+ GET /en 200 in 1814ms
+ GET /en 200 in 1486ms
+ GET /en 200 in 2460ms
+ GET /en 200 in 3751ms
+ GET /en 200 in 2613ms
+ GET /en 200 in 1464ms
+ GET /en 200 in 1559ms
+ GET /en 200 in 1433ms
+ GET /en 200 in 1388ms
+ GET /en 200 in 1284ms
+ GET /en 200 in 1032ms
+ GET /en 200 in 1125ms
+ GET /en 200 in 1131ms
+ GET /en 200 in 1141ms
+ GET /en 200 in 1207ms
+ GET /en 200 in 1053ms
+ GET /en 200 in 1182ms
+ GET /en 200 in 1164ms
+ GET /fr 200 in 1095ms
+ GET /de 200 in 1336ms
+ GET /en/samples 200 in 885ms
+ GET /en/samples 200 in 595ms
+ GET /en/samples 200 in 581ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 3.7s (1213 modules)
+ GET /en/about 200 in 5920ms
+ GET /en/about 200 in 617ms
+ GET /en/about 200 in 743ms
+ GET /en/about 200 in 748ms
+ ○ Compiling /[locale]/contact ...
+ ✓ Compiled /[locale]/contact in 1215ms (1221 modules)
+ GET /en/contact 200 in 2818ms
+ GET /en/contact 200 in 590ms
+ GET /en/contact 200 in 478ms
+ GET /en/contact 200 in 516ms
+ ○ Compiling /[locale]/privacy ...
+ ✓ Compiled /[locale]/privacy in 1503ms (1236 modules)
+ GET /en/privacy 200 in 3004ms
+ ○ Compiling /[locale]/terms ...
+ ✓ Compiled /[locale]/terms in 5.6s (1238 modules)
+ GET /en/terms 200 in 7008ms
+ GET /en 200 in 1884ms
+ GET /en 200 in 1171ms
+ GET /en 200 in 1269ms
+ GET /en 200 in 1252ms
+ GET /fr 200 in 1267ms
+ GET /de 200 in 1094ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 6.8s (2233 modules)
+ GET /en/ar 404 in 7910ms
+ GET /en 200 in 1560ms
+ GET /en/samples 200 in 1543ms
+ GET /fr/samples 200 in 567ms
+ GET /de/samples 200 in 699ms
+ GET /en 200 in 1383ms
+ GET /en 200 in 1148ms
+ GET /en 200 in 1603ms
+ GET /en 200 in 974ms
+ GET /en 200 in 1195ms
+ GET /en 200 in 1028ms
+ GET /en/contact 200 in 527ms
+ GET /en/about 200 in 604ms
+ ○ Compiling /api/contact ...
+ ✓ Compiled /api/contact in 3.9s (1260 modules)
+ POST /api/contact 422 in 4596ms
+ GET /en 200 in 2171ms
+ GET /en 200 in 980ms
+ GET /en/samples 200 in 187ms
+ GET /en/samples 200 in 513ms
+ GET /en 200 in 1027ms
+ GET /en/samples 200 in 149ms
+ GET /en 200 in 746ms
+ GET /en 200 in 658ms
+ GET /en 200 in 913ms
+ GET /en 200 in 1099ms
+ GET /en/samples 200 in 499ms
+ GET /en 200 in 161ms
+ GET /en 200 in 879ms
+ GET /en 200 in 1213ms
+ GET /fr 200 in 250ms
+ GET /de 200 in 184ms
+ GET /en 200 in 262ms
+ GET /en 200 in 935ms
+ GET /en/samples 200 in 179ms
+ GET /en 200 in 888ms
+ GET /en 200 in 175ms
+ GET /en 200 in 1088ms
+ ✓ Compiled in 19.8s (2194 modules)
+ GET /en 200 in 3469ms
+ ✓ Compiled in 4.6s (2194 modules)
+ GET /en 200 in 7596ms
+ ✓ Compiled in 3.6s (2194 modules)
+ GET /en 200 in 498ms
+ GET /en 200 in 19139ms
+ GET /en 200 in 1448ms
+ GET /en 200 in 4837ms
+ GET /en 200 in 2303ms
+ GET /en 200 in 1534ms
+ ⚠ Cross origin request detected from 192.168.1.6 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /en 200 in 2082ms
+ ✓ Compiled in 27.6s (1206 modules)
+ ✓ Compiled in 7s (1206 modules)
+ GET /en 200 in 3770ms
+ GET /en 200 in 1659ms
+ ✓ Compiled in 8.4s (988 modules)
+ GET /en 200 in 563ms
+ ○ Compiling /[locale]/about ...
+ ✓ Compiled /[locale]/about in 13.4s (1213 modules)
+ GET /en/about 200 in 19567ms
+ GET /en 200 in 10738ms
+ GET /en/samples 200 in 2467ms
+ GET /en/samples 200 in 1720ms
+ GET /sw.js 404 in 1337ms
+ ⚠ Cross origin request detected from freight-antibody-striking.ngrok-free.dev to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /en 200 in 316ms
+ GET /en 200 in 2391ms
+ GET /sw.js 404 in 1358ms
+ GET /apple-touch-icon-precomposed.png 404 in 1041ms
+ GET /en/samples 200 in 308ms
+ GET /sw.js 404 in 666ms
+ GET /sw.js 404 in 876ms
+ GET /apple-touch-icon-precomposed.png 404 in 485ms
+ GET /en 200 in 1991ms

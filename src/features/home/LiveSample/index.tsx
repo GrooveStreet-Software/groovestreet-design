@@ -37,7 +37,6 @@ export function LiveSample() {
 
   const close = () => {
     setOpen(false);
-    setLoading(true);
   };
 
   return (
@@ -85,7 +84,6 @@ export function LiveSample() {
                 <button
                   type="button"
                   onClick={() => {
-                    setLoading(true);
                     setOpen(true);
                   }}
                   className="inline-flex items-center gap-2 bg-white text-black px-5 py-3 text-sm uppercase tracking-widest font-medium shrink-0 hover:bg-brand hover:text-white transition-colors"
@@ -109,19 +107,38 @@ export function LiveSample() {
       </div>
 
       {/* ---------------- In-page preview ---------------- */}
+
+      {/* Backdrop, behind the preview, only while it is open. */}
       {open && (
         <div
-          className="fixed inset-0 z-[80] flex items-center justify-center p-4 md:p-8 bg-black/90 backdrop-blur-sm"
-          role="dialog"
-          aria-modal="true"
-          aria-label={t("cta")}
+          className="fixed inset-0 z-[80] bg-black/90 backdrop-blur-sm"
           onClick={close}
+        />
+      )}
+
+      {/*
+        The frame stays mounted for the life of the page. While the preview is
+        closed it is parked off-screen and invisible, which lets the live site
+        finish loading in the background — opening the preview is then instant
+        rather than a ~13s spinner.
+      */}
+      <div
+        className={
+          open
+            ? "fixed inset-0 z-[90] flex items-center justify-center p-4 md:p-8"
+            : "pointer-events-none fixed -left-[9999px] top-0 h-[600px] w-[1280px] opacity-0"
+        }
+        {...(open
+          ? { role: "dialog" as const, "aria-modal": true, "aria-label": t("cta") }
+          : { "aria-hidden": true })}
+      >
+        <div
+          className={`relative flex w-full flex-col bg-neutral-950 border border-neutral-800 ${
+            open ? "h-[85vh] max-w-6xl" : "h-full max-w-none"
+          }`}
         >
-          <div
-            className="relative w-full max-w-6xl h-[85vh] bg-neutral-950 border border-neutral-800 flex flex-col"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Browser chrome */}
+          {/* Browser chrome */}
+          {open && (
             <div className="flex items-center gap-3 px-4 py-3 border-b border-neutral-800 bg-neutral-900">
               <div className="flex gap-1.5">
                 <span className="w-2.5 h-2.5 rounded-full bg-neutral-700" />
@@ -150,27 +167,27 @@ export function LiveSample() {
                 <X className="w-4 h-4" />
               </button>
             </div>
+          )}
 
-            <div className="relative flex-1">
-              {loading && (
-                <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-neutral-950 text-neutral-400">
-                  <Loader2 className="w-6 h-6 animate-spin" />
-                  <span className="text-xs uppercase tracking-widest">
-                    Loading live site…
-                  </span>
-                </div>
-              )}
-              <iframe
-                src={url}
-                title="Hotel GrooveStreet — live preview"
-                onLoad={() => setLoading(false)}
-                className="w-full h-full border-0"
-                sandbox="allow-scripts allow-same-origin allow-popups"
-              />
-            </div>
+          <div className="relative flex-1 min-h-0">
+            {loading && (
+              <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 bg-neutral-950 text-neutral-400">
+                <Loader2 className="w-6 h-6 animate-spin" />
+                <span className="text-xs uppercase tracking-widest">
+                  Loading live site…
+                </span>
+              </div>
+            )}
+            <iframe
+              src={url}
+              title="Hotel GrooveStreet — live preview"
+              onLoad={() => setLoading(false)}
+              className="w-full h-full border-0"
+              sandbox="allow-scripts allow-same-origin allow-popups"
+            />
           </div>
         </div>
-      )}
+      </div>
 
       <div className="absolute top-20 end-20 w-40 h-40 border border-white/5"></div>
       <div className="absolute bottom-20 start-20 w-60 h-60 border border-white/5"></div>
