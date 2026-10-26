@@ -350,14 +350,8 @@
       "dakatal": {
         "title": "Dakatal",
         "subtitle": "Healthcare in Mbale, Uganda",
-        "description": "Aperçu de la clinique de santé premium avec héro, services, médecins, formulaire de contact et pied de page.",
+        "description": "Premium healthcare clinic preview with hero, services, doctors, contact form and footer.",
         "image": "/samples-shots/dakatal.jpg"
-      },
-      "clinic": {
-        "title": "GrooveStreet Clinic",
-        "subtitle": "Healthcare in Mbale, Uganda",
-        "description": "Aperçu d'une seule page de GrooveStreet Clinic — soins de santé de premium à Mbale, en Ouganda, avec cardiologie, pédiatrie, maternité, laboratoire, pharmacie et une équipe médicale complète.",
-        "image": "/samples-shots/clinic.png"
       }
     }
   },

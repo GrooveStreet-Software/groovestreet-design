@@ -46,20 +46,14 @@ export const samplePreviews: SamplePreview[] = [
     file: "/samples/tech-real.html",
     image: "/samples-shots/tech.jpg",
   },
-
   {
     key: "dakatal",
     messageKey: "dakatal",
     file: "/samples/dakatal-real.html",
     image: "/samples-shots/dakatal.jpg",
   },
-  {
-    key: "clinic",
-    messageKey: "clinic",
-    file: "/samples/groovestreet-clinic.html",
-    image: "/samples-shots/clinic.png",
-  },
 ];
+
 
 export const getSampleByKey = (key: string) =>
   samplePreviews.find((sample) => sample.key === key);
