@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { ContactMarquee, Logo } from "@/components";
 import { UgandaFlag } from "@/components/icons";
 import { contactDetails, mailtoUrl, telUrl } from "@/lib";
+import { trackEvent } from "@/lib/analytics";
 import { useContactModal } from "@/providers";
 import { Copyright, FooterNav, LegalLinks, SocialLinks } from "./components";
 
@@ -68,6 +69,9 @@ export function Footer({ cta }: FooterProps) {
                 </span>
                 <a
                   href={mailtoUrl}
+                  onClick={() =>
+                    trackEvent("email_click", { location: "footer" })
+                  }
                   className="break-all text-neutral-300 transition-colors hover:text-white"
                 >
                   {contactDetails.email}
@@ -80,6 +84,9 @@ export function Footer({ cta }: FooterProps) {
                 <a
                   href={telUrl}
                   dir="ltr"
+                  onClick={() =>
+                    trackEvent("phone_click", { location: "footer" })
+                  }
                   className="text-neutral-300 transition-colors hover:text-white"
                 >
                   {contactDetails.phoneDisplay}

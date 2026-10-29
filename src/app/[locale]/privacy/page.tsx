@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import { LegalContent } from "@/features/legal";
 
 export async function generateMetadata({
@@ -10,10 +11,13 @@ export async function generateMetadata({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: "pages.privacy" });
-  return {
+
+  return pageMetadata({
+    locale,
+    path: "/privacy",
     title: t("title"),
     description: t("description"),
-  };
+  });
 }
 
 export default async function PrivacyPage({

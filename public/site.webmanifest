@@ -1,6 +1,13 @@
 {
-  "name": "Mono",
-  "short_name": "Mono",
+  "id": "/",
+  "name": "GROOVESTREET — Design. Build. Ship.",
+  "short_name": "GROOVESTREET",
+  "description": "Premium website and graphic design studio in Kampala, Uganda. Fixed quotes, written launch dates, built for growing businesses.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/en",
+  "scope": "/",
+  "categories": ["business", "design", "developer"],
   "icons": [
     {
       "src": "/favicon.svg",

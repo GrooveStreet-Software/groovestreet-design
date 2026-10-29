@@ -4,6 +4,7 @@ import { useMemo } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
+import { trackEvent } from "@/lib/analytics";
 import { useSendContactMessage } from "@/services/contact";
 import type { ContactFormValues } from "../types";
 import { createContactSchema } from "../utils";
@@ -19,7 +20,12 @@ export function useContactForm() {
   });
 
   const onSubmit = form.handleSubmit((values) => {
-    sendMessage.mutate(values, { onSuccess: () => form.reset() });
+    sendMessage.mutate(values, {
+      onSuccess: () => {
+        trackEvent("contact_submit");
+        form.reset();
+      },
+    });
   });
 
   return {

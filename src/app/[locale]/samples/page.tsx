@@ -6,6 +6,8 @@ import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Footer } from "@/layouts";
 import { samplePreviews } from "@/lib";
+import { trackEvent } from "@/lib/analytics";
+
 export default function SamplesPage() {
   const t = useTranslations("samples");
 
@@ -27,6 +29,9 @@ export default function SamplesPage() {
                 href={sample.file}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() =>
+                  trackEvent("sample_open", { sample: sample.key })
+                }
                 className="group border border-neutral-800 hover:border-brand/40 transition-colors duration-300 overflow-hidden block"
               >
                 <div className="aspect-[16/10] bg-neutral-900 relative overflow-hidden">

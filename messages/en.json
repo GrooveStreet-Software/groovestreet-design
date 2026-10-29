@@ -5,6 +5,13 @@
     "description": "Premium design and build at rates that fit a growing business. Fixed UGX quotes, launch dates in writing. Based in Kampala, serving East Africa and worldwide.",
     "ogImageAlt": "GROOVESTREET Website Preview"
   },
+  "cookieConsent": {
+    "label": "Analytics consent",
+    "body": "We use Google Analytics to understand which pages are useful. It only loads if you accept. No advertising trackers.",
+    "learnMore": "Privacy policy",
+    "accept": "Accept analytics",
+    "decline": "Decline"
+  },
   "common": {
     "brand": "GROOVESTREET",
     "social": {
@@ -316,11 +323,15 @@
     "viewAll": "View All Samples",
     "openPreview": "Open preview",
     "newTabHint": "Opens in a new tab",
+    "metadata": {
+      "title": "Website & Graphic Design Samples — GROOVESTREET",
+      "description": "Explore live website and graphic design samples by GROOVESTREET: hotels, restaurants, healthcare, real estate and SaaS, built in Kampala for clients worldwide."
+    },
     "items": {
       "hotel": {
         "title": "Hotel GrooveStreet",
         "subtitle": "Luxury Hotel",
-        "description": "Luxury boutique hotel landing page with a dark & gold palette and Cormorant Garamond + Jost typography: hero, reservation bar, about, amenities, rooms, dining & pool, gallery, testimonial, CTA and footer.",
+        "description": "Luxury hotel landing page with a dark & gold palette: rotating hero, availability booking bar, about, amenities, rooms and reservation CTA.",
         "image": "/samples-shots/hotel.jpg"
       },
       "feane": {
@@ -370,6 +381,10 @@
         {
           "h": "How we use it",
           "p": "We use your details only to reply to your enquiry and to deliver the work you ask for. We never add you to a marketing list without asking you first."
+        },
+        {
+          "h": "Analytics",
+          "p": "If you accept analytics, we use Google Analytics to count visits and see which pages are useful. It does not load until you accept, and we do not use it for advertising."
         },
         {
           "h": "How long we keep it",

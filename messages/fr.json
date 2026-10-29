@@ -5,6 +5,13 @@
     "description": "Conception et développement premium à des tarifs adaptés aux entreprises en croissance. Devis fixes en UGX, dates de lancement par écrit. Basé à Kampala, au service de l'Afrique de l'Est et du monde.",
     "ogImageAlt": "Aperçu du site GROOVESTREET"
   },
+  "cookieConsent": {
+    "label": "Consentement analytique",
+    "body": "Nous utilisons Google Analytics pour comprendre quelles pages sont utiles. Il ne se charge que si vous acceptez. Aucun traceur publicitaire.",
+    "learnMore": "Politique de confidentialité",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
   "common": {
     "brand": "GROOVESTREET",
     "social": {
@@ -316,11 +323,15 @@
     "viewAll": "Voir tous les exemples",
     "openPreview": "Ouvrir l'aperçu",
     "newTabHint": "S'ouvre dans un nouvel onglet",
+    "metadata": {
+      "title": "Exemples de sites web et de design graphique — GROOVESTREET",
+      "description": "Découvrez des exemples de sites web et de design graphique réalisés par GROOVESTREET : hôtels, restaurants, santé, immobilier et SaaS, conçus à Kampala pour des clients du monde entier."
+    },
     "items": {
       "hotel": {
         "title": "Hotel GrooveStreet",
         "subtitle": "Hôtel de luxe",
-        "description": "Page d'atterrissage d'hôtel boutique de luxe aux tons sombres et dorés, typographies Cormorant Garamond + Jost : héro, barre de réservation, présentation, services, chambres, restaurant et piscine, galerie, témoignage, appel à l'action et pied de page.",
+        "description": "Page d'atterrissage d'hôtel de luxe aux tons sombres et dorés : héro rotatif, barre de disponibilité, présentation, services, chambres et appel à la réservation.",
         "image": "/samples-shots/hotel.jpg"
       },
       "feane": {
@@ -370,6 +381,10 @@
         {
           "h": "Comment nous les utilisons",
           "p": "Nous n'utilisons vos coordonnées que pour répondre à votre demande et réaliser le travail demandé. Nous ne vous ajoutons jamais à une liste marketing sans vous demander d'abord."
+        },
+        {
+          "h": "Analyse d'audience",
+          "p": "Si vous acceptez l'analyse, nous utilisons Google Analytics pour compter les visites et voir quelles pages sont utiles. Il ne se charge qu'après votre accord et nous ne l'utilisons pas pour la publicité."
         },
         {
           "h": "Durée de conservation",

@@ -5,6 +5,13 @@
     "description": "Premium Design und Umsetzung zu Preisen für wachsende Unternehmen. Feste UGX-Angebote, schriftliche Launch-Termine. Sitz in Kampala, für Ostafrika und weltweit.",
     "ogImageAlt": "GROOVESTREET Website-Vorschau"
   },
+  "cookieConsent": {
+    "label": "Analyse-Einwilligung",
+    "body": "Wir verwenden Google Analytics, um zu verstehen, welche Seiten nützlich sind. Es wird nur geladen, wenn Sie zustimmen. Keine Werbetracker.",
+    "learnMore": "Datenschutzerklärung",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen"
+  },
   "common": {
     "brand": "GROOVESTREET",
     "social": {
@@ -126,11 +133,15 @@
     "viewAll": "Alle Beispiele",
     "openPreview": "Vorschau öffnen",
     "newTabHint": "Öffnet in neuem Tab",
+    "metadata": {
+      "title": "Website- und Grafikdesign-Beispiele — GROOVESTREET",
+      "description": "Entdecken Sie Live-Beispiele für Websites und Grafikdesign von GROOVESTREET: Hotels, Restaurants, Gesundheitswesen, Immobilien und SaaS, entwickelt in Kampala für Kunden weltweit."
+    },
     "items": {
       "hotel": {
         "title": "Hotel GrooveStreet",
         "subtitle": "Luxushotel",
-        "description": "Landingpage für ein Luxushotel mit dunkler und goldener Palette: Hero, Reservierungsleiste, Über uns, Zimmer, Restaurant & Pool, Galerie und Footer.",
+        "description": "Landingpage für ein Luxushotel in dunkler Gold-Optik: rotierender Hero, Verfügbarkeitsleiste, Über uns, Annehmlichkeiten, Zimmer und Reservierungs-CTA.",
         "image": "/samples-shots/hotel.jpg"
       },
       "feane": {
@@ -473,6 +484,10 @@
         {
           "h": "Wie wir sie nutzen",
           "p": "Wir verwenden Ihre Angaben ausschließlich, um auf Ihre Anfrage zu antworten und die gewünschte Arbeit zu liefern. Wir setzen Sie niemals ohne Rückfrage auf eine Marketingliste."
+        },
+        {
+          "h": "Analyse",
+          "p": "Wenn Sie der Analyse zustimmen, verwenden wir Google Analytics, um Besuche zu zählen und zu sehen, welche Seiten nützlich sind. Es wird erst nach Ihrer Zustimmung geladen und nicht für Werbung verwendet."
         },
         {
           "h": "Speicherdauer",

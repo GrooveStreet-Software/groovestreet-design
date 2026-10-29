@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { X } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { trackEvent } from "@/lib/analytics";
 import { ContactForm, ContactInfo } from "@/features/home/Contact/components";
 
 interface ContactModalProps {
@@ -14,6 +15,10 @@ interface ContactModalProps {
 export function ContactModal({ isOpen, onClose }: ContactModalProps) {
   const t = useTranslations("contact");
   const closeRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (isOpen) trackEvent("contact_modal_open");
+  }, [isOpen]);
 
   useEffect(() => {
     if (!isOpen) return;

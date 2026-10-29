@@ -20,6 +20,7 @@ import {
   telUrl,
   whatsappUrl,
 } from "@/lib";
+import { trackEvent } from "@/lib/analytics";
 
 export function AboutContent() {
   const t = useTranslations("pages.about");
@@ -123,6 +124,11 @@ export function AboutContent() {
                             href={member.portfolioUrl}
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={() =>
+                              trackEvent("portfolio_click", {
+                                member: member.name,
+                              })
+                            }
                             className="inline-flex items-center gap-1.5 border border-neutral-700 px-3 py-1.5 text-xs uppercase tracking-widest text-neutral-300 transition-colors hover:border-brand hover:text-white"
                           >
                             <ExternalLink className="h-3 w-3" />
@@ -132,6 +138,11 @@ export function AboutContent() {
                             href={whatsappUrl}
                             target="_blank"
                             rel="noopener noreferrer"
+                            onClick={() =>
+                              trackEvent("whatsapp_click", {
+                                location: "about_member",
+                              })
+                            }
                             className="inline-flex items-center gap-1.5 border border-neutral-700 px-3 py-1.5 text-xs uppercase tracking-widest text-neutral-300 transition-colors hover:border-brand hover:text-white"
                           >
                             <Phone className="h-3 w-3" />
@@ -166,6 +177,9 @@ export function AboutContent() {
                 <Mail className="mt-1 h-4 w-4 shrink-0 text-brand-foreground/70" />
                 <a
                   href={mailtoUrl}
+                  onClick={() =>
+                    trackEvent("email_click", { location: "about" })
+                  }
                   className="break-all transition-colors hover:text-white"
                   dir="ltr"
                 >
@@ -176,6 +190,9 @@ export function AboutContent() {
                 <Phone className="mt-1 h-4 w-4 shrink-0 text-brand-foreground/70" />
                 <a
                   href={telUrl}
+                  onClick={() =>
+                    trackEvent("phone_click", { location: "about" })
+                  }
                   className="transition-colors hover:text-white"
                   dir="ltr"
                 >

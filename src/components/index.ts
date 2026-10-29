@@ -8,3 +8,5 @@ export { ContactModal } from "./ContactModal";
 export { GraphicsMarquee } from "./GraphicsMarquee";
 export { PageMarquees } from "./PageMarquees";
 export { PageLoader } from "./PageLoader";
+export { GoogleAnalytics } from "./analytics/GoogleAnalytics";
+export { CookieConsent } from "./analytics/CookieConsent";

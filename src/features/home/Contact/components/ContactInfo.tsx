@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Card } from "@/components/ui";
 import { WhatsAppIcon } from "@/components/icons";
 import { contactDetails } from "@/lib";
+import { trackEvent } from "@/lib/analytics";
 import { contactSocials } from "../constants";
 import { ContactItem } from "./ContactItem";
 
@@ -22,6 +23,9 @@ export function ContactInfo() {
         href={whatsappIntroUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() =>
+          trackEvent("whatsapp_click", { location: "contact_info" })
+        }
         className="mb-6 inline-flex w-full items-center justify-center gap-2 border border-[#25D366]/40 bg-[#25D366]/10 px-4 py-3 text-xs font-semibold uppercase tracking-widest text-[#25D366] transition-colors hover:bg-[#25D366] hover:text-black"
       >
         <WhatsAppIcon className="h-4 w-4" />
@@ -38,6 +42,9 @@ export function ContactInfo() {
         >
           <a
             href={`mailto:${contactDetails.email}`}
+            onClick={() =>
+              trackEvent("email_click", { location: "contact_info" })
+            }
             className="text-white hover:text-white/70 transition-colors"
           >
             {contactDetails.email}
@@ -51,6 +58,9 @@ export function ContactInfo() {
           <a
             href={`tel:${contactDetails.phoneTel}`}
             dir="ltr"
+            onClick={() =>
+              trackEvent("phone_click", { location: "contact_info" })
+            }
             className="text-white hover:text-white/70 transition-colors"
           >
             {contactDetails.phoneDisplay}
@@ -81,6 +91,12 @@ export function ContactInfo() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() =>
+                  trackEvent("social_click", {
+                    network: key,
+                    location: "contact_info",
+                  })
+                }
                 className="bg-white/10 p-2 rounded-sm hover:bg-white/20 transition-colors group"
                 aria-label={tSocial(key)}
               >

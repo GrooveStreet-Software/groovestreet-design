@@ -9,7 +9,7 @@ export interface SamplePreview {
   key: string;
   /** Matches the `samples.items.<key>` message key. */
   messageKey: string;
-  /** Public path of the standalone preview document. */
+  /** Public path or absolute URL of the standalone preview document. */
   file: string;
   /** Public path of the thumbnail shown in the grids. */
   image: string;
@@ -19,7 +19,7 @@ export const samplePreviews: SamplePreview[] = [
   {
     key: "brutalist",
     messageKey: "hotel",
-    file: "/samples/hotel-real.html",
+    file: "https://hotel-groovestreet-live.netlify.app/",
     image: "/samples-shots/hotel.jpg",
   },
   {
