@@ -11,7 +11,10 @@ type AnalyticsWindow = Window & {
 };
 
 const CONSENT_KEY = "gs-analytics-consent";
-const MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const FALLBACK_MEASUREMENT_ID = "G-KJLSPYLX5Z";
+const MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ||
+  (process.env.NODE_ENV === "production" ? FALLBACK_MEASUREMENT_ID : undefined);
 
 function readConsent(): ConsentValue {
   if (typeof window === "undefined") return null;
