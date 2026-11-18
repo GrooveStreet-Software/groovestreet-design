@@ -26,7 +26,8 @@
     "names": {
       "en": "English",
       "fr": "Français",
-      "de": "Deutsch"
+      "de": "Deutsch",
+      "sw": "Kiswahili"
     }
   },
   "navigation": {
@@ -50,12 +51,12 @@
       "prefix": "PREMIUM",
       "services": [
         "SITES WEB",
-        "GRAPHISME",
+        "LOGICIELS",
         "OUTILS NUMÉRIQUES"
       ],
-      "accessible": "Sites web, graphismes et outils numériques premium"
+      "accessible": "Sites web, logiciels et outils numériques premium"
     },
-    "description": "Nous mettons les entreprises en croissance en ligne avec des sites web, des graphismes et des outils numériques qui transforment les visiteurs en clients. Une équipe concentrée, amplifiée par l'IA.",
+    "description": "Nous mettons les entreprises en croissance en ligne avec des sites web, des logiciels et des outils numériques qui transforment les visiteurs en clients. Une équipe concentrée, amplifiée par l'IA.",
     "primaryCta": "Démarrer Votre Projet",
     "secondaryCta": "Voir les Tarifs",
     "build": "Construire"
@@ -72,11 +73,11 @@
         "image": "/service-assets/website-design.jpg",
         "why": "Votre site est votre vitrine — la première chose que les clients voient. Nous le construisons rapidement, mobile-first, pour générer appels et messages."
       },
-      "responsive": {
-        "title": "Design Graphique",
-        "need": "Des visuels de marque nets partout où ils apparaissent.",
-        "image": "/service-assets/graphic-design.jpg",
-        "why": "Flyers, affiches et visuels pour les réseaux sociaux qui rendent votre marque reconnaissable. Cohérent, prêt à imprimer, livré en 48 heures — pas 48 jours."
+      "software": {
+        "title": "Conception & Développement de Logiciels",
+        "need": "Un logiciel sur mesure qui épouse le fonctionnement réel de votre entreprise.",
+        "why": "Outils internes, tableaux de bord, systèmes de réservation et intégrations construits autour de vos processus — cadrés, devisés et livrés sans frais récurrents inutiles.",
+        "image": "/service-assets/software-development.jpg"
       },
       "performance": {
         "title": "Visibilité en Ligne",
@@ -140,7 +141,7 @@
         "rating": "4"
       },
       "david": {
-        "quote": "Mon flyer a l'air sorti d'un catalogue d'imprimerie — mais en 48 heures, pas deux semaines.",
+        "quote": "Ils ont refait mon site en deux semaines — les clients me trouvent maintenant sur Google avant mes concurrents.",
         "author": "David Ssemwanga",
         "role": "Gérant, Ssemwanga Motors",
         "rating": "4"
@@ -171,7 +172,7 @@
       "basic": {
         "name": "Landing Page",
         "description": "Site d'une page ou portfolio",
-        "price": 200000,
+        "price": 500000,
         "timeline": "3–5 jours",
         "features": [
           "Une page qui convertit",
@@ -185,7 +186,7 @@
       "standard": {
         "name": "Site Sur Mesure",
         "description": "5 à 10 pages",
-        "price": 500000,
+        "price": 800000,
         "timeline": "2–3 semaines",
         "features": [
           "5 à 10 pages",
@@ -199,7 +200,7 @@
       "premium": {
         "name": "Signature / E-commerce",
         "description": "Boutique en ligne avec paiement",
-        "price": 1300000,
+        "price": 1600000,
         "timeline": "3–6 semaines",
         "features": [
           "Jusqu'à 12 pages + blog",
@@ -209,20 +210,6 @@
           "30 jours de support"
         ],
         "cta": "Nous contacter"
-      },
-      "graphic": {
-        "name": "Design Graphique",
-        "description": "Logos numériques, flyers, affiches",
-        "price": 20000,
-        "timeline": "48 heures",
-        "features": [
-          "Logos numériques",
-          "Flyers et affiches",
-          "Visuels réseaux sociaux",
-          "Fichiers prêts à imprimer",
-          "2 allers-retours"
-        ],
-        "cta": "Demander un design"
       },
       "seo": {
         "name": "Optimisation SEO",
@@ -303,7 +290,7 @@
     ]
   },
   "footer": {
-    "description": "GROOVESTREET est un studio de design à Kampala, en Ouganda. Nous concevons sites web, marques et graphismes pour les entreprises en croissance — au service de l'Afrique et au-delà.",
+    "description": "GROOVESTREET est un studio de design à Kampala, en Ouganda. Nous concevons des sites web et des outils numériques pour les entreprises en croissance — au service de l'Afrique et au-delà.",
     "ctaTitle": "Prêt à construire ?",
     "ctaButton": "Contactez-nous",
     "explore": "Explorer",
@@ -324,8 +311,8 @@
     "openPreview": "Ouvrir l'aperçu",
     "newTabHint": "S'ouvre dans un nouvel onglet",
     "metadata": {
-      "title": "Exemples de sites web et de design graphique — GROOVESTREET",
-      "description": "Découvrez des exemples de sites web et de design graphique réalisés par GROOVESTREET : hôtels, restaurants, santé, immobilier et SaaS, conçus à Kampala pour des clients du monde entier."
+      "title": "Exemples de sites web — GROOVESTREET",
+      "description": "Découvrez des exemples de sites web réalisés par GROOVESTREET : hôtels, restaurants, santé, immobilier et SaaS, conçus à Kampala pour des clients du monde entier."
     },
     "items": {
       "hotel": {
@@ -363,6 +350,12 @@
         "subtitle": "Healthcare in Mbale, Uganda",
         "description": "Premium healthcare clinic preview with hero, services, doctors, contact form and footer.",
         "image": "/samples-shots/dakatal.jpg"
+      },
+      "mbuzi": {
+        "title": "Mbuzi",
+        "subtitle": "Grillades au charbon & restaurant",
+        "description": "Restaurant ougandais de chèvre rôtie à Mbarara : héro sombre affirmé, menu en UGX, galerie, histoire, avis, réservation et contact.",
+        "image": "/samples-shots/mbuzi.jpg"
       }
     }
   },
@@ -440,13 +433,13 @@
       "heading": "Le Studio",
       "subtitle": "Une équipe, amplifiée par l'IA",
       "whoTitle": "Qui nous sommes",
-      "whoBody": "GROOVESTREET est une agence de conception logicielle basée à Kampala, en Ouganda. Nous concevons et réalisons des sites premium et des outils numériques pour les entreprises en croissance en Afrique de l'Est et au-delà.",
+      "whoBody": "GROOVESTREET est une agence de conception logicielle basée à Kampala, en Ouganda. Nous concevons et construisons des sites web, des logiciels et des outils numériques premium pour les entreprises en croissance en Afrique de l'Est et au-delà.",
       "whoBody2": "Nous sommes une équipe concentrée qui utilise l'IA comme un outil, pas comme un remplacement du savoir-faire. Cette combinaison nous permet d'avancer plus vite, de maîtriser les coûts et d'offrir une finition qu'une structure d'agence classique aurait du mal à égaler.",
       "whatTitle": "Ce que nous faisons",
       "howTitle": "Notre méthode",
       "howBody": "Notre processus est simple : Découverte, Devis, Conception, Réalisation, Lancement. Vous nous parlez de votre activité, nous établissons un devis fixe en UGX avec un calendrier écrit, puis nous concevons, réalisons et testons sur de vrais appareils.",
       "teamTitle": "L'Équipe",
-      "teamSubtitle": "Trois personnes, un studio",
+      "teamSubtitle": "Quatre personnes, un studio",
       "motivationLabel": "Pourquoi nous le faisons",
       "linksLabel": "Nous trouver",
       "contactTitle": "Contact",
@@ -465,34 +458,36 @@
             "portfolio": "Portfolio",
             "whatsapp": "WhatsApp"
           },
-          "portfolioUrl": "https://atigo.netlify.app",
+          "portfolioUrl": "https://atigo.dev/",
           "email": "atgodoch@gmail.com"
         },
-        "josh": {
-          "name": "Okello Josh",
-          "role": "Développement & Technique",
-          "image": "/team/josh.svg",
-          "description": "Josh construit ce qui est conçu. Il réalise les sites, formulaires et intégrations, et teste chaque page sur de vrais appareils avant la mise en ligne.",
-          "motivation": "Il veut que la technologie serve vraiment les clients, pas seulement fonctionne. Code propre, chargement rapide, aucune surprise après le lancement.",
+        "nelson": {
+          "name": "Namusoboko Nelson",
+          "role": "Développement & Ingénierie",
+          "image": "/team/nelson.jpg",
+          "description": "Nelson construit les systèmes derrière les sites : API, pipelines de données et intégrations qui font tourner l'ensemble de façon fiable.",
+          "motivation": "Il tient aux systèmes simples, observables et fiables à mesure qu'ils grandissent — et à prouver qu'un travail backend de classe mondiale peut venir d'Ouganda.",
           "links": {
-            "portfolio": "Portfolio",
-            "whatsapp": "WhatsApp"
+            "portfolio": "Portfolio"
           },
-          "portfolioUrl": "https://atigo.netlify.app",
-          "email": "atgodoch@gmail.com"
+          "portfolioUrl": "https://namusoboko.dev",
+          "email": "namusobokon@gmail.com"
         },
-        "emily": {
-          "name": "Ashaba Emily",
-          "role": "Design & Marque",
-          "image": "/team/emily.svg",
-          "description": "Emily conçoit les logos, flyers, affiches et le volet visuel de chaque site. Elle maintient la cohérence et la fidélité à la marque.",
-          "motivation": "Elle est convaincue que le bon design n'est pas un luxe mais la forme de publicité la moins chère. Un flyer ou un logo forts continuent de travailler pour l'entreprise tant qu'ils sont en main.",
-          "links": {
-            "portfolio": "Portfolio",
-            "whatsapp": "WhatsApp"
-          },
-          "portfolioUrl": "https://atigo.netlify.app",
-          "email": "atgodoch@gmail.com"
+        "stuart": {
+          "name": "Stuart Muwonge",
+          "role": "Développement & Ingénierie",
+          "image": "/team/stuart.svg",
+          "description": "Stuart intervient sur toute la stack pour transformer les maquettes en produits fiables, des détails front-end aux services qui les alimentent.",
+          "motivation": "Il aime livrer des logiciels simples à utiliser et croit que la meilleure ingénierie est celle à laquelle les clients n'ont jamais à penser.",
+          "links": {}
+        },
+        "elvis": {
+          "name": "Eilu Elvis",
+          "role": "Directeur des opérations (COO)",
+          "image": "/team/elvis.svg",
+          "description": "Elvis fait tourner le studio : opérations, calendriers de livraison et détails quotidiens qui permettent à l'équipe de se concentrer sur les clients.",
+          "motivation": "Il croit que de bonnes opérations sont invisibles — le bon devis, le bon calendrier et aucune surprise entre le lancement et la livraison.",
+          "links": {}
         }
       }
     }
@@ -507,7 +502,7 @@
       {
         "value": "200+",
         "count": 200,
-        "label": "Designs"
+        "label": "Pages"
       },
       {
         "value": "50+",
@@ -520,12 +515,6 @@
         "label": "5 étoiles"
       }
     ]
-  },
-  "graphics": {
-    "label": "Design Graphique",
-    "title": "Sélection",
-    "subtitle": "Visuels",
-    "note": "Logos, flyers, affiches et visuels sociaux conçus pour arrêter le défilement."
   },
   "liveSample": {
     "label": "Exemple en direct",
@@ -542,5 +531,20 @@
     "title": "Testé, approuvé et fiable",
     "subtitle": "Chaque site est vérifié sur de vrais appareils, dans de vrais navigateurs, avant de vous être livré.",
     "partnersLabel": "Ils nous font confiance"
+  },
+  "notFound": {
+    "label": "Erreur 404",
+    "title": "Cette page a pris un mauvais virage.",
+    "description": "Le lien est cassé ou la page a été déplacée. Choisissez une direction ci-dessous et nous vous remettons sur la bonne voie.",
+    "home": "Retour à l'accueil",
+    "samples": "Voir nos exemples",
+    "popularLabel": "Pages populaires",
+    "badge": "Page introuvable",
+    "links": {
+      "home": "Accueil",
+      "samples": "Exemples",
+      "about": "À propos",
+      "contact": "Contact"
+    }
   }
 }

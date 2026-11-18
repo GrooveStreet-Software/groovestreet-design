@@ -41,11 +41,9 @@ export function PricingCard({ plan, currency, onCta }: PricingCardProps) {
 
       <div className="mb-6 min-w-0">
         <div className="flex items-baseline gap-1 text-2xl font-bold text-white md:text-3xl lg:text-[1.75rem]">
-          {plan.from && (
-            <span className="text-sm font-normal text-white/60">
-              {t("from")}
-            </span>
-          )}
+          <span className="text-sm font-normal text-white/60">
+            {t("from")}
+          </span>
           <span>
             {format.number(price, {
               style: "currency",

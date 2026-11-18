@@ -34,8 +34,8 @@ export function AboutContent() {
       description: string;
       motivation: string;
       links: Record<string, string>;
-      portfolioUrl: string;
-      email: string;
+      portfolioUrl?: string;
+      email?: string;
     }
   >;
   const keys = Object.keys(members);
@@ -84,7 +84,7 @@ export function AboutContent() {
             </div>
           </Reveal>
 
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {keys.map((key, index) => {
               const member = members[key];
 
@@ -119,36 +119,42 @@ export function AboutContent() {
                           {member.motivation}
                         </p>
 
-                        <div className="flex flex-wrap gap-2">
-                          <a
-                            href={member.portfolioUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={() =>
-                              trackEvent("portfolio_click", {
-                                member: member.name,
-                              })
-                            }
-                            className="inline-flex items-center gap-1.5 border border-neutral-700 px-3 py-1.5 text-xs uppercase tracking-widest text-neutral-300 transition-colors hover:border-brand hover:text-white"
-                          >
-                            <ExternalLink className="h-3 w-3" />
-                            {member.links.portfolio}
-                          </a>
-                          <a
-                            href={whatsappUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={() =>
-                              trackEvent("whatsapp_click", {
-                                location: "about_member",
-                              })
-                            }
-                            className="inline-flex items-center gap-1.5 border border-neutral-700 px-3 py-1.5 text-xs uppercase tracking-widest text-neutral-300 transition-colors hover:border-brand hover:text-white"
-                          >
-                            <Phone className="h-3 w-3" />
-                            {member.links.whatsapp}
-                          </a>
-                        </div>
+                        {(member.portfolioUrl || member.links?.whatsapp) && (
+                          <div className="flex flex-wrap gap-2">
+                          {member.portfolioUrl && member.links?.portfolio && (
+                            <a
+                              href={member.portfolioUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={() =>
+                                trackEvent("portfolio_click", {
+                                  member: member.name,
+                                })
+                              }
+                              className="inline-flex items-center gap-1.5 border border-neutral-700 px-3 py-1.5 text-xs uppercase tracking-widest text-neutral-300 transition-colors hover:border-brand hover:text-white"
+                            >
+                              <ExternalLink className="h-3 w-3" />
+                              {member.links.portfolio}
+                            </a>
+                          )}
+                          {member.links?.whatsapp && (
+                            <a
+                              href={whatsappUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={() =>
+                                trackEvent("whatsapp_click", {
+                                  location: "about_member",
+                                })
+                              }
+                              className="inline-flex items-center gap-1.5 border border-neutral-700 px-3 py-1.5 text-xs uppercase tracking-widest text-neutral-300 transition-colors hover:border-brand hover:text-white"
+                            >
+                              <Phone className="h-3 w-3" />
+                              {member.links.whatsapp}
+                            </a>
+                          )}
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>

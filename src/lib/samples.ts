@@ -29,6 +29,12 @@ export const samplePreviews: SamplePreview[] = [
     image: "/samples-shots/feane.jpg",
   },
   {
+    key: "mbuzi",
+    messageKey: "mbuzi",
+    file: "/samples/mbuzi/index.html",
+    image: "/samples-shots/mbuzi.jpg",
+  },
+  {
     key: "sarab",
     messageKey: "sarab",
     file: "/samples/sarab-real.html",

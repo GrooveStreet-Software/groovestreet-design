@@ -1,7 +1,7 @@
 "use client";
 
 import { SectionHeader } from "@/components/ui";
-import { GraphicsMarquee, Reveal } from "@/components";
+import { Reveal } from "@/components";
 import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Footer } from "@/layouts";
@@ -69,7 +69,6 @@ export default function SamplesPage() {
           ))}
         </div>
       </div>
-      <GraphicsMarquee />
       <Footer />
     </main>
   );

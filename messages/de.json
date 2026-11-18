@@ -26,7 +26,8 @@
     "names": {
       "en": "English",
       "fr": "Français",
-      "de": "Deutsch"
+      "de": "Deutsch",
+      "sw": "Kiswahili"
     }
   },
   "navigation": {
@@ -50,12 +51,12 @@
       "prefix": "PREMIUM",
       "services": [
         "WEBSITES",
-        "GRAFIK",
+        "SOFTWARE",
         "DIGITALE TOOLS"
       ],
-      "accessible": "Premium-Websites, Grafiken und digitale Tools"
+      "accessible": "Premium-Websites, Software und digitale Tools"
     },
-    "description": "Wir bringen wachsende Unternehmen online – mit Websites, Grafiken und digitalen Tools, die Besucher zu Kunden machen. Ein fokussiertes Team, verstärkt durch KI.",
+    "description": "Wir bringen wachsende Unternehmen online – mit Websites, Software und digitalen Tools, die Besucher zu Kunden machen. Ein fokussiertes Team, verstärkt durch KI.",
     "primaryCta": "Projekt starten",
     "secondaryCta": "Preise ansehen",
     "build": "Bauen"
@@ -70,7 +71,7 @@
       {
         "value": "200+",
         "count": 200,
-        "label": "Designs"
+        "label": "Seiten"
       },
       {
         "value": "50+",
@@ -96,11 +97,11 @@
         "image": "/service-assets/website-design.jpg",
         "why": "Ihre Website ist Ihr Schaufenster — das erste, was Kunden sehen. Wir bauen sie schnell, mobil-optimiert und darauf ausgelegt, Anrufe und Nachrichten zu bringen."
       },
-      "responsive": {
-        "title": "Grafikdesign",
-        "need": "Markengrafiken, die überall scharf aussehen.",
-        "image": "/service-assets/graphic-design.jpg",
-        "why": "Flyer, Poster und Social-Media-Grafiken, die Ihre Marke erkennbar machen. Konsistent, druckfertig und in 48 Stunden geliefert — nicht in 48 Tagen."
+      "software": {
+        "title": "Software-Design & Entwicklung",
+        "need": "Individuelle Software, die zu Ihrem Geschäftsablauf passt.",
+        "why": "Interne Tools, Dashboards, Buchungssysteme und Integrationen rund um Ihren Workflow — klar abgegrenzt, kalkuliert und ohne aufgeblähte Wartungsverträge geliefert.",
+        "image": "/service-assets/software-development.jpg"
       },
       "performance": {
         "title": "Online-Sichtbarkeit",
@@ -109,12 +110,6 @@
         "why": "Entweder Sie werden gefunden, oder nicht. Wir richten Google Maps, Suche und Analytics ein, damit Kunden Sie wirklich erreichen."
       }
     }
-  },
-  "graphics": {
-    "label": "Grafikdesign",
-    "title": "Ausgewählte",
-    "subtitle": "Arbeiten",
-    "note": "Logos, Flyer, Poster und Social-Grafiken, die den Scroll stoppen."
   },
   "liveSample": {
     "label": "Live-Beispiel",
@@ -134,8 +129,8 @@
     "openPreview": "Vorschau öffnen",
     "newTabHint": "Öffnet in neuem Tab",
     "metadata": {
-      "title": "Website- und Grafikdesign-Beispiele — GROOVESTREET",
-      "description": "Entdecken Sie Live-Beispiele für Websites und Grafikdesign von GROOVESTREET: Hotels, Restaurants, Gesundheitswesen, Immobilien und SaaS, entwickelt in Kampala für Kunden weltweit."
+      "title": "Website-Beispiele — GROOVESTREET",
+      "description": "Entdecken Sie Live-Website-Beispiele von GROOVESTREET: Hotels, Restaurants, Gesundheitswesen, Immobilien und SaaS, entwickelt in Kampala für Kunden weltweit."
     },
     "items": {
       "hotel": {
@@ -173,6 +168,12 @@
         "subtitle": "Healthcare in Mbale, Uganda",
         "description": "Premium healthcare clinic preview with hero, services, doctors, contact form and footer.",
         "image": "/samples-shots/dakatal.jpg"
+      },
+      "mbuzi": {
+        "title": "Mbuzi",
+        "subtitle": "Holzkohlegrill & Restaurant",
+        "description": "Ugandisches Ziegenbrat-Restaurant in Mbarara mit markantem dunklem Hero, Menü in UGX, Galerie, Geschichte, Bewertungen, Reservierung und Kontakt.",
+        "image": "/samples-shots/mbuzi.jpg"
       }
     }
   },
@@ -230,7 +231,7 @@
         "rating": "4"
       },
       "david": {
-        "quote": "Meine Flyer sehen aus wie aus dem Druckerei-Katalog — aber in 48 Stunden statt zwei Wochen.",
+        "quote": "Sie haben meine Website in zwei Wochen neu gebaut — jetzt finden Kunden mich auf Google vor meinen Wettbewerbern.",
         "author": "David Ssemwanga",
         "role": "Geschäftsführer, Ssemwanga Motors",
         "rating": "4"
@@ -261,7 +262,7 @@
       "basic": {
         "name": "Landing Page",
         "description": "Einseitige Website oder Portfolio",
-        "price": 200000,
+        "price": 500000,
         "timeline": "3–5 Tage",
         "features": [
           "Eine hochkonvertierende Seite",
@@ -275,7 +276,7 @@
       "standard": {
         "name": "Website nach Maß",
         "description": "5–10 Seiten",
-        "price": 500000,
+        "price": 800000,
         "timeline": "2–3 Wochen",
         "features": [
           "5–10 Seiten",
@@ -289,7 +290,7 @@
       "premium": {
         "name": "Signature / E-Commerce",
         "description": "Online-Shop mit Zahlung",
-        "price": 1300000,
+        "price": 1600000,
         "timeline": "3–6 Wochen",
         "features": [
           "Bis zu 12 Seiten + Blog",
@@ -299,20 +300,6 @@
           "30 Tage Support"
         ],
         "cta": "Kontakt aufnehmen"
-      },
-      "graphic": {
-        "name": "Grafikdesign",
-        "description": "Digitale Logos, Flyer, Poster",
-        "price": 20000,
-        "timeline": "48 Stunden",
-        "features": [
-          "Digitale Logos",
-          "Flyer & Poster",
-          "Social-Media-Grafiken",
-          "Druckfertige Dateien",
-          "2 Überarbeitungsrunden"
-        ],
-        "cta": "Design anfragen"
       },
       "seo": {
         "name": "SEO-Optimierung",
@@ -393,7 +380,7 @@
     ]
   },
   "footer": {
-    "description": "GROOVESTREET ist ein Designstudio in Kampala, Uganda. Wir bauen Websites, Marken und Grafiken für wachsende Unternehmen — für Afrika und darüber hinaus.",
+    "description": "GROOVESTREET ist ein Designstudio in Kampala, Uganda. Wir bauen Websites und digitale Tools für wachsende Unternehmen — für Afrika und darüber hinaus.",
     "ctaTitle": "Bereit zum Bauen?",
     "ctaButton": "Kontakt",
     "explore": "Entdecken",
@@ -414,13 +401,13 @@
       "heading": "Das Studio",
       "subtitle": "Ein Team, verstärkt durch KI",
       "whoTitle": "Wer wir sind",
-      "whoBody": "GROOVESTREET ist ein Software-Design-Studio mit Sitz in Kampala, Uganda. Wir gestalten und bauen Premium-Websites und digitale Tools für wachsende Unternehmen in Ostafrika und darüber hinaus.",
+      "whoBody": "GROOVESTREET ist eine Software-Design-Agentur mit Sitz in Kampala, Uganda. Wir gestalten und entwickeln Premium-Websites, Software und digitale Tools für wachsende Unternehmen in Ostafrika und darüber hinaus.",
       "whoBody2": "Wir sind ein fokussiertes Team, das KI als Werkzeug einsetzt – nicht als Ersatz für Handwerk. Diese Kombination lässt uns schneller arbeiten, Kosten niedrig halten und eine Qualität liefern, die eine klassische Agenturstruktur kaum erreichen würde.",
       "whatTitle": "Was wir tun",
       "howTitle": "So arbeiten wir",
       "howBody": "Unser Ablauf ist einfach: Kennenlernen, Angebot, Gestaltung, Umsetzung, Launch. Sie erzählen uns von Ihrem Geschäft, wir machen ein festes UGX-Angebot mit schriftlichem Zeitplan — dann gestalten, bauen und testen wir auf echten Geräten.",
       "teamTitle": "Das Team",
-      "teamSubtitle": "Drei Leute, ein Studio",
+      "teamSubtitle": "Vier Leute, ein Studio",
       "motivationLabel": "Warum wir es tun",
       "linksLabel": "So finden Sie uns",
       "contactTitle": "Kontakt",
@@ -439,34 +426,36 @@
             "portfolio": "Portfolio",
             "whatsapp": "WhatsApp"
           },
-          "portfolioUrl": "https://atigo.netlify.app",
+          "portfolioUrl": "https://atigo.dev/",
           "email": "atgodoch@gmail.com"
         },
-        "josh": {
-          "name": "Okello Josh",
+        "nelson": {
+          "name": "Namusoboko Nelson",
           "role": "Entwicklung & Technik",
-          "image": "/team/josh.svg",
-          "description": "Josh baut, was entworfen wird. Er setzt Websites, Formulare und Integrationen um und testet jede Seite auf echten Geräten, bevor sie live geht.",
-          "motivation": "Er will, dass Technik bei Kunden ankommt, nicht nur funktioniert. Sauberer Code, schnelle Ladezeit, keine Überraschungen nach dem Launch.",
+          "image": "/team/nelson.jpg",
+          "description": "Nelson baut die Systeme hinter den Websites: APIs, Datenpipelines und Integrationen, die alles zuverlässig am Laufen halten.",
+          "motivation": "Ihm liegen Systeme am Herzen, die einfach, beobachtbar und verlässlich bleiben, wenn sie wachsen — und der Beweis, dass erstklassige Backend-Arbeit aus Uganda kommen kann.",
           "links": {
-            "portfolio": "Portfolio",
-            "whatsapp": "WhatsApp"
+            "portfolio": "Portfolio"
           },
-          "portfolioUrl": "https://atigo.netlify.app",
-          "email": "atgodoch@gmail.com"
+          "portfolioUrl": "https://namusoboko.dev",
+          "email": "namusobokon@gmail.com"
         },
-        "emily": {
-          "name": "Ashaba Emily",
-          "role": "Design & Marke",
-          "image": "/team/emily.svg",
-          "description": "Emily gestaltet Logos, Flyer, Poster und die visuelle Seite jeder Website. Sie hält alles konsistent und zur Marke treu.",
-          "motivation": "Sie glaubt, dass gutes Design kein Luxus ist, sondern die günstigste Form der Werbung. Ein starkes Flyer oder Logo arbeitet weiter für das Geschäft, solange es in der Hand ist.",
-          "links": {
-            "portfolio": "Portfolio",
-            "whatsapp": "WhatsApp"
-          },
-          "portfolioUrl": "https://atigo.netlify.app",
-          "email": "atgodoch@gmail.com"
+        "stuart": {
+          "name": "Stuart Muwonge",
+          "role": "Entwicklung & Technik",
+          "image": "/team/stuart.svg",
+          "description": "Stuart arbeitet über den gesamten Stack und macht aus Designs verlässliche Produkte — vom Frontend-Detail bis zu den dahinterliegenden Services.",
+          "motivation": "Er liefert Software, die sich mühelos anfühlt, und glaubt, dass die beste Technik die ist, über die Kunden nie nachdenken müssen.",
+          "links": {}
+        },
+        "elvis": {
+          "name": "Eilu Elvis",
+          "role": "Chief Operating Officer (COO)",
+          "image": "/team/elvis.svg",
+          "description": "Elvis hält das Studio am Laufen: Betrieb, Lieferpläne und die täglichen Details, die dem Team den Rücken freihalten.",
+          "motivation": "Er glaubt, dass gute Abläufe unsichtbar sind — das richtige Angebot, der richtige Zeitplan und keine Überraschungen zwischen Start und Launch.",
+          "links": {}
         }
       }
     },
@@ -542,5 +531,20 @@
     "title": "Getestet, geprüft und vertrauenswürdig",
     "subtitle": "Jede Website wird vor der Übergabe auf echten Geräten und in echten Browsern geprüft.",
     "partnersLabel": "Vertrauen von Teams bei"
+  },
+  "notFound": {
+    "label": "Fehler 404",
+    "title": "Diese Seite hat die falsche Abfahrt genommen.",
+    "description": "Der Link ist defekt oder die Seite wurde verschoben. Wählen Sie unten eine Richtung – wir bringen Sie zurück auf Kurs.",
+    "home": "Zurück zur Startseite",
+    "samples": "Beispiele ansehen",
+    "popularLabel": "Beliebte Seiten",
+    "badge": "Seite nicht gefunden",
+    "links": {
+      "home": "Startseite",
+      "samples": "Beispiele",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    }
   }
 }

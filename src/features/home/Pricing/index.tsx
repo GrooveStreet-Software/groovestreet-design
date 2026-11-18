@@ -30,7 +30,7 @@ export function Pricing() {
           <CurrencyToggle currency={currency} onToggle={setCurrency} />
         </Reveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {pricingPlans.map((plan) => (
             <Reveal key={plan.key} delay={150} as="article">
               <PricingCard

@@ -26,7 +26,8 @@
     "names": {
       "en": "English",
       "fr": "Français",
-      "de": "Deutsch"
+      "de": "Deutsch",
+      "sw": "Kiswahili"
     }
   },
   "navigation": {
@@ -50,12 +51,12 @@
       "prefix": "PREMIUM",
       "services": [
         "WEBSITES",
-        "GRAPHICS",
+        "SOFTWARE",
         "DIGITAL TOOLS"
       ],
-      "accessible": "Premium websites, graphics and digital tools"
+      "accessible": "Premium websites, software and digital tools"
     },
-    "description": "We put growing businesses online with websites, graphics and digital tools that turn visitors into customers. A focused team, amplified by AI.",
+    "description": "We put growing businesses online with websites, software and digital tools that turn visitors into customers. A focused team, amplified by AI.",
     "primaryCta": "Start Your Project",
     "secondaryCta": "See Pricing",
     "build": "Build"
@@ -72,11 +73,11 @@
         "image": "/service-assets/website-design.jpg",
         "why": "Your website is your shopfront — the first thing customers see. We build it fast, mobile-first, and built to bring in calls and messages."
       },
-      "responsive": {
-        "title": "Graphic Design",
-        "need": "Brand graphics that look sharp everywhere they land.",
-        "image": "/service-assets/graphic-design.jpg",
-        "why": "Flyers, posters and social media graphics that make your brand recognisable. Consistent, print-ready, and delivered in 48 hours — not 48 days."
+      "software": {
+        "title": "Software Design & Development",
+        "need": "Custom software that fits how your business actually works.",
+        "why": "Internal tools, dashboards, booking systems and integrations built around your workflow — scoped, quoted and delivered without bloated retainers.",
+        "image": "/service-assets/software-development.jpg"
       },
       "performance": {
         "title": "Online Visibility",
@@ -140,7 +141,7 @@
         "rating": "4"
       },
       "david": {
-        "quote": "My flyer looks like it came out of a print catalogue — but it took 48 hours, not two weeks.",
+        "quote": "They rebuilt my site in two weeks and now customers find me on Google before my competitors.",
         "author": "David Ssemwanga",
         "role": "Manager, Ssemwanga Motors",
         "rating": "4"
@@ -171,7 +172,7 @@
       "basic": {
         "name": "Landing Page",
         "description": "Landing page or portfolio website",
-        "price": 200000,
+        "price": 500000,
         "timeline": "3–5 days",
         "features": [
           "One high-converting page",
@@ -185,7 +186,7 @@
       "standard": {
         "name": "Custom Website",
         "description": "5–10 pages",
-        "price": 500000,
+        "price": 800000,
         "timeline": "2–3 weeks",
         "features": [
           "5–10 pages",
@@ -199,7 +200,7 @@
       "premium": {
         "name": "Signature / E-commerce",
         "description": "Online store with payments",
-        "price": 1300000,
+        "price": 1600000,
         "timeline": "3–6 weeks",
         "features": [
           "Up to 12 pages + blog",
@@ -209,20 +210,6 @@
           "30 days support"
         ],
         "cta": "Contact Us"
-      },
-      "graphic": {
-        "name": "Graphic Design",
-        "description": "Digital logos, flyers, posters",
-        "price": 20000,
-        "timeline": "48 hours",
-        "features": [
-          "Digital logos",
-          "Flyers & posters",
-          "Social media graphics",
-          "Print-ready files",
-          "2 revision rounds"
-        ],
-        "cta": "Request a Design"
       },
       "seo": {
         "name": "SEO Optimization",
@@ -303,7 +290,7 @@
     ]
   },
   "footer": {
-    "description": "GROOVESTREET is a design studio in Kampala, Uganda. We build websites, brands and graphics for growing businesses — serving Africa and beyond.",
+    "description": "GROOVESTREET is a design studio in Kampala, Uganda. We build websites and digital tools for growing businesses — serving Africa and beyond.",
     "ctaTitle": "Ready to build?",
     "ctaButton": "Contact Us",
     "explore": "Explore",
@@ -324,8 +311,8 @@
     "openPreview": "Open preview",
     "newTabHint": "Opens in a new tab",
     "metadata": {
-      "title": "Website & Graphic Design Samples — GROOVESTREET",
-      "description": "Explore live website and graphic design samples by GROOVESTREET: hotels, restaurants, healthcare, real estate and SaaS, built in Kampala for clients worldwide."
+      "title": "Website Design Samples — GROOVESTREET",
+      "description": "Explore live website samples by GROOVESTREET: hotels, restaurants, healthcare, real estate and SaaS, built in Kampala for clients worldwide."
     },
     "items": {
       "hotel": {
@@ -363,6 +350,12 @@
         "subtitle": "Healthcare in Mbale, Uganda",
         "description": "Premium healthcare clinic preview with hero, services, doctors, contact form and footer.",
         "image": "/samples-shots/dakatal.jpg"
+      },
+      "mbuzi": {
+        "title": "Mbuzi",
+        "subtitle": "Charcoal Grill & Restaurant",
+        "description": "Ugandan goat-roast restaurant in Mbarara with a bold dark hero, menu in UGX, gallery, story, reviews, reservation and contact sections.",
+        "image": "/samples-shots/mbuzi.jpg"
       }
     }
   },
@@ -440,13 +433,13 @@
       "heading": "The Studio",
       "subtitle": "A Team, Amplified by AI",
       "whoTitle": "Who We Are",
-      "whoBody": "GROOVESTREET is a software design agency based in Kampala, Uganda. We design and build premium websites and digital tools for growing businesses across East Africa and beyond.",
+      "whoBody": "GROOVESTREET is a software design agency based in Kampala, Uganda. We design and build premium websites, software and digital tools for growing businesses across East Africa and beyond.",
       "whoBody2": "We are a focused team that uses AI as a tool, not a replacement for craft. That combination lets us move faster, keep costs down, and deliver a level of polish a traditional agency structure would struggle to match.",
       "whatTitle": "What We Do",
       "howTitle": "How We Work",
       "howBody": "Our process is simple: Discovery, Quote, Design, Build, Launch. You tell us about your business, we give you a fixed UGX quote with a written timeline, then we design, build and test on real devices before launch.",
       "teamTitle": "The Team",
-      "teamSubtitle": "Three people, one studio",
+      "teamSubtitle": "Four people, one studio",
       "motivationLabel": "Why we do it",
       "linksLabel": "Find us",
       "contactTitle": "Contact",
@@ -465,34 +458,36 @@
             "portfolio": "Portfolio",
             "whatsapp": "WhatsApp"
           },
-          "portfolioUrl": "https://atigo.netlify.app",
+          "portfolioUrl": "https://atigo.dev/",
           "email": "atgodoch@gmail.com"
         },
-        "josh": {
-          "name": "Okello Josh",
+        "nelson": {
+          "name": "Namusoboko Nelson",
           "role": "Development & Engineering",
-          "image": "/team/josh.svg",
-          "description": "Josh builds what gets designed. He implements the sites, forms and integrations, and tests every page on real devices before it goes live.",
-          "motivation": "He wants technology to actually land with clients, not just work. Clean code, fast loads, and no surprises after launch.",
+          "image": "/team/nelson.jpg",
+          "description": "Nelson builds the systems behind the sites: APIs, data pipelines and integrations that keep everything running reliably.",
+          "motivation": "He cares about systems that stay simple, observable and dependable as they grow — and about proving that world-class backend work can come out of Uganda.",
           "links": {
-            "portfolio": "Portfolio",
-            "whatsapp": "WhatsApp"
+            "portfolio": "Portfolio"
           },
-          "portfolioUrl": "https://atigo.netlify.app",
-          "email": "atgodoch@gmail.com"
+          "portfolioUrl": "https://namusoboko.dev",
+          "email": "namusobokon@gmail.com"
         },
-        "emily": {
-          "name": "Ashaba Emily",
-          "role": "Design & Brand",
-          "image": "/team/emily.svg",
-          "description": "Emily designs the logos, flyers, posters and the visual side of every website. She keeps everything consistent and true to the brand.",
-          "motivation": "She believes good design is not a luxury but the cheapest form of advertising. A strong flyer or logo keeps working for the business while it is being held.",
-          "links": {
-            "portfolio": "Portfolio",
-            "whatsapp": "WhatsApp"
-          },
-          "portfolioUrl": "https://atigo.netlify.app",
-          "email": "atgodoch@gmail.com"
+        "stuart": {
+          "name": "Stuart Muwonge",
+          "role": "Development & Engineering",
+          "image": "/team/stuart.svg",
+          "description": "Stuart works across the stack to turn designs into dependable products, from front-end details to the services that power them.",
+          "motivation": "He likes shipping software that feels effortless to use, and believes the best engineering is the kind clients never have to think about.",
+          "links": {}
+        },
+        "elvis": {
+          "name": "Eilu Elvis",
+          "role": "Chief Operating Officer (COO)",
+          "image": "/team/elvis.svg",
+          "description": "Elvis keeps the studio running: operations, delivery schedules and the day-to-day details that let the team focus on client work.",
+          "motivation": "He believes good operations are invisible — the right quote, the right timeline, and no surprises between kickoff and launch.",
+          "links": {}
         }
       }
     }
@@ -507,7 +502,7 @@
       {
         "value": "200+",
         "count": 200,
-        "label": "Designs"
+        "label": "Pages Built"
       },
       {
         "value": "50+",
@@ -520,12 +515,6 @@
         "label": "5-star rated"
       }
     ]
-  },
-  "graphics": {
-    "label": "Graphic Design",
-    "title": "Selected",
-    "subtitle": "Work",
-    "note": "Logos, flyers, posters and social graphics made to stop the scroll."
   },
   "liveSample": {
     "label": "Live Sample",
@@ -542,5 +531,20 @@
     "title": "Tested Approved And Trusted",
     "subtitle": "Every site is checked on real devices, in real browsers, before it reaches you.",
     "partnersLabel": "Trusted by teams at"
+  },
+  "notFound": {
+    "label": "Error 404",
+    "title": "This page took a wrong turn.",
+    "description": "The link is broken or the page has moved. Pick a direction below and we'll get you back on track.",
+    "home": "Back to home",
+    "samples": "See our samples",
+    "popularLabel": "Popular pages",
+    "badge": "Page not found",
+    "links": {
+      "home": "Home",
+      "samples": "Samples",
+      "about": "About",
+      "contact": "Contact"
+    }
   }
 }

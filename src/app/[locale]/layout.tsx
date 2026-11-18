@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
+import Script from "next/script";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ThemeProvider, QueryProvider, ContactModalProvider } from "@/providers";
 import {
@@ -138,7 +139,7 @@ export default async function LocaleLayout({
         description: t("description"),
         email: contactDetails.email,
         telephone: contactDetails.phoneTel,
-        priceRange: "UGX 20,000–1,300,000",
+        priceRange: "UGX 100,000–1,600,000",
         address: {
           "@type": "PostalAddress",
           addressLocality: "Kampala",
@@ -155,11 +156,11 @@ export default async function LocaleLayout({
             "@type": "ContactPoint",
             telephone: contactDetails.phoneTel,
             contactType: "customer service",
-            availableLanguage: ["en", "fr", "de"],
+            availableLanguage: ["en", "fr", "de", "sw"],
           },
         ],
         sameAs: ["https://github.com/GrooveStreet-Software"],
-        knowsLanguage: ["en", "fr", "de"],
+        knowsLanguage: ["en", "fr", "de", "sw"],
         openingHoursSpecification: [
           {
             "@type": "OpeningHoursSpecification",
@@ -206,7 +207,7 @@ export default async function LocaleLayout({
               "@type": "Offer",
               itemOffered: {
                 "@type": "Service",
-                name: "Graphic design",
+                name: "Software design and development",
                 provider: { "@id": organizationId },
               },
             },
@@ -233,6 +234,18 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className={`${inter.className} bg-black mx-auto max-w-[1280px]`}>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtm.js?id=GTM-KQQ4ZS8N"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtm-data-layer"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date());`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

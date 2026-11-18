@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "title": "GROOVESTREET — Kujidhibitisha Uchumi Wako",
+    "siteName": "GROOVESTREET",
+    "description": "Kiwango cha kutosha na kufanywa kwa bei ambazo inalingana na jiji la kuzaliana. Ranga tangu Kampala, kunahudisha Afrika Mashariki na duniani.",
+    "ogImageAlt": "Mchoro wa Aina ya GROOVESTREET"
+  },
+  "cookieConsent": {
+    "label": "Qadir ya mazungumzo",
+    "body": "Tunatumia Google Analytics kuweka maelezo ya maudhui yaliyohusika. Huduma haipo, lakini haiwezi kutumika kwa madai, kutekeleza mfululizo wa mazungumzo, au kutekeleza data ya taarifa.",
+    "learnMore": "Sera ya faragha",
+    "accept": "Kubali",
+    "decline": "Kutokuwa na kutoroka"
+  },
+  "common": {
+    "brand": "GROOVESTREET",
+    "social": {
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+  "localeSwitcher": {
+    "switchTo": "Badilisha kifungu hadi {language}",
+    "names": {
+      "en": "English",
+      "fr": "Francés",
+      "de": "Deutsch",
+      "sw": "Kiswahili"
+    }
+  },
+  "navigation": {
+    "features": "Hizbi",
+    "work": "Mifano",
+    "process": "Mzozo",
+    "pricing": "Bei",
+    "about": "Kuhusu",
+    "contact": "Mteja",
+    "openMenu": "Fungua orodha",
+    "closeMenu": "Funga orodha"
+  },
+  "hero": {
+    "badge": "Kiuntomi cha Mfundi · Kampala · Kunahudisha Afrika Mashariki na panda",
+    "headline": {
+      "line1": "GROOVE",
+      "line2": "STREET",
+      "line3": "MFUNDI"
+    },
+    "serviceSwitch": {
+      "prefix": "MPE",
+      "services": [
+        "TOVUTI",
+        "PROGRAMU",
+        "ZANA ZA KIDIJITALI"
+      ],
+      "accessible": "Tovuti, programu na zana za kidijitali za hali ya juu"
+    },
+    "description": "Tunawaweka wafanyabiashara wanaokua mtandaoni kwa tovuti, programu na zana za kidijitali zinazowageuza wageni kuwa wateja. Timu iliyolenga, inayosaidiwa na AI.",
+    "primaryCta": "Anza Projekti Wako",
+    "secondaryCta": "Nieleze Bei",
+    "build": "Funga"
+  },
+  "features": {
+    "label": "Kile Tunafanyi",
+    "title": "Kufactura. Funga.",
+    "subtitle": "Ondoa.",
+    "pricingCta": "Nieleze bei",
+    "items": {
+      "minimalist": {
+        "title": "Myenyeki wa Kibanda na Zozote",
+        "need": "Aina ya website inayounda mita na ukasudi",
+        "image": "/service-assets/website-design.jpg",
+        "why": "Website yako ni duka la kujifungua — kitu cha kwanza kinachopata wateja. Tunafanya kidogo, kubwa kwa simu, na kunafanya wateja kupata vitu."
+      },
+      "software": {
+        "title": "Ubunifu na Uendelezaji wa Programu",
+        "need": "Programu maalum inayolingana na jinsi biashara yako inavyofanya kazi.",
+        "why": "Zana za ndani, dashibodi, mifumo ya uhifadhi na miunganisho inayojengwa kulingana na mtiririko wako wa kazi — ikipangwa, kupewa bei na kuwasilishwa bila malipo ya ziada yasiyo ya lazima.",
+        "image": "/service-assets/software-development.jpg"
+      },
+      "performance": {
+        "title": "Uwezo wa Kwanza",
+        "need": "Tafadhali kufikia zaidi za Google, Maps na search wakati wa kufaa",
+        "image": "/service-assets/online-visibility.jpg",
+        "why": "Au unafiki, au haukufiki. Tunachagua Google Maps, search na analytics ili wateja kutokupata wako."
+      }
+    }
+  },
+  "process": {
+    "label": "Kwa njia gani Tunafanyi Kazi",
+    "title": "Ruhusa",
+    "subtitle": "Mzozo",
+    "steps": {
+      "discovery": {
+        "title": "Kuchunguza",
+        "description": "Wewe unatumia kuhusu biashara yako. Tunatekeleza na kufafanua."
+      },
+      "strategy": {
+        "title": "Ranga",
+        "description": "Bei tathmini. Muda wa kisikutumia. Hakuna mawazo yaliyopitishwa."
+      },
+      "design": {
+        "title": "Kifungu",
+        "description": "Tunafanya kifungu, wewe unasahihisha. Miundo minne ya mabadiliko yamekusudia."
+      },
+      "development": {
+        "title": "Funga",
+        "description": "Tunafanya na kufuta kwenye vifaa vya kawaida — Android na iPhone."
+      },
+      "launch": {
+        "title": "Ondoa",
+        "description": "Unapata kufika. Kikomo kikubwa. Msaidizi wa miaka miwili wa bure."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Maombi",
+    "title": "Hata Wateja",
+    "subtitle": "Wanasema",
+    "previous": "Ya awali",
+    "next": "Mwingine",
+    "position": "{current} kwa {total}",
+    "reviews": {
+      "sarah": {
+        "quote": "Walifanya kifungu kila website kwa siku mbili. Nitakuwa na mikutano ya kusaidia kwa mara kwa mara sasa. Kiasi cha bure kupitia mali yangu.",
+        "author": "Sarah Nakato",
+        "role": "Mwanachama na Mkurato, Kiosk ya Vittana",
+        "rating": "5"
+      },
+      "michael": {
+        "quote": "Wa mshirika, asubuhi, na kikomati ya WhatsApp hufanya nafasi kwa asubuhi kila siku. Wateja wetu wanasema kwa kudhuru.",
+        "author": "Michael Okello",
+        "role": "Mwanachama wa Mwana, Okello Designs",
+        "rating": "5"
+      },
+      "emily": {
+        "quote": "Bei tathmini, muda wa kipinga, na wanaokupa adhabu za kimuundo. Kwa hakika hauwe na asubuhi ya kusubiri.",
+        "author": "Emily Ashaba",
+        "role": "Mwanachama na Mradi, Ashaba Academy",
+        "rating": "4"
+      },
+      "david": {
+        "quote": "Walijenga upya tovuti yangu katika wiki mbili — sasa wateja wananipata Google kabla ya washindani.",
+        "author": "David Ssemwanga",
+        "role": "Mwanachama wa Mradi, Ssemwanga Motors",
+        "rating": "4"
+      },
+      "grace": {
+        "quote": "Kwa kifupi, historia ya kibinafsi inapoelezwa. Na matokeo yake ni kwa ajili ya yeye.",
+        "author": "Grace Mukasa",
+        "role": "Mwanachama wa Wafanyakazi, Mukasa Events",
+        "rating": "3"
+      },
+      "peter": {
+        "quote": "Google Maps list iko pekee ili nikusaidie zaidi ya wateja kuliko mtaalam wa kifungu wa kisasa kwa siku miwili.",
+        "author": "Peter Kigozi",
+        "role": "Mwanachama na Mkurato, Kigozi Pharmacy",
+        "rating": "5"
+      }
+    }
+  },
+  "pricing": {
+    "label": "Bei",
+    "title": "Bora na Bora",
+    "popular": "Asili",
+    "currencyToggle": "Onyesha kwa",
+    "ugx": "UGX",
+    "usd": "USD",
+    "rateNote": "Imehesabiwa kwa kurahisi ya leo, kwa muktadha wa msaada tu.",
+    "plans": {
+      "basic": {
+        "name": "Kifungu cha Ukurasa",
+        "description": "Kifungu cha ukurasa au kituo cha biashara",
+        "price": 500000,
+        "timeline": "3–5 siku",
+        "features": [
+          "Ukurasa wa kuingiliana",
+          "Kifungu cha simu ya kusafirisha",
+          "Mchoro wa Google Maps",
+          "Kifungu cha hali ya kawaida",
+          "Posipoti ya kina"
+        ],
+        "cta": "Anza"
+      },
+      "standard": {
+        "name": "Kituo cha Kibinafsi",
+        "description": "5–10 ukurasa",
+        "price": 800000,
+        "timeline": "2–3 wiki",
+        "features": [
+          "5–10 ukurasa",
+          "Kifungu cha msingi wa jumla",
+          "Kifungu cha fomu na WhatsApp",
+          "Kifungu cha kufikiria",
+          "30 siku ya msaidizi"
+        ],
+        "cta": "Anza"
+      },
+      "premium": {
+        "name": "Imara / Kiuchumi",
+        "description": "Bunia kituo cha msingi kwa kusudi",
+        "price": 1600000,
+        "timeline": "3–6 wiki",
+        "features": [
+          "12 ukurasa + blog",
+          "Goji la kifungu",
+          "Kituo cha msingi (MoMo + Airtel)",
+          "Kifungu cha mtazamo",
+          "Tatu mwezi ya msaidizi"
+        ],
+        "cta": "Kusaidia"
+      },
+      "seo": {
+        "name": "SEO",
+        "description": "Kufikia zaidi za Google, Maps na search",
+        "price": 100000,
+        "timeline": "Kwa wiki",
+        "features": [
+          "Kuchagua maneno ya kina",
+          "SEO ya kawaida",
+          "Kifungu cha udhibiti wa mtaani cha mtaani",
+          "Ripoti ya mifano",
+          "Search ya kawaida na dunia"
+        ],
+        "cta": "Tafuta"
+      }
+    },
+    "from": "kutoka"
+  },
+  "contact": {
+    "label": "Mteja",
+    "title": "Tunazingatia",
+    "subtitle": "Viungo",
+    "whatsappCta": "Soma WhatsApp",
+    "whatsappLead": "Unapendelea WhatsApp? Anza na ujumbe unaohesabiwa na mtu mwenye kuda.",
+    "whatsappIntro": "Hello GROOVESTREET, ninahitaji kusemekana kuhusu mradi. Nilipata juu ya mtanda.",
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Jina",
+          "placeholder": "Jina lako"
+        },
+        "email": {
+          "label": "Barua pepe",
+          "placeholder": "barua.pepe@mfunuo.com"
+        },
+        "message": {
+          "label": "Ujumbe",
+          "placeholder": "Wewe una ujumbe kuhusu mradi wako..."
+        }
+      },
+      "submit": "Sema Ujumbe",
+      "sending": "Inasonga...",
+      "success": "Asante. Tutarejea mradi wako kwa dakika tatu.",
+      "error": "Kitendo kimoja kimekosea. Tafadhali jaribu tena.",
+      "validation": {
+        "nameRequired": "Tafadhali ingiza jina lako.",
+        "emailRequired": "Tafadhali ingiza barua pepe yako.",
+        "emailInvalid": "Tafadhali ingiza barua pepe inayofaa.",
+        "messageRequired": "Tafadhali andika ujumbe."
+      }
+    },
+    "info": {
+      "title": "Pata Msaada",
+      "email": "Barua pepe",
+      "phone": "Simu / WhatsApp",
+      "address": "Nafasi",
+      "street": "Kampala, Uganda",
+      "city": "Uchumi wa Kiafrika",
+      "country": "Duniani",
+      "social": "Shule",
+      "whatsapp": "WhatsApp",
+      "github": "GitHub"
+    },
+    "modal": {
+      "close": "Funga kifungu cha mteja",
+      "note": "Mtu mwenye kuda anasoma kila ujumbe. Tunasema mradi wako kwa dakika tatu.",
+      "human": "Unapendelea kusema? Simu au WhatsApp twana, na kumamageuka GROOVESTREET."
+    }
+  },
+  "contactMarquee": {
+    "aria": "Wasiliana na GROOVESTREET",
+    "items": [
+      "Sema kwa mtu mwenye kuda",
+      "Weka kuelezea unachofanya",
+      "Bei tathmini. Muda wa kisikutumia.",
+      "Asante kwa kufuata GROOVESTREET",
+      "Tunechaguane kwa kitu kinachofaa"
+    ]
+  },
+  "footer": {
+    "description": "GROOVESTREET ni studio ya ubunifu mjini Kampala, Uganda. Tunajenga tovuti na zana za kidijitali kwa biashara zinazokua — tukihudumia Afrika na duniani.",
+    "ctaTitle": "Ungependekeza kufanya mradi?",
+    "ctaButton": "Mteja",
+    "explore": "Mgelezea",
+    "contact": "Mteja",
+    "phoneWhatsApp": "Simu / WhatsApp",
+    "copyright": "© {year} GROOVESTREET. Kujidhibitisha Uchumi Wako.",
+    "builtBy": "Ilifaniwa na Ugandians",
+    "legal": {
+      "privacy": "Sera ya faragha",
+      "terms": "Mapendekezo"
+    }
+  },
+  "samples": {
+    "label": "Mipangilio ya Msimbo",
+    "title": "Mchoro",
+    "subtitle": "Mifano",
+    "viewAll": "Nieleze zaidi",
+    "openPreview": "Fungua mchoro",
+    "newTabHint": "Kuanza kwenye kifungu mpya",
+    "metadata": {
+      "title": "Mifano ya Tovuti — GROOVESTREET",
+      "description": "Gundua mifano ya tovuti zilizo hai kutoka GROOVESTREET: hoteli, mikahawa, afya, majengo na SaaS, zilizojengwa Kampala kwa wateja duniani."
+    },
+    "items": {
+      "hotel": {
+        "title": "Hotel GrooveStreet",
+        "subtitle": "Kifungu cha Mvuke",
+        "description": "Kifungu cha ukurasa cha mvuke kwa kufaa cha buluu, kufaa, na kubadilika. Mipango ya moto, mifano, au kituo kikubwa cha kusafirisha kutoka mpaka wa mtaa."
+      },
+      "feane": {
+        "title": "Feane",
+        "subtitle": "Makanuka ya Chakula cha Mchana",
+        "description": "Kituo cha makanuka cha makanuka cha makanuka cha makanuka cha makanuka cha makanuka ya makanuka."
+      },
+      "sarab": {
+        "title": "Sarab",
+        "subtitle": "Makanuka ya Kifungu cha Kawaida",
+        "description": "Kituo cha makanuka cha kijamii cha kampuni cha kibinafsi cha kifungu cha kifungu cha kifungu."
+      },
+      "saaspro": {
+        "title": "SAASPRO",
+        "subtitle": "Kifungu cha Msingi ya Safu",
+        "description": "Kifungu cha safu cha mchana cha safu cha safu ya safu cha safu."
+      },
+      "tech": {
+        "title": "Tech Landing",
+        "subtitle": "Kifungu cha Safu ya Safu",
+        "description": "Kifungu cha safu cha safu cha safu cha safu ya safu."
+      },
+      "dakatal": {
+        "title": "Dakatal",
+        "subtitle": "Afya ya Mbale, Uganda",
+        "description": "Mchoro wa kliniki ya afya ya binadamu wa kibinadamu. Mkurato, mifano, wafanyakazi, kifungu cha mteja, na mikataba."
+      },
+      "mbuzi": {
+        "title": "Mbuzi",
+        "subtitle": "Choma ya Mkaa na Mgahawa",
+        "description": "Mgahawa wa Uganda wa nyama ya mbuzi kuchoma huko Mbarara wenye mwonekano mzito, menyu ya UGX, picha, historia, maoni, uhifadhi na mawasiliano.",
+        "image": "/samples-shots/mbuzi.jpg"
+      }
+    }
+  },
+  "pages": {
+    "privacy": {
+      "title": "Sera ya faragha — GROOVESTREET",
+      "description": "Kujadiliwa, kutumika, na kuthibitishwa makala yako.",
+      "label": "Kifungu",
+      "heading": "Sera ya faragha",
+      "updated": "Mwaka wa mwisho: {date}",
+      "sections": []
+    },
+    "terms": {
+      "title": "Mapendekezo ya Kifungu — GROOVESTREET",
+      "description": "Mapendekezo ya kifungu yaliyofaa wakati unachapishi websiti au kifungu cha biashara.",
+      "label": "Kifungu",
+      "heading": "Mapendekezo",
+      "updated": "Mwaka wa mwisho: {date}",
+      "sections": []
+    },
+    "about": {
+      "title": "Kuhusu — GROOVESTREET",
+      "description": "Kuona GROOVESTREET: chanzo cha biashara cha mteja cha Kampala ambapo kundi mmoja unaofanya kwa kiufuzi.",
+      "label": "Kuhusu",
+      "heading": "Kiwanja",
+      "subtitle": "Kundi mmoja, nguvu kubwa",
+      "whoTitle": "Kwa aina gani tunafanya kazi",
+      "whoBody": "GROOVESTREET ni wakala wa ubunifu wa programu ulioko Kampala, Uganda. Tunabuni na kujenga tovuti, programu na zana za kidijitali za hali ya juu kwa biashara zinazokua Afrika Mashariki na zaidi.",
+      "whoBody2": "Tunapata kundi mmoja cha kataalamu wa kisasa, ambao inasaidia matumizi ya msingi. Hii inapunguze gharama, kusaidia matumizi ya msingi ya uwazi, na kuongeza ujuzi wa kibinadamu.",
+      "whatTitle": "Kile Tunafanyi",
+      "howTitle": "Kwa njia gani Tunafanya Kazi",
+      "howBody": "Mzozo wetu ni rahisi: Kuchunguza, Ranga, Kifungu, Funga, na Ondoa. Wewe unatumia kuhusu biashara yako, tunatathmini biashara yenyewe, kisha tunakufanya, kufunga, na kufuta kwenye vifaa vya kawaida kabla ya wewe kufika.",
+      "teamTitle": "Shirika",
+      "teamSubtitle": "Watu wanne, shirika mmoja",
+      "motivationLabel": "Kwa nini tunafanya kazi hii",
+      "linksLabel": "Tafuta muziki",
+      "contactTitle": "Mteja",
+      "contactCta": "Sema kwa mtu mwenye kuda",
+      "contactSubtitle": "Tusamehe kufuata na kuelezea unachofanya. Tunasema mradi wako kwa dakika tatu.",
+      "contactLead": "Barua pepe, simu, au WhatsApp — yeyote ni rahisi.",
+      "members": {
+        "atigo": {
+          "name": "Atigo Odoch",
+          "role": "Msimamo na Mradi",
+          "description": "Atigo anasimama na kila mteja. Anasomana, anainuia njia, na kuhakikisha matokeo yametukufa kwa aina iliyotolewa.",
+          "motivation": "Alikuwa na mazingira ya maisha ya kubwa. Alifanya GROOVESTREET ili kufaulu biashara zinazopanda kwa bei zinazofaa kwa ijumaa.",
+          "links": {
+            "portfolio": "Portfolio",
+            "whatsapp": "WhatsApp"
+          },
+          "portfolioUrl": "https://atigo.dev/",
+          "email": "atgodoch@gmail.com"
+        },
+        "nelson": {
+          "name": "Namusoboko Nelson",
+          "role": "Uendelezaji na Uhandisi",
+          "image": "/team/nelson.jpg",
+          "description": "Nelson hujenga mifumo iliyo nyuma ya tovuti: API, njia za data na miunganisho inayohakikisha kila kitu kinafanya kazi kwa kuaminika.",
+          "motivation": "Anajali mifumo inayobaki rahisi, inayoweza kufuatiliwa na ya kuaminika kadri inavyokua — na kuthibitisha kuwa kazi bora za backend zinaweza kutoka Uganda.",
+          "links": {
+            "portfolio": "Portfolio"
+          },
+          "portfolioUrl": "https://namusoboko.dev",
+          "email": "namusobokon@gmail.com"
+        },
+        "stuart": {
+          "name": "Stuart Muwonge",
+          "role": "Uendelezaji na Uhandisi",
+          "image": "/team/stuart.svg",
+          "description": "Stuart hufanya kazi katika hatua zote za ujenzi kubadilisha miundo kuwa bidhaa za kuaminika, kuanzia maelezo ya mbele hadi huduma zinazoziendesha.",
+          "motivation": "Anapenda kuwasilisha programu rahisi kutumia na anaamini uhandisi bora ni ule ambao wateja hawalazimiki kuufikiria.",
+          "links": {}
+        },
+        "elvis": {
+          "name": "Eilu Elvis",
+          "role": "Afisa Mkuu wa Uendeshaji (COO)",
+          "image": "/team/elvis.svg",
+          "description": "Elvis huendelea kusimamia studio: uendeshaji, ratiba za uwasilishaji na maelezo ya kila siku yanayowawezesha timu kuzingatia kazi za wateja.",
+          "motivation": "Anaamini uendeshaji mzuri hauonekani — bei sahihi, ratiba sahihi na hakuna mshangao kati ya kuanza na kuzindua.",
+          "links": {}
+        }
+      }
+    }
+  },
+  "stats": {
+    "items": [
+      {
+        "value": "30+",
+        "count": 30,
+        "label": "Aina za Kibinafsi"
+      },
+      {
+        "value": "200+",
+        "count": 200,
+        "label": "Kurasa"
+      },
+      {
+        "value": "50+",
+        "count": 50,
+        "label": "Wateja"
+      },
+      {
+        "value": "90%",
+        "count": 90,
+        "label": "Avui ya kufaa"
+      }
+    ]
+  },
+  "liveSample": {
+    "label": "Mchoro wa Kifungu wa Kifungu",
+    "title": "Aina, yenye uwezo",
+    "subtitle": "Kufika kwa kifupi",
+    "description": "Hii ni aina iliyofanywa, yaliyofika kwa kifupi — na itaonekana kama vile wateja wetu wa kifungu wa kifungu.",
+    "url": "https://hotel-groovestreet-live.netlify.app/",
+    "liveBadge": "Kifupi",
+    "newTabHint": "Kuanza kwenye kifungu mpya",
+    "viewAll": "Mifano zaidi"
+  },
+  "trust": {
+    "label": "Imara",
+    "title": "Imara, imara, imara",
+    "subtitle": "Kila aina inahesutisha kwenye vifaa vya kawaida, kwa brosipu za kawaida, kabla ya kufika kwa mteja.",
+    "partnersLabel": "Wateja wetu wamerika waliaji"
+  },
+  "notFound": {
+    "label": "Kosa 404",
+    "title": "Ukurasa huu umepiga mzunguko mbadala.",
+    "description": "Link uliofungwa au ukurasa lilitoka. Chagua mwelekeo ulivyo tofauti chini na tunaungana wewe.",
+    "home": "Rudidi alelo",
+    "samples": "Nieleze mifano",
+    "popularLabel": "Ukurasa wa kipekee",
+    "badge": "Ukurasa haujapatikani",
+    "links": {
+      "home": "Alelo",
+      "samples": "Mifano",
+      "about": "Kuhusu",
+      "contact": "Mteja"
+    }
+  }
+}

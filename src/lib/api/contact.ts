@@ -1,36 +1,57 @@
 import type { ApiResponse, ContactPayload } from "@/types";
 import { apiRequest, isApiConfigured } from "./client";
 
-export const contactApi = {
-  async send(payload: ContactPayload): Promise<ApiResponse> {
-    // Prefer a self-hosted endpoint when no external API base is configured:
-    // /api/contact forwards to Web3Forms (free tier).
-    if (!isApiConfigured) {
-      try {
-        const response = await fetch("/api/contact", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        });
+const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
+const WEB3FORMS_ACCESS_KEY = process.env.NEXT_PUBLIC_CONTACT_ACCESS_KEY;
 
-        const body = (await response.json().catch(() => null)) as ApiResponse | null;
+async function sendViaWeb3Forms(payload: ContactPayload): Promise<ApiResponse> {
+  if (!WEB3FORMS_ACCESS_KEY) {
+    return {
+      success: false,
+      error: "Contact form is not configured. Add NEXT_PUBLIC_CONTACT_ACCESS_KEY.",
+    };
+  }
 
-        if (!response.ok) {
-          return { success: false, error: body?.error ?? response.statusText };
-        }
+  const formData = new FormData();
+  formData.append("access_key", WEB3FORMS_ACCESS_KEY);
+  formData.append("subject", `New enquiry from ${payload.name}`);
+  formData.append("from_name", "GROOVESTREET Website");
+  formData.append("name", payload.name);
+  formData.append("email", payload.email);
+  formData.append("message", payload.message);
+  formData.append("replyto", payload.email);
 
-        return body ?? { success: true };
-      } catch (error) {
-        return {
-          success: false,
-          error: error instanceof Error ? error.message : "Network error",
-        };
-      }
+  try {
+    const response = await fetch(WEB3FORMS_ENDPOINT, {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!response.ok) {
+      return {
+        success: false,
+        error: `Could not send the message (${response.status}).`,
+      };
     }
 
-    return apiRequest("/contact", {
-      method: "POST",
-      body: JSON.stringify(payload),
-    });
+    return { success: true };
+  } catch (error) {
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : "Network error",
+    };
+  }
+}
+
+export const contactApi = {
+  async send(payload: ContactPayload): Promise<ApiResponse> {
+    if (isApiConfigured) {
+      return apiRequest("/contact", {
+        method: "POST",
+        body: JSON.stringify(payload),
+      });
+    }
+
+    return sendViaWeb3Forms(payload);
   },
 };

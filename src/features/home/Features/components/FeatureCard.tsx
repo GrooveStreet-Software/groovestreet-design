@@ -14,12 +14,11 @@ export function FeatureCard({ item, index }: FeatureCardProps) {
   const tSection = useTranslations("features");
   const Icon = item.icon;
   const image = t("image") as string;
+  const cardClass =
+    "group flex h-full flex-col overflow-hidden border border-neutral-800 bg-neutral-950 transition-colors duration-300 hover:border-brand/40";
 
-  return (
-    <a
-      href={`#pricing-${item.pricingKey}`}
-      className="group flex h-full flex-col overflow-hidden border border-neutral-800 bg-neutral-950 transition-colors duration-300 hover:border-brand/40"
-    >
+  const content = (
+    <>
       <div className="relative aspect-[16/10] overflow-hidden bg-neutral-900">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -47,11 +46,23 @@ export function FeatureCard({ item, index }: FeatureCardProps) {
           {t("why")}
         </p>
 
-        <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.25em] text-white/40 transition-colors group-hover:text-white">
-          {tSection("pricingCta")}
-          <ArrowUpRight className="h-3.5 w-3.5" />
-        </span>
+        {item.pricingKey && (
+          <span className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.25em] text-white/40 transition-colors group-hover:text-white">
+            {tSection("pricingCta")}
+            <ArrowUpRight className="h-3.5 w-3.5" />
+          </span>
+        )}
       </div>
+    </>
+  );
+
+  if (!item.pricingKey) {
+    return <div className={cardClass}>{content}</div>;
+  }
+
+  return (
+    <a href={`#pricing-${item.pricingKey}`} className={cardClass}>
+      {content}
     </a>
   );
 }

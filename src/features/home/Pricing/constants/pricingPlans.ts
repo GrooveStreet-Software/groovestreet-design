@@ -5,9 +5,8 @@ import type { PricingPlanItem } from "../types";
  * the locale messages are display-only and are not read by the pricing cards.
  */
 export const pricingPlans: PricingPlanItem[] = [
-  { key: "graphic", price: 20000, popular: false },
-  { key: "seo", price: 100000, popular: false, from: true },
-  { key: "basic", price: 200000, popular: false },
-  { key: "standard", price: 500000, popular: true },
-  { key: "premium", price: 1300000, popular: false },
+  { key: "seo", price: 100000, popular: false },
+  { key: "basic", price: 500000, popular: false },
+  { key: "standard", price: 800000, popular: true },
+  { key: "premium", price: 1600000, popular: false },
 ];

@@ -7,8 +7,8 @@
  */
 export const contactDetails = {
   email: "groovestreetsoftware@gmail.com",
-  phoneDisplay: "+256 774 778 164",
-  phoneTel: "+256774778164",
+  phoneDisplay: "+256 786 177 280",
+  phoneTel: "+256786177280",
   whatsapp: "256774778164",
   location: "Kampala, Uganda",
   hours: "Mon–Fri, 9:00–18:00 (EAT)",
@@ -17,4 +17,4 @@ export const contactDetails = {
 export const whatsappUrl = `https://wa.me/${contactDetails.whatsapp}`;
 export const mailtoUrl = `mailto:${contactDetails.email}`;
 export const telUrl = `tel:${contactDetails.phoneTel}`;
-export const githubUrl = "https://groovestreetdesign.netlify.app/en";
+export const githubUrl = "https://github.com/GrooveStreet-Software";

@@ -63,7 +63,7 @@ describe("GROOVESTREET Site", () => {
       const { html } = await fetchOk("/en");
       expect(html).toContain("PREMIUM");
       expect(html).toContain("WEBSITES");
-      expect(html).toContain("GRAPHICS");
+      expect(html).not.toContain("GRAPHICS");
       expect(html).toContain("DIGITAL TOOLS");
       expect(html).toContain("Serving Africa and beyond");
     });
@@ -72,6 +72,7 @@ describe("GROOVESTREET Site", () => {
       const { html } = await fetchOk("/en");
       expect(html).toContain("features");
       expect(html).toContain("Website Design");
+      expect(html).toContain("Software Design");
     });
 
     it("features cards carry images and a readable one-liner", async () => {
@@ -81,22 +82,23 @@ describe("GROOVESTREET Site", () => {
         html.indexOf('id="samples"')
       );
       expect(section).toContain("/service-assets/");
+      expect(section).toContain("/service-assets/software-development.jpg");
       expect(section).toContain("turns visitors into calls and bookings");
       expect(section).not.toContain("UGX 500,000");
       expect(section).not.toContain("UGX 200,000");
     });
 
-    it("each service card links to its pricing plan", async () => {
+    it("links priced service cards to their plans", async () => {
       const { html } = await fetchOk("/en");
       const features = html.slice(
         html.indexOf('id="features"'),
         html.indexOf('id="samples"')
       );
       expect(features).toContain('href="#pricing-standard"');
-      expect(features).toContain('href="#pricing-graphic"');
       expect(features).toContain('href="#pricing-seo"');
+      expect(features).not.toContain('href="#pricing-graphic"');
       expect(html).toContain('id="pricing-standard"');
-      expect(html).toContain('id="pricing-graphic"');
+      expect(html).not.toContain('id="pricing-graphic"');
       expect(html).toContain('id="pricing-seo"');
     });
 
@@ -144,14 +146,14 @@ describe("GROOVESTREET Site", () => {
       expect(pricing.toLowerCase()).not.toContain("maintenance");
     });
 
-    it("includes a Graphic Design pricing card", async () => {
+    it("prices every plan with a starting-from label", async () => {
       const { html } = await fetchOk("/en");
       const pricing = html.slice(
         html.indexOf('id="pricing"'),
         html.indexOf('id="contact"')
       );
-      expect(pricing).toContain("Graphic Design");
-      expect(pricing).toContain("48 hours");
+      expect(pricing).not.toContain("Graphic Design");
+      expect((pricing.match(/\bfrom\b/g) ?? []).length).toBeGreaterThanOrEqual(4);
     });
 
     it("includes an SEO Optimization card starting from UGX 100,000", async () => {
@@ -203,7 +205,7 @@ describe("GROOVESTREET Site", () => {
       expect(html).toContain("Privacy Policy");
       expect(html).toContain("Terms of Service");
       expect(html).toContain("groovestreetsoftware@gmail.com");
-      expect(html).toContain("+256 774 778 164");
+      expect(html).toContain("+256 786 177 280");
       expect(html).toContain("wa.me/256774778164");
       expect(html).toContain("https://github.com/GrooveStreet-Software");
       expect(html).toContain("Built by Ugandans");
@@ -295,18 +297,18 @@ describe("GROOVESTREET Site", () => {
       const { html } = await fetchOk("/en/samples");
       expect(html).toContain("Hotel GrooveStreet");
       expect(html).toContain("Feane");
+      expect(html).toContain("Mbuzi");
       expect(html).toContain("Sarab");
       expect(html).toContain("SAASPRO");
       expect(html).toContain("Tech Landing");
       expect(html).not.toContain("Juicy");
     });
 
-    it("samples page shows the graphics marquee in both directions", async () => {
+    it("samples page does not show graphic design work", async () => {
       const { html } = await fetchOk("/en/samples");
-      expect(html).toContain("Graphic Design");
-      expect(html).toContain("/graphics/graphic-01.jpg");
-      expect(html).toContain("marquee-track");
-      expect(html).toContain("marquee-track--reverse");
+      expect(html).not.toContain("Graphic Design");
+      expect(html).not.toContain("/graphics/graphic-01.jpg");
+      expect(html).not.toContain("marquee-track--reverse");
     });
 
     it("every linked preview file resolves", async () => {
@@ -336,27 +338,32 @@ describe("GROOVESTREET Site", () => {
       expect(html).toContain("Privacy Policy");
     });
 
-    it("features three team members", async () => {
+    it("features four team members", async () => {
       const { html } = await fetchOk("/en/about");
       expect(html).toContain("Atigo Paul Odoch");
-      expect(html).toContain("Okello Josh");
-      expect(html).toContain("Ashaba Emily");
+      expect(html).toContain("Namusoboko Nelson");
+      expect(html).toContain("Stuart Muwonge");
+      expect(html).toContain("Eilu Elvis");
+      expect(html).not.toContain("Okello Josh");
+      expect(html).not.toContain("Ashaba Emily");
       expect(html).toContain("Team Lead");
     });
 
     it("team members have images, motivation and links", async () => {
       const { html } = await fetchOk("/en/about");
       expect(html).toContain("/team/atigo.jpg");
-      expect(html).toContain("/team/josh.svg");
-      expect(html).toContain("/team/emily.svg");
+      expect(html).toContain("/team/nelson.jpg");
+      expect(html).toContain("/team/stuart.svg");
+      expect(html).toContain("/team/elvis.svg");
       expect(html).toContain("Why we do it");
-      expect(html).toContain("https://atigo.netlify.app");
+      expect(html).toContain("https://atigo.dev/");
+      expect(html).toContain("https://namusoboko.dev");
       expect(html).toContain("https://github.com/GrooveStreet-Software");
     });
 
     it("links a dialable phone number", async () => {
       const { html } = await fetchOk("/en/about");
-      expect(html).toContain("tel:+256774778164");
+      expect(html).toContain("tel:+256786177280");
       expect(html).not.toContain("****");
     });
   });
@@ -382,7 +389,7 @@ describe("GROOVESTREET Site", () => {
 
     it("homepage contact section has a dialable phone link", async () => {
       const { html } = await fetchOk("/en/contact");
-      expect(html).toContain("tel:+256774778164");
+      expect(html).toContain("tel:+256786177280");
       expect(html).not.toContain("****");
     });
   });
